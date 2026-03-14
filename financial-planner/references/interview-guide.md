@@ -12,6 +12,14 @@ an interview with a new user.
 - If they upload documents, extract financial data silently. Don't narrate what you're ignoring.
 - Save progress to `1-my-profile.md` after each round.
 - If someone says "I don't know" — help them figure it out or note it as estimated.
+- After completing each round, summarize what you captured in 2-3 natural sentences and confirm:
+  "Did I get that right?" or "Anything I missed?" Keep it warm, not robotic. Example: "So you
+  and Sarah are in Barrie, two kids, Marcus at the hospital and Sarah at the dental clinic.
+  Lily's 4 and Owen just turned 1. Sound right?"
+- Silently sanity-check every number before moving on. If something looks off (expenses > income,
+  interest rate outside normal range, timeline inconsistency), ask about it casually.
+- Starting from Round 3, cross-reference against earlier rounds. Numbers should tell a consistent
+  story. If they don't, clarify — don't assume.
 
 ## Suggesting Documents
 
@@ -67,6 +75,12 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Residency duration → OAS partial vs full
 - Government benefits → clawback considerations, transition planning
 
+**Validate before moving on:**
+- Summarize their life situation in 2-3 sentences. Confirm with the user.
+- Check: does employment type match the income stability they described?
+- Check: if they mentioned a workplace pension, note the type — affects retirement calculations.
+- Save to 1-my-profile.md.
+
 ---
 
 ## Round 2: What Do You Earn? (All Income Sources)
@@ -101,6 +115,15 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Income stability score
 - Marginal and average tax rates (federal + provincial)
 - Whether quarterly installments are required
+
+**Validate before moving on:**
+- Summarize total household income (gross and net). Confirm with the user.
+- Sanity check: is net take-home reasonable for their gross and province? (Rough rule: net is
+  typically 65-80% of gross for most Canadian incomes.)
+- If variable income (commissions, self-employment): confirm what "typical" looks like vs
+  best/worst months.
+- Cross-check: does their CCB amount make sense for their income level and number of kids?
+- Save updated 1-my-profile.md.
 
 ---
 
@@ -146,6 +169,17 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Compare to benchmarks: CMHC 32% GDS, 40% TDS, 50/30/20 rule
 - Identify "joy spending" vs "habit spending" (ask which categories bring most happiness)
 
+**Validate before moving on:**
+- Summarize total monthly expenses and the surplus or deficit. Confirm with the user.
+- Critical check: if total expenses > net income, ask directly. People often (a) forgot income
+  sources, (b) are drawing down savings, or (c) are accumulating debt. Don't just note it —
+  resolve it.
+- Cross-check against Round 2: do the debt minimum payments listed here match what they'll
+  report in Round 4? Does housing cost match what they said in Round 1 (own vs rent)?
+- If savings rate is negative, acknowledge without alarm: "You're running a small monthly
+  deficit — that's actually really common and exactly what we're here to fix."
+- Save updated 1-my-profile.md.
+
 ---
 
 ## Round 4: What Do You Owe? (Every Debt)
@@ -171,6 +205,15 @@ For EACH debt:
 - Avalanche vs snowball ranking and payoff timelines
 - Whether consolidation would help
 - Flag any debts where minimum < monthly interest (mathematically unpayable)
+
+**Validate before moving on:**
+- Summarize all debts with balances and rates. Confirm with the user — people often forget one.
+- Cross-check: do minimum payments here match what appeared in Round 3 expenses?
+- Sanity check interest rates: credit cards 19-29% (normal), HELOC prime+0.5 to prime+2,
+  car loans 0-12%, student loans prime to prime+5%, payday loans 300%+ (flag as emergency).
+  If a rate seems off, ask: "You mentioned 15% on your car loan — that's higher than typical.
+  Do you want to double-check that?"
+- Save updated 1-my-profile.md.
 
 ---
 
@@ -207,6 +250,15 @@ For EACH debt:
 - Investment allocation (% stocks, bonds, cash, real estate)
 - Whether they're capturing all "free money" (employer match, CESG, RDSP grants)
 
+**Validate before moving on:**
+- Summarize net worth (assets - liabilities). Confirm with the user.
+- Cross-check: if Round 2 mentioned investment income, do the assets here generate it?
+- Cross-check: do RESP contributions in Round 3 expenses match what's described here?
+- Cross-check: do debts from Round 4 appear as liabilities?
+- Flag if contribution room numbers seem off (e.g., TFSA room > $102,000 for someone 18+ since
+  2009 — the lifetime max in 2026).
+- Save updated 1-my-profile.md.
+
 ---
 
 ## Round 6: What Protects You? (Insurance & Safety Nets)
@@ -231,6 +283,14 @@ For EACH debt:
 - If NO life insurance and they have dependents → flag as CRITICAL
 - Will and Powers of Attorney in place?
 
+**Validate before moving on:**
+- Summarize insurance coverage and gaps. Confirm with the user.
+- Cross-check: does employer-provided insurance match what they said in Round 1? (If they said
+  "no benefits," they shouldn't have employer life insurance here.)
+- If life insurance need is calculated (10-12x income + mortgage), verify the income used
+  matches Round 2's gross income.
+- Save updated 1-my-profile.md.
+
 ---
 
 ## Round 7: What Do You Want? (Goals & Priorities)
@@ -254,13 +314,37 @@ For EACH debt:
 - Investment risk comfort (conservative / moderate / aggressive, or use scenario questions)
 - Budget preference: strict or flexible?
 
+**Validate before moving on:**
+- Summarize their goals and priorities. Confirm with the user.
+- Silently reality-check goals against the financial picture so far. If something is wildly
+  unrealistic (retire at 45 on $40K income with $200K in debt), note it internally — the plan
+  will address it honestly but constructively.
+- Confirm risk tolerance and budget preference — these drive plan recommendations.
+- Save final 1-my-profile.md.
+
 ---
 
-## After the Interview
+## Interview Completion Checkpoint
 
-Once all 7 rounds are complete:
+Before moving to plan creation, run this checklist silently:
+
+1. **All 7 rounds complete?** Check that 1-my-profile.md has data for: life context, income
+   (gross and net), expenses (fixed, variable, irregular), all debts (with rates), all assets
+   (with registered account details), insurance coverage, and goals with priorities.
+2. **No unresolved inconsistencies?** Review your round-by-round checks. If you flagged
+   something earlier and didn't resolve it, go back and ask now.
+3. **Estimated vs confirmed?** Mark any numbers the user wasn't sure about as "estimated" in
+   the profile. The plan will note these as assumptions.
+4. **Data sufficient for all calculations?** You need: province (for tax), income (for tax +
+   budget), expenses (for budget), debts with rates (for payoff), registered account balances
+   and room (for optimization), insurance details (for gap analysis), and at least one goal
+   (for phased plan). If any of these are missing, ask before proceeding.
+
+Once the checklist passes:
 1. Save the final `1-my-profile.md` with all data
-2. Read `references/calculations-and-dashboard.md`
-3. Build the plan, budget, and dashboard
-4. Present key insights conversationally
-5. Highlight the single most impactful action they can take THIS WEEK
+2. Tell the user: "That's everything I need! I'm going to crunch all the numbers now — budget,
+   plan, projections, and your interactive dashboard. Give me a few minutes to build this out."
+3. Read `references/calculations-and-dashboard.md`
+4. Build the plan, budget, and dashboard (following the validation steps in SKILL.md Step 5)
+5. Present key insights conversationally
+6. Highlight the single most impactful action they can take THIS WEEK

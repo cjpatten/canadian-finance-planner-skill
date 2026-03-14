@@ -4,6 +4,34 @@ Read this reference when building the plan, running projections, or generating t
 
 ---
 
+## Pre-Calculation Validation
+
+Before running any calculations, verify data completeness and consistency:
+
+### Required Data Check
+Confirm you have these from the interview (if any are missing, STOP and go back to ask):
+- Province (for tax rates)
+- All income sources with gross AND net amounts
+- Complete expense list (fixed + variable + irregular)
+- Every debt with: balance, interest rate, minimum payment
+- All registered account balances and contribution room
+- Insurance coverage details
+- At least one financial goal
+
+### Consistency Pre-Check
+Before calculating, verify these relationships:
+- Net income should be 65-80% of gross for typical employment income in their province
+- Sum of listed debt minimum payments should approximately match debt payments in the expense list
+- If they have investment accounts, any investment income mentioned should be plausible given
+  balances and types
+- RESP contributions in expenses should match what's described in the assets section
+- Number of months of emergency fund = liquid savings / essential monthly expenses
+
+If any check fails, note the discrepancy and use the corrected/verified number in calculations.
+Flag the discrepancy in the plan under "Assumptions and Data Notes."
+
+---
+
 ## Table of Contents
 
 1. Calculations to Run
@@ -120,6 +148,38 @@ Personalized dates that matter to THIS user only:
 - Benefit payment dates (CCB, GST/HST, OAS/CPP if applicable)
 - Age milestones (60 early CPP, 65 OAS, 71 RRSP conversion)
 - HSA reset dates, mortgage renewal
+
+### 1.13 Post-Calculation Review (MANDATORY)
+
+After running all 12 calculation modules above, perform these consistency checks before
+writing any output files:
+
+**Math Checks:**
+1. **Budget equation:** Total net income - Total expenses = Surplus/deficit. Recalculate from
+   the component numbers. If it doesn't match your earlier calculation, find the error.
+2. **Savings rate:** Surplus / Net income. Must match what you put in the budget file.
+3. **Net worth:** Sum every asset line item - Sum every liability line item. Recalculate from
+   scratch, don't carry forward a running total.
+4. **Debt payoff:** For each debt, verify: monthly interest = balance × (annual rate / 12).
+   Minimum payment should exceed monthly interest (if not, flag as mathematically unpayable).
+   Payoff timeline should use the EXTRA payment amount from the plan, not just minimums.
+5. **Tax rates:** Verify marginal rate matches the bracket for their income and province.
+6. **Retirement projection:** Total retirement income at target age should equal sum of all
+   projected income sources. Verify CPP amounts are within the current maximum range.
+7. **RESP projection:** Verify CESG calculated = 20% of contributions (max $500/child/year,
+   $7,200 lifetime). Check that growth rate matches FP Canada assumptions.
+
+**Cross-Reference Checks:**
+8. **Expense categories in budget must sum to total expenses.** Add them up again.
+9. **Percentage breakdowns must sum to 100%** (or within 1% due to rounding).
+10. **Dashboard KPI values must match budget and plan files.** Specifically verify: net income,
+    expenses, surplus, savings rate, net worth, total debt, emergency fund months.
+
+**If a check fails:**
+- Fix the calculation silently. Do not present wrong numbers and correct later.
+- If fixing requires a judgment call, pick the more conservative approach and note the assumption.
+- If fixing requires data you don't have, flag it in the plan: "This projection assumes X
+  because [reason]. Verify with [source] for a more precise number."
 
 ---
 
@@ -284,7 +344,19 @@ Disclaimer, creation date, review recommendation.
 - KPI cards: `grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))`
 - Two-column layouts: `@media (max-width: 800px) { grid-template-columns: 1fr; }`
 
-### Numbers
-All financial numbers in the dashboard must match the plan and budget files exactly. Cross-check
-before generating. If a number in the dashboard differs from the plan file, the user will lose
-trust immediately.
+### Numbers Integrity (MANDATORY CHECK)
+All financial numbers in the dashboard must match the plan and budget files exactly. Before
+generating the dashboard HTML, verify each of these values against the budget and plan files:
+- Net income (monthly and annual)
+- Total expenses
+- Surplus/deficit
+- Savings rate percentage
+- Net worth
+- Total consumer debt
+- Emergency fund coverage (months)
+- Each KPI card value
+- Each chart's data points
+
+If ANY number in the dashboard differs from the plan or budget file, fix it before generating
+the HTML. The user sees the dashboard FIRST — if a number contradicts their plan file, trust
+evaporates immediately.

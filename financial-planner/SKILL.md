@@ -33,6 +33,8 @@ All files are saved in the user's selected folder:
 2-my-budget.md     — Every dollar in and out, spending insights
 3-my-plan.md       — The full financial plan with phases, projections, actions
 4-my-dashboard.html — Interactive visual dashboard (Chart.js, self-contained)
+shareable/         — PDF + Excel versions for sharing with spouse, advisor, accountant
+README.txt         — Quick guide explaining what each file is for
 check-ins/         — Monthly check-in snapshots (created over time)
 ```
 
@@ -122,21 +124,38 @@ Read `references/interview-guide.md` for the full question set. Key principles:
   numbers, credit card numbers — never repeat these back, never save them)
 - Save progress to `1-my-profile.md` after each round so they can resume if they leave
 - The interview covers 7 rounds: Life Context, Income, Expenses, Debts, Assets, Insurance, Goals
+- After each round, briefly reflect back what you captured and confirm: "Did I get that right?"
+  Keep it natural — vary the phrasing. Don't make it feel like a form.
+- Silently sanity-check every number before moving on (see Validation section below)
+- From Round 3 onward, cross-reference against earlier rounds — numbers should tell a consistent
+  story. If they don't, ask warmly — never accusatory.
 
 ### Step 5: Build the Plan
 
 Once the interview is complete, read `references/calculations-and-dashboard.md` and:
 
-1. Run all calculations (budget analysis, tax optimization, debt strategy, emergency fund,
+1. **Pre-calculation data check**: Verify all 7 rounds have complete data. If anything critical
+   is missing (income, expenses, debts), go back and ask. Flag estimated numbers.
+2. Run all calculations (budget analysis, tax optimization, debt strategy, emergency fund,
    free money capture, retirement projection, RESP/RDSP if applicable, net worth, insurance gaps)
-2. Read `references/investment-basics.md` and run web searches to verify current ETF data,
+3. **Post-calculation consistency check**: Verify these hold true:
+   - Budget surplus = net income - total expenses (recalculate from scratch)
+   - Net worth = total assets - total liabilities (recalculate from components)
+   - Debt payoff uses the exact rates and balances from the interview
+   - Tax calculations use the correct province and filing status
+   If any check fails, fix the calculation before proceeding.
+4. Read `references/investment-basics.md` and run web searches to verify current ETF data,
    GIC rates, and HISA rates. Include the investment growth comparison chart in the dashboard
    showing how the user's monthly investment amount grows across different vehicles over time.
-3. Save `2-my-budget.md` with full budget breakdown and spending insights
-4. Save `3-my-plan.md` with phased action plan, projections, and verified reference data
-5. Generate `4-my-dashboard.html` — the full interactive dashboard (including investment
+5. Save `2-my-budget.md` with full budget breakdown and spending insights
+6. Save `3-my-plan.md` with phased action plan, projections, and verified reference data
+7. Generate `4-my-dashboard.html` — the full interactive dashboard (including investment
    growth comparison chart)
-6. Present the key insights conversationally — biggest strength, biggest risk, #1 trajectory
+8. **Final cross-file review**: Before presenting, verify that every key number in the dashboard
+   matches the budget and plan files exactly. Spot-check: net income, expenses, surplus, savings
+   rate, net worth, total debt, emergency fund months.
+9. Generate shareable files (see Output Formats below)
+10. Present the key insights conversationally — biggest strength, biggest risk, #1 trajectory
    changer, free money being left on the table, and whether their goals are realistic
 
 ### Step 6: Ongoing (Every Future Conversation)
@@ -194,6 +213,72 @@ Tell users upfront: "This is thorough — most people take 2-3 sessions. You can
 Everything gets saved to your computer. When you come back, I pick up exactly where we left off."
 
 Save progress after every interview round. Always.
+
+### 6. Validation & Double-Checking (Apply at Every Stage)
+
+Before responding with any financial data, summary, or calculation — run a silent internal
+check. Never show the validation process to the user — just do it.
+
+**Interview validation:**
+1. After each round, reflect back a 2-3 sentence summary and confirm with the user
+2. Silently sanity-check all numbers:
+   - Income: gross > net? Net reasonable for that gross in their province?
+   - Expenses: total < income? If not, ask where the gap comes from
+   - Interest rates: within normal ranges? (CC: 19-29%, mortgage: 3-8%, car: 0-12%)
+   - Ages, dates, timelines: internally consistent?
+3. From Round 3 onward, cross-validate against earlier rounds (e.g., debt payments in expenses
+   should match debts listed, investment income should be plausible given account balances)
+4. If something doesn't add up, ask warmly — never accusatory: "I noticed your expenses come
+   to about $10,300/month but your take-home is $9,500 — are you dipping into savings to cover
+   the gap? Totally normal, just want to capture it accurately."
+
+**Plan validation:**
+1. Data completeness: all 7 rounds have data. Missing or estimated items flagged in the plan.
+2. Math consistency: every number must trace back to interview data. Recalculate key totals
+   from scratch — don't trust running totals.
+3. Cross-file consistency: numbers in budget, plan, and dashboard must match exactly.
+4. Final review: mentally walk through the plan as the user would read it. Does any number
+   look wrong? Does anything contradict something said earlier? Fix before presenting.
+
+---
+
+## Output Formats
+
+The skill generates files in multiple formats, organized so users aren't overwhelmed:
+
+```
+[user's folder]/
+├── 1-my-profile.md          ← working files (you read/write these for pause/resume)
+├── 2-my-budget.md
+├── 3-my-plan.md
+├── 4-my-dashboard.html       ← open in browser for interactive charts
+├── shareable/                 ← polished versions ready to email, print, or share
+│   ├── My-Financial-Profile.pdf
+│   ├── My-Budget.pdf
+│   ├── My-Plan.pdf
+│   └── My-Budget.xlsx         ← editable spreadsheet with formulas
+└── README.txt                 ← quick guide explaining what each file/folder is for
+```
+
+**Markdown files** (root) — your working files. Always create these first. They enable
+pause/resume across conversations.
+
+**shareable/ folder** — generate these AFTER all markdown files and dashboard are complete and
+validated. These are what the user shares with a spouse, accountant, or advisor.
+
+- **PDFs**: Clean, formatted versions of the profile, budget, and plan. Include the user's name,
+  date generated, and a header. Use `markdown2` + CSS or `weasyprint` for styled output.
+- **Excel budget** (`My-Budget.xlsx`): Use `openpyxl` to create a formatted workbook with sheets:
+  - Income (all sources, gross/net)
+  - Expenses (by category with totals)
+  - Debt Payoff (each debt with payment schedule)
+  - Summary (key numbers, savings rate, net worth)
+  - Include formulas where appropriate (e.g., income - expenses = surplus)
+- **README.txt**: Auto-generated, customized with the user's name and date. Explains each file
+  in plain language. Mention that the dashboard is an HTML file to open in a browser.
+
+When updating plans (check-ins, life changes), regenerate both the markdown files AND the
+shareable versions to keep everything in sync.
 
 ---
 

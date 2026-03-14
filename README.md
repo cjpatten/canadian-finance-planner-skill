@@ -14,6 +14,8 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 - **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, investment growth comparison, and more
 - **Investment education** — popular Canadian ETFs, GICs, and HISAs with risk-matched suggestions, Morningstar ratings, and growth projections
 - **Ongoing coaching** — monthly check-ins, purchase decisions ("should I buy this?"), and life change updates
+- **Multiple output formats** — shareable PDFs, editable Excel budget, plus interactive HTML dashboard
+- **Built-in validation** — every number is double-checked for accuracy and cross-file consistency
 
 ## Canadian-Specific Features
 
@@ -133,14 +135,16 @@ Claude walks you through 7 rounds of questions (2–3 at a time, never overwhelm
 The interview takes 30–60 minutes across 1–3 sessions. You can stop and come back anytime — Claude saves your progress.
 
 ### Your Plan Files
-Claude saves 4 files to your selected folder:
+Claude saves files to your selected folder, organized for easy use:
 
-| File | Contents |
+| File / Folder | Contents |
 |------|----------|
 | `1-my-profile.md` | Your complete financial snapshot |
 | `2-my-budget.md` | Detailed budget with insights |
 | `3-my-plan.md` | Phased action plan with projections |
 | `4-my-dashboard.html` | Interactive visual dashboard (open in any browser) |
+| `shareable/` | PDF + Excel versions ready to email, print, or share with an advisor |
+| `README.txt` | Quick guide explaining what each file is for |
 
 ### Ongoing Use
 After your initial plan, come back anytime and say:
