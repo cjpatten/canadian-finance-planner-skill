@@ -97,7 +97,7 @@ claude
 ## Install via Plugin Marketplace
 
 ```
-/plugin marketplace add YOUR_GITHUB_USERNAME/canadian-finance-planner-skill
+/plugin marketplace add cjpatten/canadian-finance-planner-skill
 ```
 
 ---
