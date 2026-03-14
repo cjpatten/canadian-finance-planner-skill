@@ -60,6 +60,12 @@ claude
 mkdir -p ~/.claude/skills
 unzip financial-planner.skill -d ~/.claude/skills/
 
+# Or install directly from GitHub
+mkdir -p ~/.claude/skills
+git clone https://github.com/cjpatten/canadian-finance-planner-skill.git
+cp -r canadian-finance-planner-skill/financial-planner ~/.claude/skills/
+rm -rf canadian-finance-planner-skill
+
 # Navigate to where you want your plan saved and launch
 mkdir -p ~/Documents/MyFinances && cd ~/Documents/MyFinances
 claude
@@ -85,6 +91,12 @@ claude
 # Create skills folder and install the skill
 mkdir -p ~/.claude/skills
 unzip /mnt/c/Users/YOUR_USERNAME/Downloads/financial-planner.skill -d ~/.claude/skills/
+
+# Or install directly from GitHub
+mkdir -p ~/.claude/skills
+git clone https://github.com/cjpatten/canadian-finance-planner-skill.git
+cp -r canadian-finance-planner-skill/financial-planner ~/.claude/skills/
+rm -rf canadian-finance-planner-skill
 
 # Navigate to your Windows Documents folder and launch
 mkdir -p /mnt/c/Users/YOUR_USERNAME/Documents/MyFinances
