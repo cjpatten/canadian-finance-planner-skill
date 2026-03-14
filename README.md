@@ -202,6 +202,12 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
+## Questions or Feedback?
+
+[Open an issue](https://github.com/cjpatten/canadian-finance-planner-skill/issues) — happy to help with setup, bugs, or feature ideas.
+
+---
+
 ## License
 
 [MIT](./LICENSE)
