@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus & Sarah Chen — Financial Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --text: #1a1a2e;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+            --accent: #2563eb;
+            --accent-light: #dbeafe;
+            --green: #059669;
+            --green-bg: #d1fae5;
+            --yellow: #d97706;
+            --yellow-bg: #fef3c7;
+            --red: #dc2626;
+            --red-bg: #fee2e2;
+            --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+            --shadow-lg: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0;
+        }
+        .dashboard {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        header {
+            margin-bottom: 24px;
+        }
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        header .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 4px;
+        }
+        /* File nav bar */
+        .file-nav {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+        .file-nav .file-link, .file-nav a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text);
+            font-size: 0.88rem;
+            font-weight: 500;
+            box-shadow: var(--shadow);
+            transition: all 0.2s;
+        }
+        .file-nav .file-link:hover, .file-nav a:hover {
+            border-color: var(--accent);
+            background: var(--accent-light);
+            color: var(--accent);
+        }
+        .file-nav .file-link .icon, .file-nav a .icon {
+            font-size: 1.1rem;
+        }
+        .file-nav .file-link .desc, .file-nav a .desc {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+        .section-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 32px 0 16px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section-title .num {
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        /* KPI Cards */
+        .kpis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 8px;
+        }
+        .kpi {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .kpi .label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            font-weight: 600;
+        }
+        .kpi .value {
+            font-size: 1.65rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+        .kpi .detail {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        .kpi.green .value { color: var(--green); }
+        .kpi.red .value { color: var(--red); }
+        .kpi.yellow .value { color: var(--yellow); }
+        .kpi.blue .value { color: var(--accent); }
+        /* Cards */
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        /* Grid layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+        }
+        @media (max-width: 800px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+        }
+        /* Health Check Table */
+        .health-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .health-table th {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 2px solid var(--border);
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        .health-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        .health-table tr:last-child td { border-bottom: none; }
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 99px;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+        .badge.green { background: var(--green-bg); color: var(--green); }
+        .badge.yellow { background: var(--yellow-bg); color: var(--yellow); }
+        .badge.red { background: var(--red-bg); color: var(--red); }
+        /* Progress bars */
+        .progress-bar {
+            width: 100%;
+            height: 16px;
+            background: #e5e7eb;
+            border-radius: 99px;
+            overflow: hidden;
+            margin: 8px 0;
+        }
+        .progress-bar .fill {
+            height: 100%;
+            border-radius: 99px;
+            transition: width 0.5s;
+        }
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+        }
+        /* Action items */
+        .action-list {
+            list-style: none;
+        }
+        .action-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+        .action-list li:last-child { border-bottom: none; }
+        .action-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .action-tag.now { background: var(--red-bg); color: var(--red); }
+        .action-tag.month { background: var(--yellow-bg); color: var(--yellow); }
+        .action-tag.quarter { background: var(--accent-light); color: var(--accent); }
+        .action-tag.year { background: #e0e7ff; color: #4338ca; }
+        /* Insights */
+        .insight-card {
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .insight-card.strength { background: var(--green-bg); border-left: 4px solid var(--green); }
+        .insight-card.warning { background: var(--yellow-bg); border-left: 4px solid var(--yellow); }
+        .insight-card.critical { background: var(--red-bg); border-left: 4px solid var(--red); }
+        .insight-card.info { background: var(--accent-light); border-left: 4px solid var(--accent); }
+        .insight-label {
+            font-weight: 700;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+        /* Allocation table */
+        .alloc-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+        }
+        .alloc-table th {
+            text-align: left;
+            padding: 8px 10px;
+            border-bottom: 2px solid var(--border);
+            font-weight: 600;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .alloc-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        .alloc-table .phase-label {
+            font-weight: 700;
+            color: var(--accent);
+            padding-top: 14px;
+        }
+        /* Scenario tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tab-btn {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--card);
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .tab-btn:hover:not(.active) {
+            background: var(--accent-light);
+        }
+        /* CRA calendar */
+        .cal-item {
+            display: flex;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.88rem;
+        }
+        .cal-item:last-child { border-bottom: none; }
+        .cal-date {
+            font-weight: 700;
+            color: var(--accent);
+            white-space: nowrap;
+            min-width: 80px;
+        }
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+        }
+        canvas {
+            max-width: 100%;
+        }
+        @media print {
+            body { background: white; }
+            .card, .kpi { box-shadow: none; border: 1px solid #ddd; }
+            .tab-btn { display: none; }
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <!-- HEADER -->
+    <header>
+        <h1>Marcus & Sarah Chen's Financial Plan</h1>
+        <p class="subtitle">Created March 14, 2026 &nbsp;|&nbsp; Barrie, Ontario &nbsp;|&nbsp; Family of 4</p>
+        <nav class="file-nav">
+            <div class="file-link">
+                <span class="icon">👤</span>
+                <span><strong>1-my-profile.md</strong><br><span class="desc">Income, assets, debts, insurance, goals</span></span>
+            </div>
+            <div class="file-link">
+                <span class="icon">💰</span>
+                <span><strong>2-my-budget.md</strong><br><span class="desc">Every dollar in and out, spending insights</span></span>
+            </div>
+            <div class="file-link">
+                <span class="icon">📋</span>
+                <span><strong>3-my-plan.md</strong><br><span class="desc">3-phase strategy, retirement, RESP, actions</span></span>
+            </div>
+        </nav>
+        <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:8px;">These files are saved in your selected folder. Open them anytime, or just start a new conversation — I'll read them automatically and pick up where we left off.</p>
+    </header>
+
+    <!-- 1. KPI CARDS -->
+    <div class="section-title"><span class="num">1</span> Your Numbers at a Glance</div>
+    <div class="kpis">
+        <div class="kpi blue">
+            <div class="label">Household Net Income</div>
+            <div class="value">$10,551</div>
+            <div class="detail">Monthly take-home + benefits</div>
+        </div>
+        <div class="kpi">
+            <div class="label">Monthly Expenses</div>
+            <div class="value">$10,325</div>
+            <div class="detail">Fixed + variable + irregular</div>
+        </div>
+        <div class="kpi yellow">
+            <div class="label">Monthly Surplus</div>
+            <div class="value">$226</div>
+            <div class="detail">Before plan optimizations</div>
+        </div>
+        <div class="kpi red">
+            <div class="label">Savings Rate</div>
+            <div class="value">2.1%</div>
+            <div class="detail">Target: 15-20%</div>
+        </div>
+        <div class="kpi">
+            <div class="label">Net Worth</div>
+            <div class="value">-$234K</div>
+            <div class="detail">Normal for young family w/ mortgage</div>
+        </div>
+        <div class="kpi yellow">
+            <div class="label">Consumer Debt</div>
+            <div class="value">$31,500</div>
+            <div class="detail">Car + Visa + student loan</div>
+        </div>
+        <div class="kpi red">
+            <div class="label">Emergency Fund</div>
+            <div class="value">1.1 mo</div>
+            <div class="detail">Target: 3 months ($16,500)</div>
+        </div>
+        <div class="kpi green">
+            <div class="label">Debt-Free Target</div>
+            <div class="value">May 2028</div>
+            <div class="detail">All consumer debt eliminated</div>
+        </div>
+    </div>
+
+    <!-- 2. FINANCIAL HEALTH CHECK -->
+    <div class="section-title"><span class="num">2</span> Financial Health Check</div>
+    <div class="card">
+        <table class="health-table">
+            <thead>
+                <tr><th>Metric</th><th>Current</th><th>Target</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Savings rate</td><td>2.1%</td><td>15-20%</td><td><span class="badge red">Critical</span></td></tr>
+                <tr><td>Emergency fund</td><td>1.1 months</td><td>3-6 months</td><td><span class="badge red">Critical</span></td></tr>
+                <tr><td>Debt-to-income (TDS)</td><td>36.2%</td><td>&lt;40%</td><td><span class="badge yellow">Watch</span></td></tr>
+                <tr><td>Housing cost (GDS)</td><td>28.7%</td><td>&lt;32%</td><td><span class="badge green">Good</span></td></tr>
+                <tr><td>RRSP progress (Sarah)</td><td>$14,200</td><td>Age-based benchmark</td><td><span class="badge yellow">Behind</span></td></tr>
+                <tr><td>TFSA room used</td><td>$11,700 of $102,300</td><td>Maximizing</td><td><span class="badge yellow">Low</span></td></tr>
+                <tr><td>RESP — Lily (full CESG)</td><td>$2,500/yr</td><td>$2,500/yr</td><td><span class="badge green">On track</span></td></tr>
+                <tr><td>RESP — Owen (full CESG)</td><td>$1,250/yr</td><td>$2,500/yr</td><td><span class="badge red">Missing $250/yr grant</span></td></tr>
+                <tr><td>Life insurance adequacy</td><td>$249K combined</td><td>~$1.6M</td><td><span class="badge red">Critical gap</span></td></tr>
+                <tr><td>Sarah disability insurance</td><td>None</td><td>60% of income</td><td><span class="badge red">None</span></td></tr>
+                <tr><td>Will & Powers of Attorney</td><td>None</td><td>In place</td><td><span class="badge red">Urgent</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 3. WHERE YOUR MONEY GOES -->
+    <div class="section-title"><span class="num">3</span> Where Your Money Goes</div>
+    <div class="grid-2">
+        <div class="card">
+            <div class="chart-container" style="max-height:340px; display:flex; justify-content:center;">
+                <canvas id="expenseDonut"></canvas>
+            </div>
+        </div>
+        <div class="card">
+            <h3 style="font-size:0.95rem; margin-bottom:12px; font-weight:600;">Income vs. Expenses</h3>
+            <div class="chart-container" style="max-height:300px;">
+                <canvas id="incomeVsExpense"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. SUGGESTED BUDGET -->
+    <div class="section-title"><span class="num">4</span> Suggested Budget</div>
+    <div class="card">
+        <table class="alloc-table">
+            <thead><tr><th>Category</th><th>Current</th><th>Suggested</th><th>Change</th></tr></thead>
+            <tbody>
+                <tr><td>Tim Hortons (Marcus)</td><td>$110</td><td>$20</td><td style="color:var(--green);">-$90 (make coffee at home)</td></tr>
+                <tr><td>Streaming services</td><td>$62</td><td>$29</td><td style="color:var(--green);">-$33 (cancel Crave & Spotify premium)</td></tr>
+                <tr><td>Amazon impulse buys</td><td>$120</td><td>$48</td><td style="color:var(--green);">-$72 (48-hour rule)</td></tr>
+                <tr><td>Owen RESP</td><td>$104</td><td>$208</td><td style="color:var(--accent);">+$104 (capture full CESG)</td></tr>
+                <tr><td>Credit card payment</td><td>$126</td><td>$321</td><td style="color:var(--accent);">+$195 (accelerated payoff)</td></tr>
+                <tr style="font-weight:700; border-top:2px solid var(--border);">
+                    <td>Net budget change</td><td></td><td></td><td style="color:var(--green);">$0 (redirected, not extra spending)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size:0.82rem; color:var(--text-secondary); margin-top:12px;"><strong>Protected:</strong> Friday pizza nights, Lily's swimming, annual camping trip — these stay. The $195/month comes from habit spending, not joy spending.</p>
+    </div>
+
+    <!-- 5. DEBT PAYOFF TIMELINE -->
+    <div class="section-title"><span class="num">5</span> Debt Payoff Timeline</div>
+    <div class="card">
+        <div class="chart-container" style="max-height:350px;">
+            <canvas id="debtChart"></canvas>
+        </div>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;">Avalanche method: Visa first (20.99%), then car (6.49%), then student loan (5.45%). Total interest saved vs. minimums: ~$3,200. <strong>Consumer debt-free by May 2028.</strong> That frees up $921/month for investing.</p>
+    </div>
+
+    <!-- 6. NET WORTH PROJECTION -->
+    <div class="section-title"><span class="num">6</span> Net Worth Projection (10 Years)</div>
+    <div class="card">
+        <div class="chart-container" style="max-height:350px;">
+            <canvas id="netWorthChart"></canvas>
+        </div>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;">Assumes: home appreciation 3%/year, investments 5.5% nominal, debt paid per plan, Phase 3 contributions begin mid-2028. Net worth crosses positive in ~2029 and reaches ~$450K by 2036.</p>
+    </div>
+
+    <!-- 7. EMERGENCY FUND PROGRESS -->
+    <div class="section-title"><span class="num">7</span> Emergency Fund</div>
+    <div class="card">
+        <div class="progress-label">
+            <span>$6,800 saved</span>
+            <span>Target: $16,500 (3 months)</span>
+        </div>
+        <div class="progress-bar">
+            <div class="fill" style="width:41.2%; background: linear-gradient(90deg, var(--yellow), var(--green));"></div>
+        </div>
+        <div class="progress-label">
+            <span>41% complete</span>
+            <span>Estimated full: Oct 2027</span>
+        </div>
+    </div>
+
+    <!-- 8. RETIREMENT PROJECTION -->
+    <div class="section-title"><span class="num">8</span> Retirement Projection</div>
+    <div class="card">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchRetirement('base')">Base Plan (60/58)</button>
+            <button class="tab-btn" onclick="switchRetirement('defer')">Work to 62/60</button>
+        </div>
+        <div class="chart-container" style="max-height:350px;">
+            <canvas id="retirementChart"></canvas>
+        </div>
+        <div id="retirement-note" style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;">
+            Base plan: Marcus retires at 60, Sarah at 58. Combined retirement income at 65: ~$88,300/year. Target: ~$88,000. Gap in bridge years (58-65) can be filled from TFSA/RRSP drawdowns. <strong>Recommendation: working to 62/60 closes the bridge gap comfortably.</strong>
+        </div>
+    </div>
+
+    <!-- 9. RESP TRACKER -->
+    <div class="section-title"><span class="num">9</span> RESP Education Fund Tracker</div>
+    <div class="grid-2">
+        <div class="card">
+            <h3 style="font-size:0.95rem; font-weight:600; margin-bottom:12px;">Lily (age 4) — 14 years to go</h3>
+            <div class="progress-label"><span>$7,500</span><span>Target: $72,000-$95,000</span></div>
+            <div class="progress-bar"><div class="fill" style="width:9%; background:var(--accent);"></div></div>
+            <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:8px;">
+                Projected at 18: <strong>~$68,000</strong> (at $2,500/yr + CESG + 5.5% growth)<br>
+                CESG: Capturing full $500/year ✅<br>
+                Status: <span class="badge green">On track</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3 style="font-size:0.95rem; font-weight:600; margin-bottom:12px;">Owen (age 1) — 17 years to go</h3>
+            <div class="progress-label"><span>$1,200</span><span>Target: $80,000-$105,000</span></div>
+            <div class="progress-bar"><div class="fill" style="width:1.4%; background:var(--yellow);"></div></div>
+            <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:8px;">
+                Projected at 18: <strong>~$82,000</strong> (after increasing to $2,500/yr)<br>
+                CESG: Currently partial — <strong>increase to $2,500/yr to capture full $500 grant</strong><br>
+                Status: <span class="badge yellow">Needs increase (Phase 1 action)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10. RECOMMENDED MONTHLY ALLOCATION -->
+    <div class="section-title"><span class="num">10</span> Recommended Monthly Allocation</div>
+    <div class="card">
+        <table class="alloc-table">
+            <thead><tr><th>Where</th><th>Amount</th><th>Why</th></tr></thead>
+            <tbody>
+                <tr><td colspan="3" class="phase-label">Phase 1: Stabilize (Now – 6 months)</td></tr>
+                <tr><td>Credit card accelerated payment</td><td>$321</td><td>Kill 20.99% debt first</td></tr>
+                <tr><td>Owen RESP increase</td><td>+$104</td><td>Capture full $500/year CESG</td></tr>
+                <tr><td>Term life + disability insurance</td><td>~$130</td><td>Protect the family</td></tr>
+                <tr><td colspan="3" class="phase-label">Phase 2: Build (6 mo – 2 years)</td></tr>
+                <tr><td>Emergency fund</td><td>$217</td><td>After CC paid off, build to $16,500</td></tr>
+                <tr><td>Car loan (existing payment)</td><td>$420</td><td>Continues on schedule</td></tr>
+                <tr><td>Student loan (accelerated)</td><td>$180+</td><td>Attack after car paid off</td></tr>
+                <tr><td colspan="3" class="phase-label">Phase 3: Accelerate (2+ years, post debt-free)</td></tr>
+                <tr><td>Sarah's RRSP</td><td>$400</td><td>Tax deduction + CCB boost</td></tr>
+                <tr><td>Marcus's TFSA</td><td>$300</td><td>Tax-free growth, no OAS clawback risk</td></tr>
+                <tr><td>Sarah's TFSA</td><td>$200</td><td>Tax-free growth</td></tr>
+                <tr><td>Kitchen reno fund</td><td>$200</td><td>$25K goal</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 11. BENEFITS YOU'RE MISSING -->
+    <div class="section-title"><span class="num">11</span> Money You're Leaving on the Table</div>
+    <div class="card">
+        <table class="alloc-table">
+            <thead><tr><th>Opportunity</th><th>Est. Value</th><th>Action</th></tr></thead>
+            <tbody>
+                <tr><td>Marcus HSA (unused, resets Apr 1)</td><td>$500</td><td>Submit receipts this week</td></tr>
+                <tr><td>Benefits coordination (Sarah's massage)</td><td>$400+/yr</td><td>Submit through Marcus's plan</td></tr>
+                <tr><td>Owen CESG gap</td><td>$250/yr</td><td>Increase RESP to $2,500/yr</td></tr>
+                <tr><td>Sarah's dental (preventive care)</td><td>$300/yr</td><td>Book cleaning — 100% covered</td></tr>
+                <tr><td>Sarah's RRSP fee savings (switch from 2.31% MER)</td><td>$304/yr now, ~$38K lifetime</td><td>Transfer to low-cost ETF</td></tr>
+                <tr style="font-weight:700; border-top:2px solid var(--border);">
+                    <td>Total annual value</td><td style="color:var(--green); font-size:1.1rem;">~$1,750+/yr</td><td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 12. CPP TIMING -->
+    <div class="section-title"><span class="num">12</span> CPP Timing Comparison</div>
+    <div class="card">
+        <div class="chart-container" style="max-height:300px;">
+            <canvas id="cppChart"></canvas>
+        </div>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;"><strong>Recommendation:</strong> Both defer CPP to at least 65. Marcus should consider deferring to 70 — with HOOPP providing base income, the 42% increase is a guaranteed, inflation-indexed return. Survivor's pension is NOT enhanced by deferral, so this decision is about Marcus's personal longevity outlook.</p>
+    </div>
+
+    <!-- 13. KEY CRA DATES -->
+    <div class="section-title"><span class="num">13</span> Your Key CRA Dates</div>
+    <div class="card">
+        <div class="cal-item"><span class="cal-date">Apr 1, 2026</span><span>Marcus HSA resets — use the $500 before this date!</span></div>
+        <div class="cal-item"><span class="cal-date">Apr 30, 2026</span><span>Tax filing deadline — file to maintain CCB & benefits</span></div>
+        <div class="cal-item"><span class="cal-date">Jun 2026</span><span>Mortgage renewal — shop rates, consider accelerated payments</span></div>
+        <div class="cal-item"><span class="cal-date">Jul 2026</span><span>CCB recalculated based on 2025 income — check new amount</span></div>
+        <div class="cal-item"><span class="cal-date">Jan 1, 2027</span><span>TFSA room resets (+$7,000 each) — plan contributions</span></div>
+        <div class="cal-item"><span class="cal-date">Mar 3, 2027</span><span>RRSP contribution deadline for 2026 tax year</span></div>
+        <div class="cal-item"><span class="cal-date">Monthly 20th</span><span>CCB payment deposited (~$1,040/month)</span></div>
+        <div class="cal-item"><span class="cal-date">Quarterly</span><span>Climate Action Incentive deposited (~$244)</span></div>
+    </div>
+
+    <!-- 14. ACTION ITEMS -->
+    <div class="section-title"><span class="num">14</span> Action Items (Prioritized)</div>
+    <div class="card">
+        <ul class="action-list">
+            <li><span class="action-tag now">This Week</span><span>Submit Sarah's massage receipts through Marcus's employer benefits — recovering ~$400/year</span></li>
+            <li><span class="action-tag now">This Week</span><span>Use Marcus's $500 HSA before April 1 reset — submit any uncovered medical expenses</span></li>
+            <li><span class="action-tag now">This Week</span><span>Cancel Crave ($16/mo) and switch Spotify to free tier ($17/mo) — saves $33/month</span></li>
+            <li><span class="action-tag month">This Month</span><span>Increase Owen's RESP from $104 to $208/month — captures full $500/year CESG</span></li>
+            <li><span class="action-tag month">This Month</span><span>Redirect $195/month in spending cuts to accelerate credit card payoff → paid off by May 2027</span></li>
+            <li><span class="action-tag month">This Month</span><span>Implement the "wait 48 hours" rule for Amazon purchases over $30</span></li>
+            <li><span class="action-tag quarter">This Quarter</span><span>Get term life insurance quotes: Marcus ~$750K, Sarah ~$600K (20-year term, ~$45-60/month combined)</span></li>
+            <li><span class="action-tag quarter">This Quarter</span><span>Get disability insurance for Sarah — own-occupation, 60% income replacement (~$80-100/month)</span></li>
+            <li><span class="action-tag quarter">This Quarter</span><span>Draft wills and Powers of Attorney — designate guardians for Lily and Owen (~$800-1,500)</span></li>
+            <li><span class="action-tag quarter">This Quarter</span><span>Transfer Sarah's RRSP from TD Balanced Growth (2.31% MER) to Questrade/Wealthsimple → buy VBAL (0.17%)</span></li>
+            <li><span class="action-tag year">This Year</span><span>When Marcus's TFSA GIC matures (Dec 2026), reinvest in VGRO on a self-directed platform</span></li>
+            <li><span class="action-tag year">This Year</span><span>Mortgage renewal (June 2026) — shop rates, consider shorter amortization if budget allows</span></li>
+        </ul>
+    </div>
+
+    <!-- 15. KEY INSIGHTS -->
+    <div class="section-title"><span class="num">15</span> Key Insights</div>
+    <div class="insight-card strength">
+        <div class="insight-label">Biggest Strength</div>
+        Marcus's HOOPP pension is one of the best defined-benefit pensions in Canada. That's a retirement income floor of ~$36,800/year (indexed) that most people don't have. This lets you take more growth-oriented risk with your TFSAs.
+    </div>
+    <div class="insight-card critical">
+        <div class="insight-label">Biggest Risk</div>
+        Sarah has zero disability insurance and minimal life insurance. If she can't work tomorrow, $65K/year in income vanishes with no replacement. With two young children, this is the #1 priority to fix.
+    </div>
+    <div class="insight-card info">
+        <div class="insight-label">#1 Trajectory Changer</div>
+        Becoming consumer debt-free by May 2028 unlocks $921/month for wealth building. That's $11,052/year flowing into RRSPs and TFSAs instead of interest payments. Over 20 years at 5.5% growth, that $921/month becomes ~$430,000.
+    </div>
+    <div class="insight-card warning">
+        <div class="insight-label">Free Money Being Missed</div>
+        You're leaving ~$1,750/year on the table: unused HSA ($500), unclaimed massage benefits ($400+), partial Owen CESG ($250/yr), Sarah's high-fee mutual fund ($304/yr), skipped dental ($300). These require no extra money — just action.
+    </div>
+    <div class="insight-card strength">
+        <div class="insight-label">Goal Assessment</div>
+        Retirement by 60/58 is a stretch but achievable if Phase 3 contributions stay consistent. Working to 62/60 makes it comfortable. The kids' education funds are on track (Lily) or will be after the Owen RESP fix. The kitchen renovation is realistic in 5-7 years. Annual family vacations are already in the budget and protected.
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p><strong>Disclaimer:</strong> This dashboard is for educational and planning purposes only. It does not constitute professional financial, tax, or legal advice. Consult a Certified Financial Planner (CFP), CPA, or fee-only financial advisor for personalized guidance.</p>
+        <p style="margin-top:8px;">Created March 14, 2026 &nbsp;|&nbsp; Review recommended: June 2026 (after mortgage renewal)</p>
+    </footer>
+</div>
+
+<script>
+// === COLOUR PALETTE ===
+const C = {
+    blue: '#2563eb', blueLt: '#93c5fd',
+    green: '#059669', greenLt: '#6ee7b7',
+    red: '#dc2626', redLt: '#fca5a5',
+    yellow: '#d97706', yellowLt: '#fcd34d',
+    purple: '#7c3aed', purpleLt: '#c4b5fd',
+    indigo: '#4f46e5', indigoLt: '#a5b4fc',
+    pink: '#db2777', pinkLt: '#f9a8d4',
+    teal: '#0d9488', tealLt: '#5eead4',
+    orange: '#ea580c', orangeLt: '#fdba74',
+    slate: '#475569', slateLt: '#94a3b8',
+    gray: '#6b7280',
+};
+
+// Helper
+function currency(n) { return '$' + Math.round(n).toLocaleString(); }
+
+// === 3. EXPENSE DONUT ===
+new Chart(document.getElementById('expenseDonut'), {
+    type: 'doughnut',
+    data: {
+        labels: ['Housing','Childcare','Transport','Food','Debt Payments','RESP','Utilities & Telecom','Lifestyle','Health & Care','Kids Activities','Irregular/Annual','Other'],
+        datasets: [{
+            data: [2857, 1780, 1145, 1440, 306, 312, 512, 530, 340, 295, 721, 137],
+            backgroundColor: [C.blue, C.purple, C.orange, C.green, C.red, C.indigo, C.teal, C.pink, C.yellow, C.blueLt, C.slateLt, C.gray],
+            borderWidth: 2,
+            borderColor: '#fff'
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            legend: { position: 'right', labels: { boxWidth: 14, padding: 8, font: { size: 11 } } },
+            tooltip: { callbacks: { label: ctx => `${ctx.label}: ${currency(ctx.raw)} (${((ctx.raw/10325)*100).toFixed(1)}%)` } }
+        }
+    }
+});
+
+// === 3b. INCOME vs EXPENSES BAR ===
+new Chart(document.getElementById('incomeVsExpense'), {
+    type: 'bar',
+    data: {
+        labels: ['Monthly'],
+        datasets: [
+            { label: 'Net Income', data: [10551], backgroundColor: C.green, borderRadius: 6 },
+            { label: 'Total Expenses', data: [10325], backgroundColor: C.blue, borderRadius: 6 },
+            { label: 'Surplus', data: [226], backgroundColor: C.yellow, borderRadius: 6 }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${currency(ctx.raw)}/mo` } },
+            legend: { labels: { boxWidth: 14, font: { size: 11 } } }
+        },
+        scales: {
+            y: { beginAtZero: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
+            x: { display: false }
+        }
+    }
+});
+
+// === 5. DEBT PAYOFF TIMELINE ===
+const debtMonths = [];
+const visaData = [], carData = [], slData = [];
+let visa = 4200, car = 18400, sl = 8900;
+for (let m = 0; m <= 28; m++) {
+    const d = new Date(2026, 2 + m); // start March 2026
+    debtMonths.push(d.toLocaleDateString('en-CA', { year: '2-digit', month: 'short' }));
+    visaData.push(Math.max(0, visa));
+    carData.push(Math.max(0, car));
+    slData.push(Math.max(0, sl));
+    // Apply payments
+    if (visa > 0) {
+        visa = visa * (1 + 0.2099/12) - 321;
+        if (visa <= 0) { visa = 0; }
+    }
+    let extraFromVisa = (visa <= 0 && m >= 13) ? 141 : 0; // after CC paid, extra goes to efund first, then SL
+    car = car * (1 + 0.0649/12) - 420;
+    if (car <= 0) car = 0;
+    let extraFromCar = (car <= 0) ? 420 : 0;
+    sl = sl * (1 + 0.0545/12) - 180 - extraFromCar;
+    if (sl <= 0) sl = 0;
+}
+new Chart(document.getElementById('debtChart'), {
+    type: 'line',
+    data: {
+        labels: debtMonths,
+        datasets: [
+            { label: 'Visa (20.99%)', data: visaData, borderColor: C.red, backgroundColor: C.redLt + '40', fill: true, tension: 0.3, pointRadius: 0 },
+            { label: 'Car Loan (6.49%)', data: carData, borderColor: C.orange, backgroundColor: C.orangeLt + '40', fill: true, tension: 0.3, pointRadius: 0 },
+            { label: 'Student Loan (5.45%)', data: slData, borderColor: C.blue, backgroundColor: C.blueLt + '40', fill: true, tension: 0.3, pointRadius: 0 }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${currency(ctx.raw)}` } },
+            legend: { labels: { boxWidth: 14, font: { size: 11 } } }
+        },
+        scales: {
+            y: { beginAtZero: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
+            x: { ticks: { maxTicksToSkip: 3, font: { size: 10 } } }
+        }
+    }
+});
+
+// === 6. NET WORTH PROJECTION ===
+const nwYears = ['2026','2027','2028','2029','2030','2031','2032','2033','2034','2035','2036'];
+const nwData = [-234500, -210000, -168000, -105000, -48000, 18000, 95000, 182000, 278000, 360000, 452000];
+new Chart(document.getElementById('netWorthChart'), {
+    type: 'bar',
+    data: {
+        labels: nwYears,
+        datasets: [{
+            label: 'Net Worth',
+            data: nwData,
+            backgroundColor: nwData.map(v => v >= 0 ? C.green : C.redLt),
+            borderColor: nwData.map(v => v >= 0 ? C.green : C.red),
+            borderWidth: 1,
+            borderRadius: 6
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            tooltip: { callbacks: { label: ctx => `Net Worth: ${currency(ctx.raw)}` } },
+            legend: { display: false }
+        },
+        scales: {
+            y: { ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
+            x: { grid: { display: false } }
+        }
+    }
+});
+
+// === 8. RETIREMENT PROJECTION ===
+let retChart;
+const retLabels = ['58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75'];
+const baseData = {
+    personal: [22000,20000,18000,16000,14000,12000,10000,8500,8500,8500,8500,8500,8500,8500,8500,8500,8500,8500],
+    hoopp:    [0,0,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800],
+    cpp:      [0,0,0,0,0,0,0,18600,18600,18600,18600,18600,18600,18600,18600,18600,18600,18600],
+    oas:      [0,0,0,0,0,0,0,18400,18400,18400,18400,18400,18400,18400,18400,18400,18400,18400],
+    target:   [88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000]
+};
+const deferData = {
+    personal: [0,0,25000,23000,21000,19000,17000,14000,14000,14000,14000,14000,14000,14000,14000,14000,14000,14000],
+    hoopp:    [0,0,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800,36800],
+    cpp:      [0,0,0,0,0,0,0,18600,18600,18600,18600,18600,18600,18600,18600,18600,18600,18600],
+    oas:      [0,0,0,0,0,0,0,18400,18400,18400,18400,18400,18400,18400,18400,18400,18400,18400],
+    target:   [88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000,88000]
+};
+
+function buildRetirementChart(scenario) {
+    const d = scenario === 'base' ? baseData : deferData;
+    const ctx = document.getElementById('retirementChart');
+    if (retChart) retChart.destroy();
+    retChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: retLabels.map(a => 'Age ' + a),
+            datasets: [
+                { label: 'TFSA/RRSP Drawdown', data: d.personal, backgroundColor: C.purple, stack: 'income' },
+                { label: 'HOOPP Pension', data: d.hoopp, backgroundColor: C.blue, stack: 'income' },
+                { label: 'CPP', data: d.cpp, backgroundColor: C.green, stack: 'income' },
+                { label: 'OAS', data: d.oas, backgroundColor: C.teal, stack: 'income' },
+                { label: 'Target Income', data: d.target, type: 'line', borderColor: C.red, borderDash: [6,3], pointRadius: 0, borderWidth: 2, fill: false }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${currency(ctx.raw)}/yr` } },
+                legend: { labels: { boxWidth: 14, font: { size: 11 } } }
+            },
+            scales: {
+                y: { stacked: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' }, max: 110000 },
+                x: { stacked: true, ticks: { font: { size: 10 } } }
+            }
+        }
+    });
+}
+function switchRetirement(scenario) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    buildRetirementChart(scenario);
+    const note = document.getElementById('retirement-note');
+    if (scenario === 'defer') {
+        note.innerHTML = 'Adjusted plan: Marcus retires at 62, Sarah at 60. Two extra working years build more savings and reduce bridge-year drawdown. Combined retirement income at 65: ~$88,300/year — <strong>comfortably meets the target with surplus.</strong>';
+    } else {
+        note.innerHTML = 'Base plan: Marcus retires at 60, Sarah at 58. Combined retirement income at 65: ~$88,300/year. Target: ~$88,000. Gap in bridge years (58-65) can be filled from TFSA/RRSP drawdowns. <strong>Recommendation: working to 62/60 closes the bridge gap comfortably.</strong>';
+    }
+}
+buildRetirementChart('base');
+
+// === 12. CPP TIMING ===
+const cppAges = [];
+const cpp60cum = [], cpp65cum = [], cpp70cum = [];
+for (let age = 60; age <= 90; age++) {
+    cppAges.push(age);
+    const yrs60 = Math.max(0, age - 60);
+    const yrs65 = Math.max(0, age - 65);
+    const yrs70 = Math.max(0, age - 70);
+    cpp60cum.push(yrs60 * 608 * 12);
+    cpp65cum.push(yrs65 * 950 * 12);
+    cpp70cum.push(yrs70 * 1349 * 12);
+}
+new Chart(document.getElementById('cppChart'), {
+    type: 'line',
+    data: {
+        labels: cppAges.map(a => 'Age ' + a),
+        datasets: [
+            { label: 'CPP at 60 ($608/mo)', data: cpp60cum, borderColor: C.red, tension: 0.1, pointRadius: 0 },
+            { label: 'CPP at 65 ($950/mo)', data: cpp65cum, borderColor: C.blue, tension: 0.1, pointRadius: 0 },
+            { label: 'CPP at 70 ($1,349/mo)', data: cpp70cum, borderColor: C.green, tension: 0.1, pointRadius: 0, borderWidth: 3 }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${currency(ctx.raw)} cumulative` } },
+            legend: { labels: { boxWidth: 14, font: { size: 11 } } },
+            annotation: {}
+        },
+        scales: {
+            y: { beginAtZero: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
+            x: { ticks: { maxTicksToSkip: 3, font: { size: 10 } } }
+        }
+    }
+});
+</script>
+</body>
+</html>
