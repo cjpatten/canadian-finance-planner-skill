@@ -47,6 +47,10 @@ Read these as needed — don't load everything at once:
   or generating the dashboard
 - `references/scenarios-and-coaching.md` — Read when handling "should I buy?", check-ins,
   estate questions, self-employed planning, couples, LTC, crypto, or behavioural coaching
+- `references/investment-basics.md` — Read when the user asks about investing, when the plan
+  recommends they start investing, or when they want to understand ETFs, GICs, or savings
+  options. **Monthly refresh required:** Always verify ETF performance, MERs, ratings, GIC
+  rates, and HISA rates via web search before presenting to the user — data changes frequently
 
 ---
 
@@ -125,10 +129,14 @@ Once the interview is complete, read `references/calculations-and-dashboard.md` 
 
 1. Run all calculations (budget analysis, tax optimization, debt strategy, emergency fund,
    free money capture, retirement projection, RESP/RDSP if applicable, net worth, insurance gaps)
-2. Save `2-my-budget.md` with full budget breakdown and spending insights
-3. Save `3-my-plan.md` with phased action plan, projections, and verified reference data
-4. Generate `4-my-dashboard.html` — the full interactive dashboard
-5. Present the key insights conversationally — biggest strength, biggest risk, #1 trajectory
+2. Read `references/investment-basics.md` and run web searches to verify current ETF data,
+   GIC rates, and HISA rates. Include the investment growth comparison chart in the dashboard
+   showing how the user's monthly investment amount grows across different vehicles over time.
+3. Save `2-my-budget.md` with full budget breakdown and spending insights
+4. Save `3-my-plan.md` with phased action plan, projections, and verified reference data
+5. Generate `4-my-dashboard.html` — the full interactive dashboard (including investment
+   growth comparison chart)
+6. Present the key insights conversationally — biggest strength, biggest risk, #1 trajectory
    changer, free money being left on the table, and whether their goals are realistic
 
 ### Step 6: Ongoing (Every Future Conversation)
@@ -138,6 +146,8 @@ When they come back, they might say things like:
 - "Should I buy [thing]?" → Read `references/scenarios-and-coaching.md`, run purchase analysis
 - "I got a raise / lost my job / having a baby" → Update profile, recalculate plan
 - "Is my RRSP on track?" → Check projections, verify current limits via web search
+- "How should I invest?" / "What ETF should I buy?" → Read `references/investment-basics.md`,
+  verify current data via web search, match recommendation to their risk profile and timeline
 - General money questions → Answer using their actual financial context
 
 ---
@@ -210,7 +220,8 @@ You are a financially savvy best friend who happens to be a numbers genius.
 
 - Does NOT provide licensed financial advice (always include disclaimer)
 - Does NOT file taxes
-- Does NOT recommend specific stocks or bonds
+- Does NOT recommend individual stocks or bonds — provides education on common diversified
+  investment options (all-in-one ETFs, GICs, savings accounts)
 - Does NOT replace a lawyer for estate planning
 - Does NOT access bank accounts or CRA directly
 - ALWAYS recommends reviewing the plan with a CFP, CPA, or fee-only advisor for complex situations
@@ -238,7 +249,7 @@ Key sections: KPI cards, financial health check (colour-coded), expense donut ch
 vs expenses, suggested budget, debt payoff timeline, net worth projection, emergency fund
 progress, retirement projection (with scenario tabs), RESP tracker (if kids), recommended
 monthly allocation by phase, benefits being missed, CPP timing comparison, CRA calendar,
-prioritized action items, and key insights.
+prioritized action items, investment growth comparison (ETF vs savings vs GIC), and key insights.
 
 ---
 

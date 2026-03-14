@@ -649,6 +649,19 @@
         Retirement by 60/58 is a stretch but achievable if Phase 3 contributions stay consistent. Working to 62/60 makes it comfortable. The kids' education funds are on track (Lily) or will be after the Owen RESP fix. The kitchen renovation is realistic in 5-7 years. Annual family vacations are already in the budget and protected.
     </div>
 
+    <!-- 16. INVESTMENT GROWTH COMPARISON -->
+    <div class="section-title"><span class="num">16</span> How Your Money Grows: Investment Comparison</div>
+    <div class="card">
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:16px;">Based on your Phase 3 investment allocation of <strong>$900/month</strong> ($400 RRSP + $300 TFSA + $200 TFSA). This chart shows what that same amount becomes over 27 years (to Sarah's retirement at 58) across different investment vehicles.</p>
+        <div class="chart-container" style="max-height:400px;">
+            <canvas id="investGrowthChart"></canvas>
+        </div>
+        <div style="margin-top:16px; padding:14px; background:var(--accent-light); border-radius:10px; font-size:0.88rem;">
+            <strong>The takeaway:</strong> Investing $900/month in a growth ETF like VGRO (80/20, ~0.20% MER, Morningstar Silver) instead of a Big 5 savings account means roughly <strong>$380,000 more</strong> over 27 years — on the exact same monthly amount. All-in-one ETFs give you instant diversification across 13,000+ stocks and bonds worldwide with a single purchase.
+        </div>
+        <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:12px;"><em>ETF returns shown are long-term historical averages. Actual returns vary year to year. Past performance does not guarantee future results. Savings and GIC lines are guaranteed; ETF lines are projections.</em></p>
+    </div>
+
     <!-- FOOTER -->
     <footer>
         <p><strong>Disclaimer:</strong> This dashboard is for educational and planning purposes only. It does not constitute professional financial, tax, or legal advice. Consult a Certified Financial Planner (CFP), CPA, or fee-only financial advisor for personalized guidance.</p>
@@ -892,6 +905,58 @@ new Chart(document.getElementById('cppChart'), {
         scales: {
             y: { beginAtZero: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
             x: { ticks: { maxTicksToSkip: 3, font: { size: 10 } } }
+        }
+    }
+});
+
+// === 16. INVESTMENT GROWTH COMPARISON ===
+const PMT = 900; // monthly investment from Phase 3
+const years = 27; // Sarah's years to retirement (age 31 → 58)
+const vehicles = [
+    { label: 'Big 5 Savings (0.75%)', rate: 0.0075, color: C.gray, dash: [6,4] },
+    { label: 'Online HISA (2.75%)', rate: 0.0275, color: C.blueLt, dash: [6,4] },
+    { label: 'GIC Ladder (3.50%)', rate: 0.035, color: C.blue, dash: [6,4] },
+    { label: 'Balanced ETF — VBAL/XBAL (6.5%)', rate: 0.065, color: C.green, dash: [] },
+    { label: 'Growth ETF — VGRO/XGRO (8.5%)', rate: 0.085, color: C.orange, dash: [], width: 3 },
+    { label: 'All-Equity ETF — VEQT/XEQT (10.5%)', rate: 0.105, color: C.red, dash: [] }
+];
+const investLabels = [];
+for (let y = 0; y <= years; y++) investLabels.push('Year ' + y);
+const investDatasets = vehicles.map(v => {
+    const data = [];
+    for (let y = 0; y <= years; y++) {
+        if (v.rate === 0) { data.push(PMT * 12 * y); }
+        else {
+            const r = v.rate / 12;
+            const n = y * 12;
+            data.push(Math.round(PMT * ((Math.pow(1 + r, n) - 1) / r)));
+        }
+    }
+    return {
+        label: v.label,
+        data: data,
+        borderColor: v.color,
+        backgroundColor: 'transparent',
+        borderDash: v.dash,
+        borderWidth: v.width || 2,
+        tension: 0.3,
+        pointRadius: 0,
+        fill: false
+    };
+});
+new Chart(document.getElementById('investGrowthChart'), {
+    type: 'line',
+    data: { labels: investLabels, datasets: investDatasets },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${currency(ctx.raw)}` } },
+            legend: { labels: { boxWidth: 14, font: { size: 11 }, padding: 8 } }
+        },
+        scales: {
+            y: { beginAtZero: true, ticks: { callback: v => currency(v) }, grid: { color: '#f0f0f0' } },
+            x: { ticks: { maxTicksToSkip: 4, font: { size: 10 } } }
         }
     }
 });

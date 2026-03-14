@@ -170,7 +170,7 @@ Generate `4-my-dashboard.html` as a single self-contained HTML file.
 - Subtitle: date, province, family size
 - File navigation: show companion file names (1-my-profile.md, 2-my-budget.md, 3-my-plan.md) with brief descriptions. Use div elements with file names displayed (not hyperlinks, as they won't resolve in sandboxed browsers). Include a note: "These files are saved in your selected folder."
 
-### Dashboard Sections (15-17 depending on situation)
+### Dashboard Sections (16-18 depending on situation)
 
 **1. KPI Cards (6-8):**
 Household net income, monthly expenses, surplus/deficit, savings rate, net worth, consumer debt, emergency fund coverage (months), debt-free target date
@@ -217,10 +217,35 @@ List of personalized dates with descriptions.
 **15. Action Items:**
 Prioritized list with colour-coded tags (this week / this month / this quarter / this year).
 
-**16. Key Insights:**
+**16. Investment Growth Comparison:**
+Line chart showing how the user's monthly investment amount grows over time across different
+vehicles. Uses data from `references/investment-basics.md` (section 6). Before generating,
+verify current rates via web search.
+
+- **Chart type:** Line chart, multiple datasets
+- **X-axis:** Years (1 to 30, or until retirement age)
+- **Y-axis:** Portfolio value ($)
+- **Lines:**
+  - Big 5 Savings Account (0.75%) — grey, dashed
+  - Online HISA (2.75%) — light blue, dashed
+  - GIC Ladder (3.50%) — blue, dashed
+  - Balanced ETF — VBAL/XBAL (6.5%) — green, solid
+  - Growth ETF — VGRO/XGRO (8.5%) — orange, solid
+  - All-Equity ETF — VEQT/XEQT (10.5%) — red, solid
+- **Formula:** FV = PMT × [((1 + r/12)^(n×12) - 1) / (r/12)]
+- **Highlight** the line matching the user's risk profile with a thicker stroke
+- **Annotation:** Show the dollar difference between Big 5 savings and the recommended ETF
+  at the user's time horizon (e.g., "Investing instead of saving = $220K more over 25 years")
+- **Below chart:** Brief educational note about all-in-one ETFs — one purchase, instant
+  diversification, ~0.20% MER, Morningstar rated. Link to the plan file for full details.
+- **Disclaimer:** "ETF returns shown are long-term historical averages. Actual returns vary
+  year to year. Past performance does not guarantee future results."
+- Include only if the plan has a monthly investment allocation > $0
+
+**17. Key Insights:**
 Styled cards: biggest strength (green), biggest risk (red), #1 trajectory changer (blue), free money being missed (yellow), goal assessment (green).
 
-**17. Footer:**
+**18. Footer:**
 Disclaimer, creation date, review recommendation.
 
 ### Sections to Include/Exclude Based on Situation
@@ -228,6 +253,7 @@ Disclaimer, creation date, review recommendation.
 - RDSP Tracker: only if DTC eligible
 - CPP Timing: only for users approaching or past age 50
 - Retirement Projection: include for everyone (even young users — it motivates saving)
+- Investment Growth Comparison: include if plan has monthly investment allocation > $0
 
 ---
 
