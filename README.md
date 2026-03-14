@@ -1,5 +1,7 @@
 # Canadian Personal Finance Manager
 
+**Current version:** 1.2 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+
 A custom skill for [Claude](https://claude.ai) that turns it into your personal financial planner — built specifically for Canadians.
 
 Claude conducts a thorough financial interview, builds a complete budget and action plan, generates an interactive dashboard with charts, and provides ongoing coaching. All tailored to Canadian tax rules, government benefits, and registered accounts.
@@ -206,4 +208,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v1).*
+*Built with Claude. Canada-focused (v1.2).*
