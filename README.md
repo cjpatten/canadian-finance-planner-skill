@@ -11,7 +11,8 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 - **Personalized financial profile** saved to your computer
 - **Detailed monthly budget** with spending insights and optimization suggestions
 - **Phased action plan** (Stabilize → Build → Accelerate) with timelines
-- **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, and more
+- **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, investment growth comparison, and more
+- **Investment education** — popular Canadian ETFs, GICs, and HISAs with risk-matched suggestions, Morningstar ratings, and growth projections
 - **Ongoing coaching** — monthly check-ins, purchase decisions ("should I buy this?"), and life change updates
 
 ## Canadian-Specific Features
@@ -166,7 +167,8 @@ financial-planner/
     ├── interview-guide.md                # All 7 interview rounds
     ├── canada-finance-rules.md           # Tax rules, registered accounts, benefits
     ├── calculations-and-dashboard.md     # Budget math, projections, dashboard specs
-    └── scenarios-and-coaching.md         # Life scenarios, purchase decisions, coaching
+    ├── scenarios-and-coaching.md         # Life scenarios, purchase decisions, coaching
+    └── investment-basics.md              # ETF education, GICs, HISAs, growth comparison
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
