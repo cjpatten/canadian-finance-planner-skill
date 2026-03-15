@@ -1,9 +1,8 @@
 {
-  "name": "Canadian Personal Finance Manager",
+  "name": "canadian-finance-planner",
   "description": "A comprehensive personal finance planning skill for Canadians. Conducts financial interviews, builds budgets and action plans, generates interactive dashboards, and provides ongoing coaching — all tailored to Canadian tax rules, registered accounts (RRSP, TFSA, RESP, FHSA), government benefits (CCB, CESG, CPP, OAS), and provincial variations.",
   "owner": {
-    "name": "Chris Patten",
-    "email": "chrisjpatten@gmail.com"
+    "name": "cjpatten"
   },
   "plugins": [
     {
