@@ -8,7 +8,7 @@
     {
       "name": "financial-planner",
       "description": "Canadian Personal Finance Manager — financial interviews, budget planning, interactive dashboards, and ongoing coaching for Canadians",
-      "source": "./financial-planner"
+      "source": "."
     }
   ]
 }

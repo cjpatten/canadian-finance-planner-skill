@@ -80,9 +80,7 @@ unzip financial-planner.skill -d ~/.claude/skills/
 
 # Or install directly from GitHub
 mkdir -p ~/.claude/skills
-git clone https://github.com/cjpatten/canadian-finance-planner-skill.git
-cp -r canadian-finance-planner-skill/financial-planner ~/.claude/skills/
-rm -rf canadian-finance-planner-skill
+git clone https://github.com/cjpatten/canadian-finance-planner-skill.git ~/.claude/skills/financial-planner
 
 # Navigate to where you want your plan saved and launch
 mkdir -p ~/Documents/MyFinances && cd ~/Documents/MyFinances
@@ -112,9 +110,7 @@ unzip /mnt/c/Users/YOUR_USERNAME/Downloads/financial-planner.skill -d ~/.claude/
 
 # Or install directly from GitHub
 mkdir -p ~/.claude/skills
-git clone https://github.com/cjpatten/canadian-finance-planner-skill.git
-cp -r canadian-finance-planner-skill/financial-planner ~/.claude/skills/
-rm -rf canadian-finance-planner-skill
+git clone https://github.com/cjpatten/canadian-finance-planner-skill.git ~/.claude/skills/financial-planner
 
 # Navigate to your Windows Documents folder and launch
 mkdir -p /mnt/c/Users/YOUR_USERNAME/Documents/MyFinances
@@ -253,24 +249,23 @@ The [demo-sample-plan/](./demo-sample-plan/) folder contains a complete example 
 ## Skill Structure
 
 ```
-financial-planner/
-├── SKILL.md                              # Core skill (always in context)
-└── references/
-    ├── interview-guide.md                # All 7 interview rounds
-    ├── canada-finance-rules.md           # Tax rules, registered accounts, benefits
-    ├── calculations-and-dashboard.md     # Budget math, projections, dashboard specs
-    ├── scenarios-and-coaching.md         # Life scenarios, purchase decisions, coaching
-    ├── investment-basics.md              # ETF education, GICs, HISAs, growth comparison
-    ├── life-events.md                    # 10 major life event action plans
-    ├── debt-strategy.md                  # Consumer proposals, bankruptcy, collections, credit rebuilding
-    ├── real-estate.md                    # Rent vs buy, mortgages, home equity, investment property
-    ├── insurance.md                      # Life, disability, critical illness, group vs individual, estate planning
-    ├── provincial-rules.md               # Tax brackets, benefits, health, pharmacare for all 13 jurisdictions
-    ├── self-employed.md                  # Incorporation, salary vs dividends, deductions, SRED, IPP, succession
-    ├── portfolio-management.md           # Asset location, rebalancing, tax-loss harvesting, withdrawal strategy
-    ├── tax-filing.md                     # Credits, deductions, couples optimization, CRA disputes, filing guide
-    ├── retirement-income.md              # CPP/OAS timing, GIS optimization, RRIF strategy, pensions, annuities
-    └── estate-planning.md                # Wills, probate, trusts, executor duties, guardianship, incapacity
+SKILL.md                                  # Core skill (always in context)
+references/
+├── interview-guide.md                    # All 7 interview rounds
+├── canada-finance-rules.md               # Tax rules, registered accounts, benefits
+├── calculations-and-dashboard.md         # Budget math, projections, dashboard specs
+├── scenarios-and-coaching.md             # Life scenarios, purchase decisions, coaching
+├── investment-basics.md                  # ETF education, GICs, HISAs, growth comparison
+├── life-events.md                        # 10 major life event action plans
+├── debt-strategy.md                      # Consumer proposals, bankruptcy, collections, credit rebuilding
+├── real-estate.md                        # Rent vs buy, mortgages, home equity, investment property
+├── insurance.md                          # Life, disability, critical illness, group vs individual, estate planning
+├── provincial-rules.md                   # Tax brackets, benefits, health, pharmacare for all 13 jurisdictions
+├── self-employed.md                      # Incorporation, salary vs dividends, deductions, SRED, IPP, succession
+├── portfolio-management.md               # Asset location, rebalancing, tax-loss harvesting, withdrawal strategy
+├── tax-filing.md                         # Credits, deductions, couples optimization, CRA disputes, filing guide
+├── retirement-income.md                  # CPP/OAS timing, GIS optimization, RRIF strategy, pensions, annuities
+└── estate-planning.md                    # Wills, probate, trusts, executor duties, guardianship, incapacity
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
