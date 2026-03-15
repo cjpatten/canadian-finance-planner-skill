@@ -1,6 +1,6 @@
 # Canadian Personal Finance Manager
 
-**Current version:** 1.2 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+**Current version:** 1.3 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
 
 A custom skill for [Claude](https://claude.ai) that turns it into your personal financial planner — built specifically for Canadians.
 
@@ -15,6 +15,7 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 - **Phased action plan** (Stabilize → Build → Accelerate) with timelines
 - **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, investment growth comparison, and more
 - **Investment education** — popular Canadian ETFs, GICs, and HISAs with risk-matched suggestions, Morningstar ratings, and growth projections
+- **Life event action plans** — structured guidance for 10 major life changes (new baby, marriage, divorce, job loss, parental leave, death of spouse, aging parents, inheritance, moving provinces, buying a home) with Canadian programs, tax implications, and checklists
 - **Ongoing coaching** — monthly check-ins, purchase decisions ("should I buy this?"), and life change updates
 - **Multiple output formats** — shareable PDFs, editable Excel budget, plus interactive HTML dashboard
 - **Built-in validation** — every number is double-checked for accuracy and cross-file consistency
@@ -174,7 +175,8 @@ financial-planner/
     ├── canada-finance-rules.md           # Tax rules, registered accounts, benefits
     ├── calculations-and-dashboard.md     # Budget math, projections, dashboard specs
     ├── scenarios-and-coaching.md         # Life scenarios, purchase decisions, coaching
-    └── investment-basics.md              # ETF education, GICs, HISAs, growth comparison
+    ├── investment-basics.md              # ETF education, GICs, HISAs, growth comparison
+    └── life-events.md                    # 10 major life event action plans
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
@@ -214,4 +216,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v1.2).*
+*Built with Claude. Canada-focused (v1.3).*

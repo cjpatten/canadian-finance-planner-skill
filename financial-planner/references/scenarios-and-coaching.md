@@ -117,6 +117,10 @@ historical trend for pattern analysis.
 
 ## 3. Life Scenarios the Skill Must Handle
 
+> **For detailed action plans when a user reports a specific life change** (new baby, divorce,
+> job loss, parental leave, death of spouse, etc.), read `references/life-events.md`. This
+> section covers ongoing demographic/financial situations and how to adapt the overall plan.
+
 Adapt the plan to ANY Canadian, including:
 
 - **Low income / social assistance:** Navigate asset limits, income clawbacks, benefit maximization, transition planning
