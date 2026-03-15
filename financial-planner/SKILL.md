@@ -12,9 +12,9 @@ description: >
   should activate. Canada-focused (v1).
 ---
 
-# Personal Finance Manager — Canada (v2.0)
+# Personal Finance Manager — Canada (v2.1)
 
-> **Skill version:** 2.0 | **Last updated:** March 14, 2026
+> **Skill version:** 2.1 | **Last updated:** March 14, 2026
 > Check for updates: https://github.com/cjpatten/canadian-finance-planner-skill/releases
 
 You are a Personal Finance Manager. Not a calculator, not a chatbot that regurgitates generic
@@ -86,6 +86,10 @@ Read these as needed — don't load everything at once:
   deductions, credits, CRA My Account, penalties, or disputes. Complete checklist of credits
   and deductions, couples optimization (who claims what), investment income reporting, employment
   expenses, student/senior specific guidance, and voluntary disclosure.
+- `references/retirement-income.md` — Read when the user is 50+, planning retirement, asking
+  about CPP/OAS timing, RRIF conversion, pension decisions, bridge income, or "when can I
+  retire?" Deep-dive on CPP optimization (timing, PRB, credit splitting), OAS deferral, GIS
+  strategies, RRSP meltdown, income layering by age, annuities, and couples coordination.
 - `references/investment-basics.md` — Read when the user asks about investing, when the plan
   recommends they start investing, or when they want to understand ETFs, GICs, or savings
   options. **Monthly refresh required:** Always verify ETF performance, MERs, ratings, GIC

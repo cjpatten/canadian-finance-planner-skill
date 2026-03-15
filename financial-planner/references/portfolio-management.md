@@ -289,12 +289,12 @@ Hold Canadian stocks in your TFSA or non-registered (dividend tax credit applies
 
 ### US Estate Tax for Canadians
 If a Canadian resident dies holding **US-situs assets** (US stocks, US real estate, US ETFs)
-above **$60,000 USD**, their estate may be subject to US estate tax.
+above **~$85,000 CAD** ($60,000 USD), their estate may be subject to US estate tax.
 
 - **Rate:** Up to 40% on US-situs assets above the exemption
 - **Unified credit:** Under the Canada-US treaty, Canadians get a prorated share of the US
   unified credit based on the proportion of worldwide assets that are US-situs.
-- **Treaty relief:** Effectively, most Canadians with worldwide estates under ~$13.6M USD
+- **Treaty relief:** Effectively, most Canadians with worldwide estates under ~$19M CAD (~$13.6M USD)
   (2025 — verify, this threshold may drop in 2026) won't owe US estate tax. But you still
   need to FILE a US estate tax return (Form 706-NA) if US-situs assets exceed $60K.
 - **US-situs assets include:** US stocks (even in Canadian brokerage accounts), US real estate,
