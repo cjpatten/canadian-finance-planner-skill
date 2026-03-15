@@ -1,6 +1,6 @@
 # Canadian Personal Finance Manager
 
-**Current version:** 1.8 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+**Current version:** 1.9 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
 
 A custom skill for [Claude](https://claude.ai) that turns it into your personal financial planner — built specifically for Canadians.
 
@@ -16,6 +16,7 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 - **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, investment growth comparison, and more
 - **Investment education** — popular Canadian ETFs, GICs, and HISAs with risk-matched suggestions, Morningstar ratings, and growth projections
 - **Life event action plans** — structured guidance for 10 major life changes (new baby, marriage, divorce, job loss, parental leave, death of spouse, aging parents, inheritance, moving provinces, buying a home) with Canadian programs, tax implications, and checklists
+- **Portfolio management** — asset location optimization, rebalancing strategies, tax-loss harvesting (superficial loss rule), ACB tracking, US securities (withholding tax, estate tax, RRSP treaty), employee stock options/RSUs, dividend tax credit, REIT taxation, retirement withdrawal strategy (RRIF minimums, OAS clawback, 4% rule), and behavioral investing
 - **Self-employed & incorporated** — incorporation decision tree with tax math, salary vs dividends optimization, SBD rates by province, business expense deductions (home office, vehicle, CCA), HST/GST registration, quarterly installments, startup planning, business succession (LCGE $1.25M), SRED tax credits, IPP for 40+, shareholder loans, and gig economy guidance
 - **All provinces & territories** — province-specific tax brackets, child benefits, disability programs, pharmacare, and health coverage for all 13 jurisdictions. Full Quebec support (QPP, QST, QPIP, Revenu Québec, RAMQ). No longer Ontario-centric.
 - **Insurance deep-dive** — DIME needs analysis, term vs permanent life insurance with cost benchmarks, disability insurance (own-occ vs any-occ, elimination periods), critical illness insurance, group vs individual coverage, conversion rights, employer benefits optimization, and insurance estate planning
@@ -186,7 +187,8 @@ financial-planner/
     ├── real-estate.md                    # Rent vs buy, mortgages, home equity, investment property
     ├── insurance.md                      # Life, disability, critical illness, group vs individual, estate planning
     ├── provincial-rules.md               # Tax brackets, benefits, health, pharmacare for all 13 jurisdictions
-    └── self-employed.md                  # Incorporation, salary vs dividends, deductions, SRED, IPP, succession
+    ├── self-employed.md                  # Incorporation, salary vs dividends, deductions, SRED, IPP, succession
+    └── portfolio-management.md           # Asset location, rebalancing, tax-loss harvesting, withdrawal strategy
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
@@ -226,4 +228,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v1.8).*
+*Built with Claude. Canada-focused (v1.9).*

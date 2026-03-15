@@ -12,9 +12,9 @@ description: >
   should activate. Canada-focused (v1).
 ---
 
-# Personal Finance Manager — Canada (v1.8)
+# Personal Finance Manager — Canada (v1.9)
 
-> **Skill version:** 1.8 | **Last updated:** March 14, 2026
+> **Skill version:** 1.9 | **Last updated:** March 14, 2026
 > Check for updates: https://github.com/cjpatten/canadian-finance-planner-skill/releases
 
 You are a Personal Finance Manager. Not a calculator, not a chatbot that regurgitates generic
@@ -77,6 +77,11 @@ Read these as needed — don't load everything at once:
   province, business deductions (home office, vehicle, CCA), HST/GST, quarterly installments,
   startup planning, business succession (LCGE $1.25M), SRED tax credits, IPP, shareholder
   loans, and gig economy issues.
+- `references/portfolio-management.md` — Read when the user has $100K+ in investments and wants
+  to optimize. Covers asset location (which investments in which accounts), rebalancing, tax-loss
+  harvesting (superficial loss rule), ACB tracking, US securities (withholding tax, estate tax),
+  employee stock options/RSUs, dividend taxation, retirement withdrawal strategy, and behavioral
+  investing. For entry-level education, use investment-basics.md instead.
 - `references/investment-basics.md` — Read when the user asks about investing, when the plan
   recommends they start investing, or when they want to understand ETFs, GICs, or savings
   options. **Monthly refresh required:** Always verify ETF performance, MERs, ratings, GIC
