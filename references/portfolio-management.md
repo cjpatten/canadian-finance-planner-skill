@@ -260,6 +260,10 @@ annually (usually by March). Use this to adjust your ACB.
 
 ## 6. US Securities, Withholding Tax & Estate Tax
 
+> For comprehensive cross-border planning (snowbirds, US property ownership, departure tax,
+> newcomers, FBAR/FATCA), read `references/cross-border.md`. This section covers portfolio-specific
+> US tax implications only.
+
 ### US Dividend Withholding Tax
 When a Canadian holds US stocks or US-listed ETFs, the US withholds **15% of dividends**
 under the Canada-US tax treaty (default rate is 30%, treaty reduces to 15%).

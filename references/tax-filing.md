@@ -360,6 +360,8 @@ claims between spouses can save thousands.
 - **T1135:** If you own foreign property costing more than $100,000 CAD at any time during
   the year, you must file Form T1135 (Foreign Income Verification Statement). Penalty for
   not filing: $25/day, up to $2,500.
+- For detailed foreign asset reporting, newcomer tax filing, non-resident obligations, and
+  FBAR/FATCA (US citizens in Canada), read `references/cross-border.md`.
 
 (Source: canada.ca/investment-income, Schedule 3 guide)
 

@@ -667,6 +667,10 @@ Full source URLs are in Section 11 at the bottom of this file.
 
 ## 9. Moving Provinces
 
+> **Moving TO or FROM Canada** (immigration, emigration, snowbirding)? Read
+> `references/cross-border.md` for departure tax, newcomer onboarding, or return-to-Canada guidance.
+> This section covers moves **within** Canada only.
+
 ### Trigger Phrases
 > "We're moving to [province]" / "relocating to [city in different province]" / "transferring
 > to [province]" / "thinking about moving provinces"

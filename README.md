@@ -1,7 +1,7 @@
 # Canadian Personal Finance Manager
 ### Your AI Financial Coach — Built for Canadians
 
-**Current version:** 2.3 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+**Current version:** 2.4 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
 
 A custom skill for [Claude](https://claude.ai) that turns it into your personal AI financial coach — built specifically for Canadians.
 
@@ -28,6 +28,7 @@ You don't need to use all of the below features — most people start with a sim
 - **Insurance deep-dive** — DIME needs analysis, term vs permanent life insurance with cost benchmarks, disability insurance (own-occ vs any-occ, elimination periods), critical illness insurance, group vs individual coverage, conversion rights, employer benefits optimization, and insurance estate planning
 - **Real estate & housing** — rent vs buy analysis, mortgage strategy (fixed vs variable, prepayment, renewal negotiation), home equity (HELOC, refinancing, reverse mortgage), investment property with tax treatment, condo vs freehold, principal residence exemption, downsizing, and provincial land transfer tax
 - **Debt strategy deep-dive** — consumer proposals, bankruptcy guidance, collections rights, CRA tax debt, payday loan exit plans, credit rebuilding, and behavioral coaching for debt stress
+- **Cross-border planning** — snowbird tax residency (substantial presence test, Form 8840, days counting), Canadians owning US property (FIRPTA, US estate tax), newcomer financial onboarding (SIN, credit building, RRSP/TFSA room), departure tax (deemed disposition), foreign pensions, FBAR/FATCA for US citizens in Canada, returning to Canada, and foreign tax credits
 - **Ongoing coaching** — monthly check-ins, purchase decisions ("should I buy this?"), and life change updates
 - **Multiple output formats** — shareable PDFs, editable Excel budget, plus interactive HTML dashboard
 - **Built-in validation** — every number is double-checked for accuracy and cross-file consistency
@@ -238,6 +239,14 @@ This skill covers far more than basic budgeting. Here are examples of what you c
 - "I've been named executor — what do I actually have to do?"
 - "My child has a disability — what's a Henson trust?"
 
+**Cross-Border & International**
+- "I spend winters in Florida — do I have US tax obligations?"
+- "I just moved to Canada — where do I start financially?"
+- "We own a condo in Arizona — what are the tax implications?"
+- "I'm leaving Canada — what happens to my investments?"
+- "I'm a US citizen living in Canada — what do I need to file?"
+- "I have a US pension — how does that work in Canada?"
+
 ---
 
 ## Demo
@@ -265,7 +274,8 @@ references/
 ├── portfolio-management.md               # Asset location, rebalancing, tax-loss harvesting, withdrawal strategy
 ├── tax-filing.md                         # Credits, deductions, couples optimization, CRA disputes, filing guide
 ├── retirement-income.md                  # CPP/OAS timing, GIS optimization, RRIF strategy, pensions, annuities
-└── estate-planning.md                    # Wills, probate, trusts, executor duties, guardianship, incapacity
+├── estate-planning.md                    # Wills, probate, trusts, executor duties, guardianship, incapacity
+└── cross-border.md                       # Snowbirds, newcomers, US property, departure/return, FBAR/FATCA
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
@@ -305,4 +315,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v2.3).*
+*Built with Claude. Canada-focused (v2.4).*
