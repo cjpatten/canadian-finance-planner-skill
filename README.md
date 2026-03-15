@@ -10,7 +10,7 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 
 ## What You Get
 
-You don't need to use all of this — most people start with a simple budget and go from there. Claude meets you where you are, whether that's "I just need help tracking my spending" or "I'm incorporating my business and need to optimize salary vs dividends." The list below shows everything the skill *can* do, not what you *have* to do. Think of it as having a top-tier financial advisor on call who happens to know every corner of Canadian finance.
+You don't need to use all of the below features — most people start with a simple budget and go from there. Claude meets you where you are, whether that's "I just need help tracking my spending" or "I'm incorporating my business and need to optimize salary vs dividends." The list below shows everything the skill *can* do, not what you *have* to do. Think of it as having a top-tier financial advisor on call who happens to know every corner of Canadian finance.
 
 - **Personalized financial profile** saved to your computer
 - **Detailed monthly budget** with spending insights and optimization suggestions
