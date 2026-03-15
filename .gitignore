@@ -15,6 +15,9 @@ node_modules/
 # Claude project memory (contains personal info — keep local only)
 CLAUDE.md
 
+# Test results (generated during testing, not source material)
+test-scenarios/results/
+
 # Synology Drive metadata
 @eaDir/
 .SynologyDrive/
