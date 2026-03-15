@@ -213,6 +213,9 @@ For EACH debt:
   car loans 0-12%, student loans prime to prime+5%, payday loans 300%+ (flag as emergency).
   If a rate seems off, ask: "You mentioned 15% on your car loan — that's higher than typical.
   Do you want to double-check that?"
+- **If any red flags appear** (payday loans, CRA debt, collections, bankruptcy history, debts
+  where minimum < monthly interest): read `references/debt-strategy.md` for detailed guidance
+  on crisis intervention, formal insolvency options, and creditor rights.
 - Save updated 1-my-profile.md.
 
 ---
