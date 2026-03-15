@@ -253,6 +253,10 @@ This skill covers far more than basic budgeting. Here are examples of what you c
 
 The [demo-sample-plan/](./demo-sample-plan/) folder contains a complete example for a fictional young Canadian family (Marcus & Sarah Chen, Barrie ON, combined income $157K, two kids). Open `4-my-dashboard.html` in any browser to see the interactive dashboard.
 
+## Test Scenarios
+
+The [test-scenarios/](./test-scenarios/) folder contains 12 pre-built sample personas representing diverse Canadian financial situations — from newcomers and snowbirds to debt crises and blended families. Use these to test the skill with realistic data or to compare output quality with and without the skill. Each persona includes complete interview data ready to paste into a conversation. See the folder's README for instructions and a scoring rubric.
+
 ---
 
 ## Skill Structure
