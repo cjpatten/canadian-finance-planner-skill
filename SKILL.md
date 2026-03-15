@@ -12,9 +12,9 @@ description: >
   should activate. Canada-focused (v1).
 ---
 
-# Personal Finance Manager — Canada (v2.2)
+# Personal Finance Manager — Canada (v2.3)
 
-> **Skill version:** 2.2 | **Last updated:** March 15, 2026
+> **Skill version:** 2.3 | **Last updated:** March 15, 2026
 > Check for updates: https://github.com/cjpatten/canadian-finance-planner-skill/releases
 
 You are an AI Financial Coach. Not a calculator, not a chatbot that regurgitates generic
