@@ -10,7 +10,7 @@ also read `references/insurance.md` Section 11.
 
 All fees and thresholds should be verified via web search — they vary by province and change
 periodically. Key sources: provincial estate legislation, canada.ca (CRA), taxtips.ca.
-Full URLs in Section 20.
+Full URLs in Section 21.
 
 ---
 
@@ -29,13 +29,14 @@ Full URLs in Section 20.
 11. Trusts: Types, Costs & When to Use
 12. Deemed Disposition Tax at Death
 13. Estate Tax Planning Strategies
-14. Blended Family Estate Planning
-15. Cottage & Vacation Property Succession
-16. Digital Estate Planning
-17. Charitable Giving in Estate
-18. Guardianship for Minor Children
-19. Common Estate Planning Mistakes
-20. Source URLs
+14. Helping Your Children: Wealth Transfer Strategies
+15. Blended Family Estate Planning
+16. Cottage & Vacation Property Succession
+17. Digital Estate Planning
+18. Charitable Giving in Estate
+19. Guardianship for Minor Children
+20. Common Estate Planning Mistakes
+21. Source URLs
 
 ---
 
@@ -605,7 +606,195 @@ overall tax. Consult a CPA.
 
 ---
 
-## 14. Blended Family Estate Planning
+## 14. Helping Your Children: Wealth Transfer Strategies
+
+This section covers how parents can optimally set things up for their children — whether
+giving during their lifetime or structuring what they leave behind. For the child's side
+(what to do when you receive an inheritance), see `references/life-events.md` Section 8.
+
+### Give Now vs Leave in Estate
+
+| Factor | Give Now (Lifetime) | Leave in Estate (At Death) |
+|--------|--------------------|-----------------------------|
+| **Tax** | Cash gifts: no tax. Asset gifts: trigger deemed disposition NOW (capital gains tax) | Deemed disposition at death — estate pays tax |
+| **Control** | Gone once given — you can't take it back | You keep control until death |
+| **Timing** | Kids get help when they need it most (first home, student debt, kids of their own) | Kids may be 50-60+ when they inherit — less impactful |
+| **Attribution** | Interest/dividends on gifts to minors attribute back to you (see below) | No attribution — estate is settled |
+| **Risk** | You might need the money for retirement/care | Estate covers your needs first |
+| **Family dynamics** | Can cause conflict if gifts are unequal or perceived as unfair | Will is final — less room for ongoing resentment |
+
+**General advice:** Don't give away anything you might need for your own retirement or long-term
+care. A common mistake is generosity that creates dependency on your children later.
+
+### Cash Gifts to Adult Children
+
+- **No gift tax in Canada.** You can give any amount of cash to anyone with no tax consequences
+  to either party.
+- **No attribution on gifts to adult children.** If you give your 30-year-old $50,000, any
+  income they earn on it (interest, dividends, capital gains) is taxed in THEIR hands, not yours.
+- **Attribution DOES apply to gifts to minor children** (under 18):
+  - Interest and dividends earned on gifted money → attributed back to you (the parent)
+  - Capital gains → taxed in the child's hands (not attributed)
+  - Attribution ends when the child turns 18
+
+### TFSA Gifting Strategy (Best Tool for Adult Children)
+
+This is one of the most powerful and underused strategies in Canadian tax planning:
+
+1. **Give your adult child cash** to maximize their TFSA contributions
+2. **No attribution** — TFSA income is completely tax-free, and gifts to adults have no attribution
+3. **Tax-free growth forever** — the money grows and can be withdrawn tax-free for life
+4. **Invisible to GIS** — TFSA withdrawals don't reduce Guaranteed Income Supplement in retirement
+5. **Not accessible to creditors** in most provinces (if invested in insurance-based products)
+
+**Example:** Parent gives 25-year-old child $7,000/year for TFSA. Over 30 years at 7% growth:
+~$660,000 in the child's TFSA — entirely tax-free. This is more tax-efficient than leaving
+$660,000 in a will (which would be in a taxable non-registered account for the child).
+
+**Practical approach:** If you have surplus retirement income and your TFSA is maxed, gift to
+your adult children's TFSAs. This is the single most tax-efficient intergenerational transfer.
+
+### In-Trust Accounts (ITF) for Minor Children
+
+An "in-trust for" (ITF) account is an informal trust — a regular investment account opened
+by a parent with the child as beneficiary.
+
+**How attribution works on ITF accounts:**
+
+| Income Type | Taxed To | Until When |
+|-------------|----------|------------|
+| Interest | Parent (attributed) | Child turns 18 |
+| Canadian dividends | Parent (attributed) | Child turns 18 |
+| Capital gains | Child | Always |
+| All income after 18 | Child | Permanently |
+
+**CRA treatment:**
+- CRA recognizes ITF accounts but they're NOT a formal trust (no trust return required)
+- The money legally belongs to the child — you can't take it back once deposited
+- At 18, the child has full legal access (you can't prevent withdrawals)
+
+**When to use ITF vs formal trust:**
+- **ITF:** Simple, no setup cost, good for moderate amounts ($5K-$50K). Use when you trust the
+  child will use it responsibly at 18.
+- **Formal trust:** More control (trustee decides when/how money is distributed), legal structure,
+  requires a lawyer ($2,000-$5,000 setup). Use for larger amounts or when you want control
+  beyond age 18.
+
+**Strategy to minimize attribution:** Invest ITF accounts primarily in growth-oriented
+investments (capital gains taxed to child) rather than dividend/interest-heavy investments
+(attributed to parent). An all-equity ETF like VEQT produces mostly capital gains.
+
+### Helping Kids Buy a First Home
+
+**Gifted down payment:**
+- Cash gifts for a down payment have NO tax implications in Canada
+- The lender will require a **gift letter** confirming the money is a gift, not a loan
+- Some lenders require the gift to be in the child's account for 90 days before the mortgage application
+
+**Co-signing a mortgage:**
+- You are fully liable for the entire mortgage if your child defaults
+- The mortgage appears on YOUR credit report and affects YOUR borrowing capacity
+- Lender can come after YOUR assets — not just the property
+- **Recommendation:** Gift the down payment instead of co-signing. Less risk, same result.
+
+**FHSA (First Home Savings Account):**
+- Parents CANNOT contribute to a child's FHSA — only the account holder can contribute
+- But parents can **gift the child cash** and the child contributes to their own FHSA
+- $8,000/year limit, $40,000 lifetime — tax deduction + tax-free withdrawal for home purchase
+- This is effectively a parent-funded tax shelter if the child uses the gift for FHSA
+
+**Home Buyers' Plan (HBP):**
+- Child can withdraw up to $60,000 from their RRSP for a first home
+- Repay over 15 years (minimum 1/15 per year or it becomes taxable income)
+- Parents can help by gifting money for RRSP contributions (tax deduction for child)
+
+### RESP-to-Child Transition: What Happens at 18+
+
+**When the child enrolls in post-secondary:**
+
+| Component | Taxed To | How It Works |
+|-----------|----------|-------------|
+| **Contributions (your money)** | Nobody — tax-free return | Returned to subscriber (parent) with no tax — this was after-tax money |
+| **CESG/CLB grants** | Paid to student as part of EAP | Included in student's EAP (see below) |
+| **Growth (investment earnings)** | Student | Part of EAP — taxable in student's hands |
+
+**Educational Assistance Payment (EAP):**
+- The EAP = grants + investment growth
+- Paid directly to the student (or to the subscriber on their behalf)
+- Taxable in the student's hands — but students typically have little income, so minimal tax
+- $8,000 limit on EAP in the first 13 weeks of enrollment, then no limit
+
+**What if the child doesn't go to school?**
+1. **Wait** — they have 35 years from opening. Many people go back to school later.
+2. **Change beneficiary** — transfer to a sibling or other family member (CESG may need to be repaid if the new beneficiary already has grants)
+3. **Collapse the RESP:**
+   - Contributions returned tax-free (always yours)
+   - CESG/CLB grants returned to the government
+   - Growth (Accumulated Income Payment / AIP): taxable to subscriber at marginal rate + 20% penalty
+   - **AIP can be rolled to your RRSP** (up to $50,000 if you have room) to avoid the penalty tax
+
+**Maximize grants before 17:**
+- CESG stops at the end of the year the child turns 17
+- Age 16-17 restriction: must have contributed $2,000+ before the year the child turned 16
+- If you haven't contributed by age 15, you need at least $2,000 in by December 31 of that year
+
+### Financially Dependent Children: RRSP/RRIF Rollover at Death
+
+When a parent dies, their RRSP/RRIF is normally fully taxable on the final return. But there
+are special rules for **financially dependent children or grandchildren**:
+
+**If the child is under 18 and financially dependent:**
+- RRSP/RRIF proceeds can be used to purchase a **term annuity** payable to the child to age 18
+- The annuity payments are taxed in the child's hands (low rate — they likely have no other income)
+
+**If the child is financially dependent due to disability (any age):**
+- RRSP/RRIF can be rolled to the child's **RRSP** or **RDSP** tax-free
+- This is a major benefit — avoids the full tax hit on the final return
+
+**Definition of "financially dependent":** The child's income in the year before death must be
+below the basic personal amount (~$16,452 in 2026). Most minor children qualify automatically.
+
+### Prescribed Rate Loans (Income Splitting with Family)
+
+To avoid attribution rules, parents can lend money to adult children (or spouse) at the
+CRA prescribed rate:
+
+**How it works:**
+1. Parent lends money to child at the CRA prescribed interest rate (currently ~4-5%, verify)
+2. Child invests the borrowed money — all investment income taxed in child's hands
+3. Child must pay interest to parent by **January 30 each year** — failure to pay in ANY year
+   permanently triggers attribution for all future income
+
+**Why bother?** If the parent is in a 50% tax bracket and the child is in a 20% bracket,
+investment income is taxed at 20% instead of 50%. Over time, this saves significant tax.
+
+**Requirements (all must be met):**
+- Written loan agreement (document it)
+- Interest charged at minimum the prescribed rate on the day the loan is made
+- Interest actually paid by January 30 of the following year
+- If interest payment is missed, attribution kicks in permanently — no second chances
+
+### Common Mistakes in Intergenerational Transfers
+
+1. **Giving too much too soon.** Keep enough for 25-30 years of retirement + potential long-term
+   care ($5,000-$10,000/month). Don't impoverish yourself to enrich your kids.
+2. **Not documenting loans vs gifts.** If CRA audits, an undocumented "loan" to a family member
+   looks like a gift — and attribution rules apply.
+3. **Unequal gifts causing family conflict.** If you give one child $50K for a house and nothing
+   to the other, document your intention (gift vs advance on inheritance) and communicate openly.
+4. **Ignoring attribution on gifts to minors.** Interest and dividends on money gifted to
+   children under 18 are taxed to you. Use growth investments (capital gains are attributed to the child).
+5. **Assuming FHSA can be parent-funded.** Only the account holder can contribute to their FHSA.
+   You can gift cash, but the child must make the contribution themselves.
+6. **Forgetting the RESP age-16 rule.** If you haven't contributed $2,000+ by the year the child
+   turns 16, they lose CESG eligibility for ages 16-17.
+7. **Co-signing a mortgage.** You're fully liable. Gift the down payment instead.
+
+(Source: canada.ca — attribution rules, taxtips.ca — income splitting, CRA prescribed rates)
+
+---
+
+## 15. Blended Family Estate Planning
 
 ### The Challenge
 Children from a previous relationship + current spouse creates competing claims:
@@ -646,7 +835,7 @@ Children from a previous relationship + current spouse creates competing claims:
 
 ---
 
-## 15. Cottage & Vacation Property Succession
+## 16. Cottage & Vacation Property Succession
 
 ### The Tax Problem
 A cottage purchased for $50,000 in 1985 that's now worth $800,000 has a $750,000 capital
@@ -693,7 +882,7 @@ conflicts in Canada.**
 
 ---
 
-## 16. Digital Estate Planning
+## 17. Digital Estate Planning
 
 ### The Problem
 Your digital life is extensive — and your executor needs access.
@@ -734,7 +923,7 @@ Your digital life is extensive — and your executor needs access.
 
 ---
 
-## 17. Charitable Giving in Estate
+## 18. Charitable Giving in Estate
 
 ### Donation of Securities (Most Tax-Efficient)
 - Donate publicly-traded securities (stocks, ETFs, mutual funds) directly to a registered charity
@@ -769,7 +958,7 @@ Your digital life is extensive — and your executor needs access.
 
 ---
 
-## 18. Guardianship for Minor Children
+## 19. Guardianship for Minor Children
 
 ### Why This Is Critical
 If both parents die without naming a guardian in their will, the court decides who raises
@@ -801,7 +990,7 @@ the children. The court's choice may not be who you would have chosen.
 
 ---
 
-## 19. Common Estate Planning Mistakes
+## 20. Common Estate Planning Mistakes
 
 1. **No will (52% of Canadians).** The province decides everything — and common-law partners
    may inherit nothing.
@@ -831,7 +1020,7 @@ the children. The court's choice may not be who you would have chosen.
 
 ---
 
-## 20. Source URLs
+## 21. Source URLs
 
 ### Federal Government
 - CRA Deemed Disposition: https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/what-when-someone-died.html

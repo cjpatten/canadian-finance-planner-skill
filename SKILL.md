@@ -91,8 +91,10 @@ Read these as needed during the conversation — don't load everything at once:
   retire?" Deep-dive on CPP optimization (timing, PRB, credit splitting), OAS deferral, GIS
   strategies, RRSP meltdown, income layering by age, annuities, and couples coordination.
 - `references/estate-planning.md` — Read when the user asks about wills, probate, executor
-  duties, Powers of Attorney, trusts (Henson, family, alter ego), estate tax planning, or
-  beneficiary strategies. Covers intestacy rules by province, probate fees and avoidance,
+  duties, Powers of Attorney, trusts (Henson, family, alter ego), estate tax planning,
+  beneficiary strategies, or helping their children financially (TFSA gifting, in-trust accounts,
+  RESP transitions, wealth transfer, giving money to kids, helping with first home). Covers
+  intestacy rules by province, probate fees and avoidance, intergenerational wealth transfer,
   blended family planning, cottage succession, digital estate, charitable giving, guardianship
   for minor children, and incapacity planning.
 - `references/investment-basics.md` — Read when the user asks about investing, when the plan

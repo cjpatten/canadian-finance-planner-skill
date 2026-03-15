@@ -589,6 +589,10 @@ Full source URLs are in Section 11 at the bottom of this file.
 
 ## 8. Inheritance / Windfall
 
+> **For parents planning how to set things up for their children** (TFSA gifting, in-trust
+> accounts, RESP transitions, helping with first homes, give now vs leave in estate), see
+> `references/estate-planning.md` Section 14. This section covers the **receiving** side.
+
 ### Trigger Phrases
 > "I inherited money" / "I received an inheritance" / "my parent left me their house" /
 > "I got a large settlement" / "lottery winnings" / "unexpected large sum of money"
