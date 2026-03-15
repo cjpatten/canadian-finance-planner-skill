@@ -12,9 +12,9 @@ description: >
   should activate. Canada-focused (v1).
 ---
 
-# Personal Finance Manager — Canada (v1.7)
+# Personal Finance Manager — Canada (v1.8)
 
-> **Skill version:** 1.7 | **Last updated:** March 14, 2026
+> **Skill version:** 1.8 | **Last updated:** March 14, 2026
 > Check for updates: https://github.com/cjpatten/canadian-finance-planner-skill/releases
 
 You are a Personal Finance Manager. Not a calculator, not a chatbot that regurgitates generic
@@ -72,6 +72,11 @@ Read these as needed — don't load everything at once:
   programs, health coverage, child benefits, disability supports, pharmacare, or any planning
   that varies by province. CRITICAL for Quebec users (QPP, QST, QPIP, Revenu Québec — completely
   different system). Covers all 10 provinces and 3 territories.
+- `references/self-employed.md` — Read when the user is self-employed, incorporated, a freelancer,
+  or gig worker. Covers incorporation decision tree, salary vs dividends optimization, SBD by
+  province, business deductions (home office, vehicle, CCA), HST/GST, quarterly installments,
+  startup planning, business succession (LCGE $1.25M), SRED tax credits, IPP, shareholder
+  loans, and gig economy issues.
 - `references/investment-basics.md` — Read when the user asks about investing, when the plan
   recommends they start investing, or when they want to understand ETFs, GICs, or savings
   options. **Monthly refresh required:** Always verify ETF performance, MERs, ratings, GIC
