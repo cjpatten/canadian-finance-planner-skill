@@ -41,9 +41,9 @@ README.txt         — Quick guide explaining what each file is for
 check-ins/         — Monthly check-in snapshots (created over time)
 ```
 
-### Reference Files (for you, not the user)
+### Reference Files (internal — load on demand)
 
-Read these as needed — don't load everything at once:
+Read these as needed during the conversation — don't load everything at once:
 
 - `references/interview-guide.md` — Read when starting or resuming an interview
 - `references/canada-finance-rules.md` — Read when you need tax rules, contribution limits,
