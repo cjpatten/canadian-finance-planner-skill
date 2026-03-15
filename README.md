@@ -1,6 +1,6 @@
 # Canadian Personal Finance Manager
 
-**Current version:** 2.1 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+**Current version:** 2.2 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
 
 A custom skill for [Claude](https://claude.ai) that turns it into your personal financial planner — built specifically for Canadians.
 
@@ -16,6 +16,7 @@ Claude conducts a thorough financial interview, builds a complete budget and act
 - **Interactive HTML dashboard** with charts for net worth, debt payoff, retirement projections, RESP tracking, CPP comparison, investment growth comparison, and more
 - **Investment education** — popular Canadian ETFs, GICs, and HISAs with risk-matched suggestions, Morningstar ratings, and growth projections
 - **Life event action plans** — structured guidance for 10 major life changes (new baby, marriage, divorce, job loss, parental leave, death of spouse, aging parents, inheritance, moving provinces, buying a home) with Canadian programs, tax implications, and checklists
+- **Estate planning** — wills (types, costs, intestacy rules by province), Powers of Attorney (property + personal care), executor duties and compensation, probate process and fees by province, probate avoidance strategies, trusts (Henson, family, alter ego, testamentary), deemed disposition tax and mitigation, blended family planning, cottage succession, digital estate, charitable giving, guardianship, and incapacity planning
 - **Retirement income optimization** — CPP timing (60/65/70 with break-even math), OAS deferral decision tree, GIS optimization (TFSA strategy), RRSP meltdown, RRIF conversion strategy, income layering by age, pension decisions (DB commuted value vs monthly), pension income splitting, bridge income for early retirement, annuities, and couples coordination
 - **Tax filing season guide** — complete checklist of credits and deductions people miss, couples optimization (who claims what), investment income reporting, tax software comparison, CRA My Account, penalties and disputes, voluntary disclosure, student/senior/new immigrant guidance
 - **Portfolio management** — asset location optimization, rebalancing strategies, tax-loss harvesting (superficial loss rule), ACB tracking, US securities (withholding tax, estate tax, RRSP treaty), employee stock options/RSUs, dividend tax credit, REIT taxation, retirement withdrawal strategy (RRIF minimums, OAS clawback, 4% rule), and behavioral investing
@@ -55,7 +56,7 @@ The easiest way to use this skill. Works on **Mac and Windows**.
 
 That's it! Claude will walk you through everything from there.
 
-> Requires a paid Claude plan with Cowork mode: Pro (approx. $27 CAD/mo), Max ($136-$272 CAD/mo), Teams ($34 CAD/user/mo), or Enterprise. The free tier does not support skills or Cowork mode. [See pricing](https://claude.ai/pricing)
+> Requires a paid Claude plan with Cowork mode: Pro (approx. $27 CAD/mo), Max ($136-$272 CAD/mo), Teams ($34 CAD/user/mo), or Enterprise. The free tier does not support skills or Cowork mode. [See pricing](https://claude.com/pricing)
 
 ## Install via Claude Code (Command Line)
 
@@ -192,7 +193,8 @@ financial-planner/
     ├── self-employed.md                  # Incorporation, salary vs dividends, deductions, SRED, IPP, succession
     ├── portfolio-management.md           # Asset location, rebalancing, tax-loss harvesting, withdrawal strategy
     ├── tax-filing.md                     # Credits, deductions, couples optimization, CRA disputes, filing guide
-    └── retirement-income.md              # CPP/OAS timing, GIS optimization, RRIF strategy, pensions, annuities
+    ├── retirement-income.md              # CPP/OAS timing, GIS optimization, RRIF strategy, pensions, annuities
+    └── estate-planning.md                # Wills, probate, trusts, executor duties, guardianship, incapacity
 ```
 
 The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
@@ -232,4 +234,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v2.1).*
+*Built with Claude. Canada-focused (v2.2).*
