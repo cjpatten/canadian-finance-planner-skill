@@ -15,8 +15,12 @@ What's in this folder:
     My-Plan.pdf                Your action plan as a clean PDF
     My-Budget.xlsx             Your budget as an editable Excel spreadsheet
 
+  check-ins/           Monthly snapshots tracking your progress over time:
+    2026-04.md         Example: first monthly check-in (April 2026)
+
 The .md files are your working files — Claude reads these to pick up where you left off.
 The shareable/ folder has presentation-ready versions for your spouse, accountant, or advisor.
+The check-ins/ folder builds up over time as you do monthly reviews with Claude.
 
-To update your plan, start a new Cowork conversation with Claude, select this folder,
-and say "Let's do a check-in" or tell Claude about any changes in your life.
+Your plan saves automatically. Close Claude and come back anytime — just say
+"let's do a check-in" and Claude picks up where you left off.

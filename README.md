@@ -297,6 +297,27 @@ The `SKILL.md` file is always loaded and controls the conversation flow. Referen
 
 ---
 
+## Sources & Citations
+
+Every number in this skill is double-source verified against authoritative Canadian and international sources. The skill also verifies current data via web search before presenting it to users, so even if a reference file becomes slightly stale, the user always gets up-to-date figures.
+
+**150+ source URLs** are embedded across 16 reference files. Here are the key sources by category:
+
+| Category | # Sources | Key References |
+|----------|-----------|----------------|
+| **CRA / Canada.ca** | 50+ | [Tax brackets & rates](https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html), [RRSP/TFSA/RESP limits](https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html), [CPP amounts](https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html), [OAS payments](https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html), [CCB](https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit.html), [CRA My Account](https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals.html) |
+| **Provincial Governments** | 40+ | Tax brackets, disability programs (ODSP, AISH, PWD), pharmacare, health coverage for all 13 provinces and territories. Full Quebec support (Revenu Québec, RAMQ, QPIP). |
+| **IRS / US Government** | 10+ | [Substantial presence test](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test), [FIRPTA](https://www.irs.gov/individuals/international-taxpayers/firpta-withholding), [FBAR](https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar), [Canada-US Tax Treaty](https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html), [IRS Publication 597](https://www.irs.gov/publications/p597) |
+| **Financial Institutions** | 15+ | [Vanguard Canada](https://www.vanguard.ca), [iShares/BlackRock](https://www.blackrock.com/ca), [Morningstar Canada](https://www.morningstar.ca), [RateHub.ca](https://www.ratehub.ca), [WOWA.ca](https://www.wowa.ca), [EQ Bank](https://www.eqbank.ca) |
+| **Professional Bodies** | 5+ | [FP Canada](https://www.fpcanada.ca) (projection assumptions, planner directory), [CLHIA](https://www.clhia.ca), [Insurance Bureau of Canada](https://www.ibc.ca), [Credit Counselling Canada](https://www.creditcounsellingcanada.ca) |
+| **Tax & Planning** | 15+ | [TaxTips.ca](https://www.taxtips.ca) (comprehensive tax reference), [Adjusted Cost Base](https://www.adjustedcostbase.ca), [Canadian Couch Potato](https://canadiancouchpotato.com), [FCAC](https://www.canada.ca/en/financial-consumer-agency.html) |
+| **Housing & Mortgage** | 10+ | [CMHC](https://www.cmhc-schl.gc.ca), [FCAC Mortgage Tools](https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html), provincial land transfer tax calculators |
+| **Legal & Estate** | 5+ | [Office of the Superintendent of Bankruptcy](https://www.ic.gc.ca/eic/site/bsf-osb.nsf/eng/home), provincial probate rules, Henson Trust resources |
+
+All source URLs are organized by topic within each reference file, with verification dates noted. The skill's reference files cite 50+ government URLs (canada.ca), ensuring guidance is grounded in official rules rather than opinion.
+
+---
+
 ## Disclaimer
 
 This skill provides financial education and planning tools, not licensed financial advice. For complex situations (investments over $500K, estate planning, incorporation, cross-border tax), consult a fee-only financial advisor. The skill will recommend this when appropriate.
