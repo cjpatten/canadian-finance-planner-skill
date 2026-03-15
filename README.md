@@ -55,7 +55,7 @@ The easiest way to use this skill. Works on **Mac and Windows**.
 
 That's it! Claude will walk you through everything from there.
 
-> Requires a paid Claude plan with Cowork mode: Pro (~$27 CAD/mo), Max (~$136-$272 CAD/mo), Teams (~$34 CAD/user/mo), or Enterprise. The free tier does not support skills or Cowork mode. [See pricing](https://claude.ai/pricing)
+> Requires a paid Claude plan with Cowork mode: Pro (approx. $27 CAD/mo), Max ($136-$272 CAD/mo), Teams ($34 CAD/user/mo), or Enterprise. The free tier does not support skills or Cowork mode. [See pricing](https://claude.ai/pricing)
 
 ## Install via Claude Code (Command Line)
 
