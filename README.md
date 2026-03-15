@@ -166,6 +166,79 @@ After your initial plan, come back anytime and say:
 - **"I got a raise"** / **"We're having a baby"** — life change recalculation
 - **"Is my RRSP on track?"** — quick questions answered with your data
 
+### What Can I Ask? (Example Prompts)
+
+This skill covers far more than basic budgeting. Here are examples of what you can ask, from simple to advanced:
+
+**Getting Started**
+- "Help me with my finances"
+- "I need a budget"
+- "Can you build me a complete financial plan?"
+
+**Budgeting & Spending**
+- "Should I buy a $900 TV?"
+- "Where is all my money going every month?"
+- "My partner and I keep fighting about money — how should we split expenses?"
+
+**Debt**
+- "How do I pay off my credit card debt fastest?"
+- "Should I consolidate my debts into a line of credit?"
+- "I can't make my minimum payments — what are my options?"
+- "Should I do a consumer proposal or file bankruptcy?"
+- "I'm being contacted by a collection agency — what are my rights?"
+
+**Investing**
+- "How do I start investing? What's a good first ETF?"
+- "Should I put my money in a TFSA or RRSP?"
+- "I have $200K to invest — how should I split it across my accounts?"
+- "What's the difference between VGRO, VBAL, and VEQT?"
+- "I have US investments — what's this withholding tax I'm paying?"
+
+**Retirement**
+- "When can I retire? Will I have enough?"
+- "Should I take CPP at 60, 65, or 70?"
+- "How do I avoid the OAS clawback?"
+- "Should I do an RRSP meltdown before I turn 65?"
+- "I have a pension — should I take the lump sum or monthly payments?"
+
+**Real Estate**
+- "Should I rent or buy?"
+- "My mortgage is up for renewal — how do I negotiate a better rate?"
+- "Should I pay down my mortgage faster or invest instead?"
+- "I want to buy a rental property — what's the tax treatment?"
+- "We're thinking about downsizing — what's the financial impact?"
+
+**Insurance**
+- "How much life insurance do I actually need?"
+- "Do I need disability insurance? My employer has some coverage."
+- "My bank is pushing whole life insurance — is that a good idea?"
+- "I'm leaving my job — can I keep my group insurance?"
+
+**Taxes**
+- "What deductions am I missing on my tax return?"
+- "Should my spouse or I claim the medical expenses?"
+- "I'm self-employed — what can I deduct?"
+- "I got a Notice of Assessment from CRA — what does it mean?"
+
+**Life Events**
+- "We're having a baby — what do we need to do financially?"
+- "I just lost my job — what's my emergency plan?"
+- "We're getting divorced — how do we split everything?"
+- "I inherited $150,000 — what should I do with it?"
+- "I'm caring for my aging parents — what financial help is available?"
+
+**Self-Employment**
+- "Should I incorporate my business?"
+- "Salary vs dividends — which is better for me?"
+- "What's the lifetime capital gains exemption and do I qualify?"
+
+**Estate Planning**
+- "I don't have a will — what happens if I die?"
+- "What's the difference between a will and a Power of Attorney?"
+- "How do I pass my cottage to my kids without a huge tax bill?"
+- "I've been named executor — what do I actually have to do?"
+- "My child has a disability — what's a Henson trust?"
+
 ---
 
 ## Demo
