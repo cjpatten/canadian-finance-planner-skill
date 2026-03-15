@@ -61,14 +61,23 @@
 | **Total gross** | **$14,205** | **$170,456** |
 | **Total net (take-home + benefits)** | **$10,551** | **$126,612** |
 
-## Tax Situation
+## Tax Situation (Ontario)
 
-- **Combined marginal tax rate:** ~33.9% (federal 20.5% + Ontario 9.15% + surtax on Marcus's income, Sarah in lower bracket)
+- **Marcus marginal tax rate:** ~33.9% (federal 20.5% + Ontario 9.15% at $92K income)
+- **Sarah marginal tax rate:** ~29.65% (federal 20.5% + Ontario 9.15% at $65K income)
 - **Marcus average tax rate:** ~24%
 - **Sarah average tax rate:** ~19%
 - **Filing:** Both file individual returns, married status
-- **Quarterly installments:** Not required
-- **Tax prep:** Use TurboTax, $50/year
+- **Quarterly installments:** Not required (both have tax withheld at source)
+- **Tax prep:** Use TurboTax, $50/year — recommend switching to Wealthsimple Tax (free, NETFILE-certified)
+- **Ontario-specific:** No provincial health premiums. Ontario Trillium Benefit and Ontario Child Benefit both income-tested — Chens' combined income too high to qualify.
+
+### Tax Filing Optimization Notes
+- Medical expenses: claim on Sarah's return (lower income = lower 3% threshold)
+- Charitable donations: combine and claim on Marcus's return (higher marginal rate)
+- Childcare: must claim on Sarah's return (lower-income spouse)
+- RRSP strategy: Sarah should contribute to her own RRSP (reduces her taxable income, potentially increases CCB)
+- Student loan interest (Sarah): claim the 15% federal credit on interest paid
 
 ## What We Owe
 
@@ -166,12 +175,51 @@
 ### Personal Policies
 - None — no personal life, disability, or critical illness insurance
 
-### Insurance Assessment
-- ⚠️ **Marcus life insurance gap:** $184,000 coverage vs. ~$920,000 need (mortgage payoff + 10 years income replacement + kids' education). **Gap: ~$736,000**
-- 🔴 **Sarah has NO disability insurance.** If she can't work, $65K/year income disappears with zero replacement.
-- 🔴 **Sarah life insurance inadequate:** $65,000 vs. ~$650,000 need. If Sarah dies, Marcus needs childcare ($2,000+/month) plus income replacement.
-- ⚠️ **No critical illness insurance for either.**
-- 🔴 **No will. No Powers of Attorney.** Two young children with no legal guardianship designation.
+### Insurance Assessment (DIME Method)
+
+**Marcus Life Insurance Need:**
+| Component | Amount |
+|-----------|--------|
+| **D** — Debt (car + CC + student loan) | $31,500 |
+| **I** — Income replacement (80% of $5,420/month × 15 years, minus CPP survivor ~$500/month × 15yr) | $689,000 |
+| **M** — Mortgage payoff | $412,000 |
+| **E** — Education (2 kids × $100K, minus $8,700 RESP) | $191,300 |
+| Final expenses | $12,000 |
+| **Total need** | **$1,336,000** |
+| Existing coverage (employer 2x salary) | -$184,000 |
+| **Gap to fill** | **$1,152,000** |
+
+Estimated cost to fill: ~$1.15M 20-year term, age 33, non-smoker = **~$55-70/month**
+
+**Sarah Life Insurance Need:**
+| Component | Amount |
+|-----------|--------|
+| **D** — Debt (CC + student loan) | $13,100 |
+| **I** — Income replacement (80% of $4,010/month × 15 years, minus CPP survivor) | $485,000 |
+| **M** — Mortgage (already counted in Marcus, but Sarah needs coverage too) | $412,000 |
+| **E** — Education (shared with Marcus calculation) | $0 |
+| Childcare if Sarah dies (Marcus needs help: $1,500/month × 10 years) | $180,000 |
+| Final expenses | $12,000 |
+| **Total need** | **$1,102,000** |
+| Existing coverage (employer 1x salary) | -$65,000 |
+| **Gap to fill** | **$1,037,000** |
+
+Estimated cost to fill: ~$1M 20-year term, age 31, non-smoker = **~$40-55/month**
+
+**Disability Assessment:**
+- Marcus: Covered at 66% through employer LTD (own-occupation for 2 years, then any-occupation). Adequate but not ideal — consider supplemental own-occupation individual DI.
+- 🔴 **Sarah: ZERO disability coverage.** If she can't work, $65K/year ($4,010/month net) disappears. Employer provides no STD or LTD. Estimated cost for individual own-occupation DI (to age 65, 90-day elimination): **~$80-120/month**
+
+**Critical Illness Assessment:**
+- ⚠️ Neither has critical illness insurance. A cancer diagnosis (the most common CI claim) would mean treatment costs, time off work, and potentially reduced income. Estimated cost: ~$40-60/month each for $100K coverage at their ages.
+
+**Estate Planning:**
+- 🔴 **No will. No Powers of Attorney (Property or Personal Care).** Two young children with no legal guardianship designation. This is the single most urgent item — if both parents die in an accident, the courts decide who raises Lily and Owen. Estimated cost: $800-$1,500 for both wills + POAs with a lawyer.
+
+**Employer Benefits Optimization:**
+- Marcus's $500 HSA resets April 1 — currently unused. Submit eligible expenses immediately.
+- Sarah's massage therapy ($160/month) should be submitted through Marcus's plan first (80% paramedical up to $500/year), then remainder through Sarah's plan. Saves ~$720/year.
+- Both employers offer EAP (free counselling, financial advice, legal consultation) — not being used.
 
 ## Goals & Priorities
 

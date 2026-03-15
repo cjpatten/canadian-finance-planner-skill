@@ -138,3 +138,17 @@
 - Marcus's HSA: $500 unused (resets April 1) — use for Lily's prescription allergy medication, Sarah's massage gap, or kids' dental
 - Owen RESP gap: Only contributing $1,250/year. Missing $1,250/year in contributions = missing $250/year in CESG grants. That's free government money.
 - Sarah's RRSP in high-fee mutual fund: TD Balanced Growth Fund charges 2.31% MER. Switching to a low-cost ETF (e.g., VBAL at 0.17%) on $14,200 would save ~$304/year in fees, growing to significant savings over decades.
+
+### Upcoming Budget Impact: Insurance Gaps
+Once the Chens act on the insurance recommendations in the plan, their budget needs to absorb:
+- Term life insurance (Marcus ~$1.15M + Sarah ~$1M): ~$95-125/month combined
+- Sarah disability insurance (own-occ, to age 65): ~$80-120/month
+- Wills and POAs (one-time): ~$800-$1,500
+
+These are funded from the $195/month in habit spending redirects + $226/month current surplus = $421/month available. Insurance premiums (~$175-245/month) fit within this, with room remaining for debt acceleration.
+
+### Tax Filing Optimization (Annual Savings)
+- Claim medical expenses on Sarah's return: 3% threshold on ~$65K = $1,950 vs Marcus's $2,760. Lower threshold = more deductible. Estimated additional credit: ~$150-300/year.
+- Combine charitable donations on Marcus's return: 29% rate above $200 (vs 15% on first $200). Stack both spouses' donations for maximum credit.
+- Switch from TurboTax ($50/year) to Wealthsimple Tax (free): saves $50/year.
+- Ensure Sarah claims student loan interest credit: 15% of interest paid on federal student loan.

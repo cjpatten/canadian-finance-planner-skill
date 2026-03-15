@@ -230,6 +230,136 @@ Current: $412,000 at 4.89% fixed, $2,340/month, renews June 2026.
 
 ---
 
+## Insurance Action Plan
+
+### Immediate Priority: Wills & Powers of Attorney
+- **Action:** Book a lawyer appointment THIS MONTH. Cost: ~$800-$1,500 for both wills + POAs.
+- **Why it's #1:** With two young children and no will, the courts decide who raises Lily and Owen if something happens to both parents. This is more urgent than any financial optimization.
+- **Include:** Guardianship designation, executor appointment, Powers of Attorney for Property and Personal Care for both Marcus and Sarah.
+
+### Term Life Insurance
+| Who | Coverage Needed | Recommended Product | Est. Monthly Cost |
+|-----|----------------|-------------------|------------------|
+| Marcus | $1,150,000 | 20-year level term, non-smoker | ~$55-70 |
+| Sarah | $1,037,000 | 20-year level term, non-smoker | ~$40-55 |
+
+- **Why 20-year term:** Covers until Lily is 24 and Owen is 21 — through university.
+- **Get convertible policies** so they can convert to permanent later if health changes.
+- **Shop:** Get quotes from an independent broker (shops 30+ insurers) + at least one direct quote. Don't buy mortgage life insurance from the bank — it's decreasing coverage at non-decreasing premiums.
+- **Timeline:** Get quotes this quarter. Apply within 30 days. Temporary coverage starts from application date (conditional receipt).
+
+### Disability Insurance for Sarah
+- **Coverage:** Own-occupation, to age 65, 90-day elimination period
+- **Benefit:** ~60% of gross income = ~$3,250/month
+- **Est. cost:** $80-120/month
+- **Why it's critical:** Sarah has ZERO income replacement if she can't work. Marcus's HOOPP pension doesn't help if Sarah is disabled — they need her $4,010/month take-home.
+- **Tax note:** If Sarah pays the premium personally (not through employer), benefits are TAX-FREE when received.
+
+### Critical Illness Insurance (Lower Priority)
+- Consider after life and disability are in place
+- $100,000 coverage each: ~$40-60/month per person at their ages
+- Cancer is the most common CI claim (~65%). A diagnosis means treatment costs, time off, and potential income reduction.
+- **Return of Premium rider** makes it effectively free if never claimed (adds ~30-50% to cost but all premiums returned if no claim)
+
+---
+
+## Mortgage Renewal Strategy (June 2026)
+
+Current: $412,000 at 4.89% fixed, $2,340/month, renews June 2026.
+
+### Rate Shopping Plan (Start April 2026)
+1. **Get 3+ quotes** 30-60 days before renewal (April-May):
+   - Current lender (TD) retention rate
+   - Independent mortgage broker (shops 30+ lenders)
+   - At least one credit union
+2. **Present competing offers** to TD — they'll often match to keep you
+3. **DO NOT just sign the renewal letter** — TD's initial offer is almost never the best rate
+
+### Options to Evaluate
+
+| Option | Rate (Est. March 2026) | Monthly Payment | Notes |
+|--------|----------------------|----------------|-------|
+| 5-year fixed | ~3.89-4.50% | $2,180-$2,340 | Predictability, easier budgeting |
+| 5-year variable | ~3.35-3.70% | $2,080-$2,180 | Historically cheaper, but risk of rate spikes |
+| 3-year fixed | ~3.70-4.20% | $2,130-$2,260 | Shorter commitment, renew sooner if rates drop |
+
+*(Rates as of March 2026 — verify at renewal time)*
+
+### Acceleration Strategy
+After consumer debt is paid off (~May 2028), redirect freed cash ($921/month) to mortgage:
+- Even $200/month extra on a $400K mortgage at ~4.5% saves ~$35,000-$45,000 in interest and pays off 3-4 years early
+- Use bi-weekly accelerated payments instead of monthly (equivalent to 1 extra monthly payment/year)
+- Most mortgages allow 10-20% annual lump sum prepayment — use tax refunds and bonuses
+
+### Prepayment Penalty Warning
+If breaking the mortgage BEFORE June 2026 renewal (e.g., to switch lenders early):
+- Fixed-rate penalty = GREATER of 3 months interest (~$5,000) or IRD (could be $10,000-$20,000 depending on current rates)
+- **Recommendation:** Wait for renewal in June — no penalty to switch at maturity
+
+---
+
+## Investment Optimization (Detailed)
+
+### Sarah's RRSP — Switch from High-Fee Fund
+**Current:** $14,200 in TD Balanced Growth Fund (MER 2.31%)
+**Recommended:** Transfer to Questrade or Wealthsimple, buy VBAL (MER 0.17%)
+
+| Scenario | Fee/Year | 27 Years to Retirement | Total Fees Paid |
+|---------|---------|----------------------|----------------|
+| TD Fund (2.31% MER) | $328 | $14,200 → ~$38,000 | ~$38,000 |
+| VBAL (0.17% MER) | $24 | $14,200 → ~$76,000 | ~$4,600 |
+| **Difference** | **$304/year** | **~$38,000 more** | **~$33,400 saved** |
+
+**Action:** Open self-directed RRSP at Questrade/Wealthsimple. Request in-kind or cash transfer from TD. Buy VBAL. The transfer is free at most discount brokerages (they handle the paperwork).
+
+### Asset Location Strategy (Once Debt-Free)
+| Account | Hold This | Why |
+|---------|----------|-----|
+| Marcus TFSA ($48,500 room) | VEQT (all-equity, high growth) | Tax-free growth on highest-return assets |
+| Sarah TFSA ($53,800 room) | VGRO (growth, 80/20) | Tax-free growth, slightly less volatile |
+| Sarah RRSP ($38,600 room) | VBAL (balanced, 60/40) | Shelters interest/bond income from tax. Bonds are most tax-inefficient. |
+| Marcus RRSP ($22,400 room) | Consider spousal RRSP for Sarah | Marcus's higher rate = bigger deduction. Sarah withdraws at lower rate in retirement. |
+
+### Marcus's TFSA — GIC Maturing Dec 2026
+When the $8,500 GIC matures, invest in VEQT on a self-directed platform:
+- Marcus has HOOPP for conservative/bond portion → TFSA can be 100% equity
+- 25+ year horizon to retirement supports all-equity allocation
+- VEQT: globally diversified, 0.20% MER, one purchase = instant diversification across 13,000+ stocks
+
+---
+
+## Tax Filing Optimization
+
+### Annual Tax Strategy
+| Item | Who Claims | Why |
+|------|-----------|-----|
+| Medical expenses | Sarah | Lower 3% of net income threshold ($1,950 vs $2,760) |
+| Charitable donations | Marcus | Higher marginal rate (33.9% vs 29.65%) |
+| Childcare expenses | Sarah | Required by CRA (lower-income spouse) |
+| Student loan interest | Sarah | 15% federal credit on federal loan interest |
+| RRSP contributions | Sarah (own RRSP) | Reduces her taxable income, may increase CCB |
+| Spousal RRSP | Marcus contributes to Sarah's | Marcus gets deduction at 33.9%, Sarah withdraws at lower rate in retirement |
+
+### Switch to Wealthsimple Tax (Free)
+- Currently paying $50/year for TurboTax
+- Wealthsimple Tax is free, NETFILE-certified, handles all their filing needs
+- Auto-fill from CRA My Account imports all T-slips automatically
+- Saves $50/year and is equally capable
+
+### Key CRA Dates for the Chens
+| Date | What | Action |
+|------|------|--------|
+| January 1 | TFSA room resets (+$7,000 each) | Set up annual TFSA contribution |
+| March 2, 2027 | RRSP contribution deadline (for 2026 tax year) | Ensure Sarah's RRSP contributions are in |
+| April 1 | Marcus HSA resets | Use remaining balance before reset |
+| April 30 | Tax filing + payment deadline | File returns to maintain CCB/benefits |
+| June 2026 | Mortgage renewal | Shop rates, negotiate, consider acceleration |
+| July | CCB recalculated based on prior year income | Check new CCB amount — RRSP contributions may increase it |
+| Monthly (20th) | CCB payment | Auto-deposited |
+| Quarterly | Climate Action Incentive | Auto-deposited |
+
+---
+
 ## Verified Reference Data
 
 Tax Year: 2025-2026 | Last verified: March 14, 2026
@@ -263,3 +393,4 @@ This plan is educational guidance, not professional financial advice. The Chens 
 | Version | Date | Changes |
 |---------|------|---------|
 | v1.0 | March 14, 2026 | Initial plan created after full interview |
+| v2.0 | March 14, 2026 | Added DIME insurance analysis, mortgage renewal strategy, investment asset location, tax filing optimization |
