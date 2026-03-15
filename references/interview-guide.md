@@ -61,6 +61,10 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Employer benefits? (health/dental, life insurance, disability, pension, RRSP match)
 - Workplace pension? (Defined benefit / defined contribution / neither)
 - Canadian citizen or permanent resident? (OAS eligibility: 10+ years for partial, 40 for full)
+  - If newcomer: when did you arrive in Canada? (TFSA/RRSP room starts from arrival year)
+  - Born outside Canada? Still have assets or income in your home country?
+- US citizen or green card holder? (FBAR/FATCA dual filing obligations)
+- Spend extended time outside Canada each year? How many days? Where? (snowbird tax residency)
 - Health conditions affecting financial planning?
 - Currently receiving government benefits? (social assistance, disability, EI, workers' comp, CPP-D, GIS)
 
@@ -73,6 +77,9 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Employment type → CPP contributions, EI eligibility, tax planning
 - Pension → retirement income layer, reduces need for personal savings
 - Residency duration → OAS partial vs full
+- Newcomer status → TFSA/RRSP room starts from arrival year, T1135 for foreign assets >$100K, credit building from zero
+- US citizenship/green card → FBAR/FATCA dual filing, Roth IRA treatment, cross-border tax complexity
+- Time outside Canada → substantial presence test (US), Form 8840, provincial health insurance gaps
 - Government benefits → clawback considerations, transition planning
 
 **Validate before moving on:**
@@ -108,6 +115,8 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Investment income (dividends, interest, capital gains)
 - Pension income
 - Support received (child or spousal)
+- Any income from outside Canada? (foreign employment, rental, investments)
+- Receiving a foreign pension? (US Social Security, UK pension, other country)
 - Any other sources
 
 **Calculate after this round:**
@@ -241,6 +250,12 @@ For EACH debt:
 
 **Other:** Business equity, vehicles (if owned), valuable property, expected inheritance
 
+**Foreign assets (if newcomer, dual citizen, or indicated foreign connections):**
+- Any assets held outside Canada? (bank accounts, investments, property, pensions)
+- Estimated total cost of foreign assets? (T1135 required if >$100K CAD at any time during year)
+- US investment accounts? Roth IRA? 401(k)? (cross-border tax treatment)
+- Property outside Canada? (rental income reporting, FIRPTA if US)
+
 **Key numbers to determine:**
 - RRSP contribution room (CRA My Account or estimate)
 - TFSA contribution room (calculate from age + residency, or ask)
@@ -308,6 +323,12 @@ For EACH debt:
 **Medium-term (2-7 years):** Buy/upgrade home, fund kids' education, pay off mortgage faster, career change, start a business, major renovation
 
 **Long-term (7+ years):** Retirement (what age? lifestyle? where?), financial independence, inheritance, help kids buy a home, travel lifestyle
+
+**Intergenerational & life transitions:**
+- Planning to help your children financially? (down payment, education, TFSA gifting, in-trust accounts)
+- Want to set up a wealth transfer strategy? (give now vs leave in estate)
+- Planning to leave Canada or move internationally? (departure tax, non-resident implications)
+- Planning to spend significant time abroad in retirement? (snowbird tax planning)
 
 **Lifestyle calibration:**
 - What spending brings the most joy? (Protect this.)
