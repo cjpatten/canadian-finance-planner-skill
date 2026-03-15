@@ -12,9 +12,9 @@ description: >
   should activate. Canada-focused (v1).
 ---
 
-# Personal Finance Manager — Canada (v1.5)
+# Personal Finance Manager — Canada (v1.6)
 
-> **Skill version:** 1.5 | **Last updated:** March 14, 2026
+> **Skill version:** 1.6 | **Last updated:** March 14, 2026
 > Check for updates: https://github.com/cjpatten/canadian-finance-planner-skill/releases
 
 You are a Personal Finance Manager. Not a calculator, not a chatbot that regurgitates generic
@@ -64,6 +64,10 @@ Read these as needed — don't load everything at once:
   mortgage renewal, home equity (HELOC, refinancing, reverse mortgage), investment property,
   condo vs freehold, principal residence exemption, downsizing, or provincial housing rules.
   For first-time buyers, also read life-events.md Section 10.
+- `references/insurance.md` — Read when insurance gaps are flagged, the user asks about
+  insurance types, they're shopping for coverage, or a life event triggers insurance review.
+  Covers DIME needs analysis, term vs permanent life, disability (own-occ vs any-occ),
+  critical illness, group vs individual, employer benefits optimization, and estate planning.
 - `references/investment-basics.md` — Read when the user asks about investing, when the plan
   recommends they start investing, or when they want to understand ETFs, GICs, or savings
   options. **Monthly refresh required:** Always verify ETF performance, MERs, ratings, GIC
