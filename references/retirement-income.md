@@ -123,8 +123,8 @@ No action needed — the transition is seamless.
 ### The Math
 OAS increases by **0.6% per month** deferred past age 65, up to age 70.
 - Maximum deferral bonus: 0.6% × 60 months = **36% increase**
-- Max OAS at 65: ~$727/month (2025 — verify)
-- Max OAS at 70: ~$989/month (36% more)
+- Max OAS at 65 (age 65-74): $742.31/month (2026; $816.54 for age 75+)
+- Max OAS at 70: ~$1,010/month (36% more)
 
 **Break-even age for OAS deferral (65 vs 70): approximately age 82-83.**
 If you expect to live past 83, deferral wins.
@@ -132,21 +132,21 @@ If you expect to live past 83, deferral wins.
 ### When to Defer OAS
 - Good health, expect to live past 83
 - Have other income to bridge ages 65-70
-- Income is near or above the OAS clawback threshold ($93,454 net income, 2025 — verify)
+- Income is near or above the OAS clawback threshold ($95,323 net income, 2026)
   → deferring avoids the clawback during high-income years
 
 ### When NOT to Defer OAS
 - **GIS-eligible:** If your income is low enough to qualify for GIS, take OAS at 65.
-  GIS is income-tested and can provide up to ~$1,072/month (2025 — verify) on top of OAS.
+  GIS is income-tested and can provide up to $1,108.74/month (2026) on top of OAS.
   Deferring OAS means losing GIS for those years — the GIS loss usually exceeds the OAS gain.
 - **Poor health** or short life expectancy
 - **Need the income** to cover basic expenses
 - **Already receiving GIS** — deferral makes no sense
 
 ### OAS Clawback Math
-- Clawback starts at ~$93,454 net income (2025 — verify, indexed annually)
+- Clawback starts at $95,323 net income (2026, indexed annually)
 - For every $1 above the threshold, you lose $0.15 in OAS (15% recovery tax)
-- Full clawback at ~$151,668 (OAS reduced to $0)
+- Full clawback at ~$154,708 (age 65-74) / ~$160,647 (age 75+)
 
 **Strategies to minimize clawback:**
 1. **TFSA withdrawals** don't count as income → use TFSA instead of RRIF when near threshold
@@ -165,9 +165,9 @@ GIS is the most underused retirement benefit in Canada. Billions go unclaimed ev
 
 ### Who Qualifies
 - Must be receiving OAS
-- Individual annual income (excluding OAS) below ~$22,488 (2025 — verify)
-- Couple combined income below ~$29,712 (2025 — verify)
-- Maximum benefit: ~$1,072/month for singles (2025 — verify)
+- Individual annual income (excluding OAS) below ~$22,488 (2025 — verify for 2026)
+- Couple combined income below ~$29,712 (2025 — verify for 2026)
+- Maximum benefit: $1,108.74/month for singles (2026)
 
 ### What Counts as Income for GIS (and What Doesn't)
 
@@ -322,7 +322,7 @@ TFSA instead of RRIF saves future tax AND preserves GIS.
    preserve GIS, keep RRIF withdrawals minimal
 
 ### OAS Clawback Zone Management
-If total income is approaching $93,454:
+If total income is approaching $95,323 (2026 threshold):
 - Stop RRIF withdrawals (take only the minimum)
 - Use TFSA for additional income needs
 - Split pension income with spouse (Form T1032)

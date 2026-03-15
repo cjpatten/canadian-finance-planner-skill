@@ -2,7 +2,7 @@
 
 **Created:** March 14, 2026
 **Review date:** June 2026 (after mortgage renewal)
-**Prepared by:** Personal Finance Manager Skill
+**Prepared by:** AI Financial Coach
 
 ---
 
@@ -155,19 +155,6 @@ Freed-up cash: $921/month (from debt payments) + continued spending discipline
 | CPP at 70 | ~$1,349 (42% increase) | ~$852 | Age 82 |
 
 **Recommendation:** Both defer CPP to at least 65. If finances allow, Marcus should consider deferring to 70 — it's an 8.4%/year guaranteed, inflation-indexed return. With HOOPP providing a base income, he can afford to wait.
-
----
-
-## Mortgage Renewal Strategy (June 2026)
-
-Current: $412,000 at 4.89% fixed, $2,340/month, renews June 2026.
-
-**Options to evaluate at renewal:**
-1. **Fixed rate (current market ~4.5-5.2%):** Predictability, easier budgeting. Best if rates stay flat or rise.
-2. **Variable rate (current market ~4.0-4.8%):** Historically saves money over full term. Riskier month-to-month.
-3. **Shorter amortization:** If they can handle higher payments post-debt-payoff, reducing from 25 to 20 years saves significant interest.
-
-**Recommendation:** At renewal, strongly consider accelerating payments if the budget allows. Even an extra $100/month on a $412K mortgage at ~5% saves ~$18,000 in interest and cuts 2+ years off the amortization.
 
 ---
 
@@ -362,18 +349,21 @@ When the $8,500 GIC matures, invest in VEQT on a self-directed platform:
 
 ## Verified Reference Data
 
-Tax Year: 2025-2026 | Last verified: March 14, 2026
+Tax Year: 2026 | Last verified: March 15, 2026
 
 | Item | Value | Source | Verified |
 |------|-------|--------|----------|
-| RRSP limit (2025) | $32,490 (18% of earned income) | canada.ca | ✅ Mar 2026 |
-| TFSA annual room | $7,000 | canada.ca | ✅ Mar 2026 |
+| Federal lowest bracket | 14% on first $58,523 (reduced from 15%) | canada.ca | ✅ Mar 2026 |
+| RRSP limit (2026) | $35,390 (18% of earned income) | canada.ca | ✅ Mar 2026 |
+| TFSA annual room (2026) | $7,000 | canada.ca | ✅ Mar 2026 |
 | CESG rate | 20% on first $2,500/child ($500 max) | canada.ca | ✅ Mar 2026 |
-| CCB base amounts | $7,787 (under 6) / $6,570 (6-17) | canada.ca | ✅ Mar 2026 |
-| Federal basic personal amount | $16,129 (2025) | canada.ca | ✅ Mar 2026 |
-| Ontario basic personal amount | $11,865 (2025) | ontario.ca | ✅ Mar 2026 |
-| OAS clawback threshold | $93,454 (2025) | canada.ca | ✅ Mar 2026 |
-| CPP max pensionable earnings (YMPE) | $71,300 (2025) | canada.ca | ✅ Mar 2026 |
+| CCB base amounts | $7,997 (under 6) / $6,748 (6-17) | canada.ca | ✅ Mar 2026 |
+| Federal basic personal amount | $16,452 (2026, max) | canada.ca | ✅ Mar 2026 |
+| Ontario basic personal amount | $11,865 (2025 — verify for 2026) | ontario.ca | ✅ Mar 2026 |
+| OAS clawback threshold | $95,323 (2026) | canada.ca | ✅ Mar 2026 |
+| CPP max pensionable earnings (YMPE) | $74,600 (2026) | canada.ca | ✅ Mar 2026 |
+| CPP max monthly benefit at 65 | $1,507.65 (2026) | canada.ca | ✅ Mar 2026 |
+| OAS max monthly (age 65-74) | $742.31 (2026) | canada.ca | ✅ Mar 2026 |
 | CDIC coverage | $100,000 per category per institution | cdic.ca | ✅ Mar 2026 |
 
 ---

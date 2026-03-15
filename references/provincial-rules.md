@@ -46,21 +46,22 @@ Sections 5-6. Provincial auto insurance is in `insurance.md` Section 9.
 
 ---
 
-## 2. Federal Tax Brackets (2026 — verify)
+## 2. Federal Tax Brackets (2026 — verified March 2026)
 
 For reference when calculating combined federal + provincial rates:
 
 | Taxable Income | Federal Rate |
 |---------------|-------------|
-| Up to $57,375 | 14.0% |
-| $57,376 – $114,750 | 20.5% |
-| $114,751 – $158,468 | 26.0% |
-| $158,469 – $220,000 | 29.0% |
-| Over $220,000 | 33.0% |
+| Up to $58,523 | 14.0% |
+| $58,524 – $117,045 | 20.5% |
+| $117,046 – $181,440 | 26.0% |
+| $181,441 – $258,482 | 29.32% |
+| Over $258,482 | 33.0% |
 
-Basic personal amount: ~$16,129 (2025 — verify for 2026 indexing)
+Basic personal amount: $16,452 (max; phases down to $14,829 for income above $181,440)
+Indexation factor for 2026: 2.0%
 
-(Source: canada.ca, taxtips.ca)
+(Source: canada.ca, taxtips.ca — verified March 2026)
 
 ---
 
@@ -73,7 +74,7 @@ for full bracket tables.
 |----------|-----------|-------------|---------------|-------|
 | Ontario | 5.05% | 13.16% | 5 | + surtax on high incomes |
 | Quebec | 14.0% | 25.75% | 4 | Highest provincial rates. Separate return. |
-| BC | 5.06% | 20.5% | 7 | Recently increased lowest bracket |
+| BC | 5.60% | 20.5% | 7 | Lowest bracket increased from 5.06% for 2026 |
 | Alberta | 10.0% | 15.0% | 5 | Flat 10% on first ~$148K |
 | Manitoba | 10.8% | 17.4% | 3 | |
 | Saskatchewan | 10.5% | 14.5% | 3 | |
@@ -240,22 +241,23 @@ Combined top marginal rate (federal + Ontario): ~53.53%
 
 ## 6. British Columbia
 
-### Tax Brackets (2026 — verify)
+### Tax Brackets (2026 — verified March 2026)
 
 | Taxable Income | BC Rate |
 |---------------|---------|
-| Up to $47,937 | 5.06% (increased to 5.6% for 2026) |
-| $47,938 – $95,875 | 7.7% |
-| $95,876 – $110,076 | 10.5% |
-| $110,077 – $133,664 | 12.29% |
-| $133,665 – $181,232 | 14.7% |
-| $181,233 – $252,752 | 16.8% |
-| Over $252,752 | 20.5% |
+| Up to $50,363 | 5.60% (increased from 5.06%, effective 2026) |
+| $50,364 – $100,726 | 7.7% |
+| $100,727 – $115,606 | 10.5% |
+| $115,607 – $136,475 | 12.29% |
+| $136,476 – $185,048 | 14.7% |
+| $185,049 – $258,083 | 16.8% |
+| Over $258,083 | 20.5% |
 
-Basic personal amount: ~$12,580 (2025 — verify)
+BC indexation factor for 2026: 2.2%
+Basic personal amount: ~$12,850 (2026 est.)
 Combined top marginal rate (federal + BC): ~53.5%
 
-**Note:** BC increased its lowest bracket rate from 5.06% to 5.6% for 2026 — verify.
+**Note:** BC increased its lowest bracket rate from 5.06% to 5.60% for 2026. BC has also paused bracket indexation for 2027-2030 (resumes 2031).
 
 ### BC-Specific Programs
 - **BC Family Benefit:** Up to ~$1,750/year for first child, ~$1,010 for second, ~$660 for

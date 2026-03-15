@@ -65,8 +65,8 @@
 
 - **Marcus marginal tax rate:** ~33.9% (federal 20.5% + Ontario 9.15% at $92K income)
 - **Sarah marginal tax rate:** ~29.65% (federal 20.5% + Ontario 9.15% at $65K income)
-- **Marcus average tax rate:** ~24%
-- **Sarah average tax rate:** ~19%
+- **Marcus average tax rate:** ~23% (lower in 2026 due to 14% first bracket)
+- **Sarah average tax rate:** ~18%
 - **Filing:** Both file individual returns, married status
 - **Quarterly installments:** Not required (both have tax withheld at source)
 - **Tax prep:** Use TurboTax, $50/year — recommend switching to Wealthsimple Tax (free, NETFILE-certified)

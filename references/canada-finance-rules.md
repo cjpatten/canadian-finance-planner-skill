@@ -24,13 +24,14 @@ calculation that affects the user's plan, verify it via web search against at le
 
 ## 1. Tax Rules & Brackets
 
-### Federal Tax Brackets (2025 — verify annually)
-- 15% on first $57,375
-- 20.5% on $57,375 to $114,750
-- 26% on $114,750 to $177,882
-- 29% on $177,882 to $253,414
-- 33% on income above $253,414
-- Basic personal amount: $16,129
+### Federal Tax Brackets (2026 — verify annually)
+- 14% on first $58,523 (reduced from 15% effective July 1, 2025)
+- 20.5% on $58,523 to $117,045
+- 26% on $117,045 to $181,440
+- 29.32% on $181,440 to $258,482
+- 33% on income above $258,482
+- Basic personal amount: $16,452 (max, for income ≤$181,440; phases down to $14,829 at $258,482+)
+- Indexation factor for 2026: 2.0%
 
 ### Provincial Brackets
 Every province is different. Always verify at taxtips.ca/taxrates or the provincial government
@@ -51,7 +52,7 @@ site. Ontario example (2025):
 - Moving expenses: deductible if moving 40+ km closer to work/school
 - Canada Workers Benefit: for low-income working individuals/families
 - Canada Training Credit: $250/year accumulation for eligible training
-- Charitable donations: 15% federal on first $200, 29% above (33% if income >$253,414)
+- Charitable donations: 14% federal on first $200, 29% above (33% if income >$258,482)
 
 ---
 
@@ -59,7 +60,7 @@ site. Ontario example (2025):
 
 ### RRSP
 - 2025 limit: $32,490 (18% of prior year earned income)
-- 2026 limit: $33,810
+- 2026 limit: $35,390
 - Contribution deadline: 60 days after year-end (typically March 1 or 2)
 - Must convert to RRIF by December 31 of the year you turn 71
 - Spousal RRSP: contributor gets deduction, spouse owns the account
@@ -68,8 +69,8 @@ site. Ontario example (2025):
 - LLP: withdraw up to $20,000 for education, repay over 10 years
 
 ### TFSA
-- Annual limit: $7,000 (2024 and 2025 — verify for current year)
-- Cumulative room since 2009 (for someone 18+ since 2009): $102,000 as of 2025
+- Annual limit: $7,000 (2024, 2025, and 2026)
+- Cumulative room since 2009 (for someone 18+ since 2009): $109,000 as of 2026
 - Room accumulates from year you turn 18 AND become a Canadian resident
 - Not subject to attribution rules — give money to spouse for their TFSA freely
 - Withdrawals create new room the following January 1
@@ -109,9 +110,9 @@ site. Ontario example (2025):
 ## 3. CPP & OAS
 
 ### CPP (Canada Pension Plan)
-- Maximum pensionable earnings (YMPE, 2025): $71,300
-- Second ceiling (YAMPE, 2025): $81,200
-- Maximum monthly benefit at 65 (2025): ~$1,507.65
+- Maximum pensionable earnings (YMPE, 2026): $74,600
+- Second ceiling (YAMPE, 2026): $85,000
+- Maximum monthly benefit at 65 (2026): $1,507.65
 - Average monthly benefit: ~$803.76
 - Early (age 60): reduced 0.6%/month × 60 months = 36% reduction
 - Deferral (to age 70): increased 0.7%/month × 60 months = 42% increase
@@ -124,18 +125,18 @@ site. Ontario example (2025):
 
 ### OAS (Old Age Security)
 - Eligible at 65 with 10+ years of Canadian residency (partial) or 40+ years (full)
-- Maximum monthly (2025): ~$727 (verify — indexed quarterly)
+- Maximum monthly (2026, age 65-74): $742.31 (indexed quarterly)
+- Maximum monthly (2026, age 75+): $816.54
 - Deferral: 0.6%/month increase, max 36% at age 70
-- Recovery tax (clawback): begins at $93,454 net income (2025), fully clawed back at ~$151K
-- 2026 threshold: $95,323 (verify)
-- GIS: for low-income seniors, income-tested, not taxable
+- Recovery tax (clawback): begins at $95,323 net income (2026), fully clawed back at ~$154,708 (age 65-74) / ~$160,647 (age 75+)
+- GIS maximum (single, 2026): $1,108.74/month, income-tested, not taxable
 
 ---
 
 ## 4. Government Benefits & Credits
 
 ### Federal
-- Canada Child Benefit (CCB): up to $7,787/child under 6, $6,570/child 6-17 (2025). Phase-out begins at $37,487 family net income.
+- Canada Child Benefit (CCB): up to $7,997/child under 6, $6,748/child 6-17 (July 2025–June 2026 benefit year). Phase-out begins at $37,487 family net income.
 - GST/HST Credit: quarterly, income-tested
 - Climate Action Incentive: quarterly, varies by province and family size
 - Canada Workers Benefit: for low-income workers

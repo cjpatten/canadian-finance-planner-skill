@@ -104,8 +104,74 @@ When a user comes back for a check-in or says "how's my plan going?":
 - Minor adjustments → update targets only
 
 ### Save Check-In Data
-Save each check-in to `check-ins/YYYY-MM.md` with the comparison data. This builds the
-historical trend for pattern analysis.
+Save each check-in to `check-ins/YYYY-MM.md` using this template:
+
+```
+# [Name] — Monthly Check-In: [Month Year]
+
+**Date:** [date]
+**Months on plan:** [N]
+**Check-in number:** [N]
+
+## Plan vs. Actual This Month
+
+| Category | Planned | Actual | Variance | Status |
+|----------|---------|--------|----------|--------|
+| Income (net) | $X | $X | +/-$X | ✅ On track / ⚠️ Over / 🔴 Under |
+| Fixed expenses | $X | $X | +/-$X | |
+| Variable expenses | $X | $X | +/-$X | |
+| Irregular (monthly avg) | $X | $X | +/-$X | |
+| **Total expenses** | **$X** | **$X** | **+/-$X** | |
+| **Surplus** | **$X** | **$X** | **+/-$X** | |
+
+## Debt Progress
+
+| Debt | Plan Balance | Actual Balance | Status |
+|------|-------------|----------------|--------|
+| [debt name] | $X | $X | Ahead / On track / Behind |
+
+## Savings & Investment Progress
+
+| Account | Plan Balance | Actual Balance | Status |
+|---------|-------------|----------------|--------|
+| Emergency fund | $X | $X | |
+| TFSA | $X | $X | |
+| RRSP | $X | $X | |
+| RESP | $X | $X | |
+
+## Milestones
+
+- [ ] [milestone from plan] — Target: [date] — Status: on track / delayed / achieved
+
+## Life Changes Since Last Check-In
+
+- [Any changes, or "None"]
+
+## One-Time Events This Month
+
+- [Tax refund, bonus, large expense, or "None"]
+
+## Key Wins This Month 🎉
+
+- [Celebrate progress — always find at least one]
+
+## Focus for Next Month
+
+- [Single most impactful action to prioritize]
+
+## Running Scorecard
+
+| Metric | Value |
+|--------|-------|
+| Months on plan | [N] |
+| Months on target (surplus positive) | [N] of [N] |
+| Net worth change since start | +/-$X |
+| Consumer debt paid down since start | $X |
+```
+
+This builds the historical trend for pattern analysis. After 3+ check-ins, identify spending
+patterns ("You consistently overspend on variable expenses in December") and celebrate streaks
+("3 months under budget in a row — that's building real momentum!").
 
 ### Dashboard Features for Check-Ins
 - Monthly scorecard (pass/fail grid)
