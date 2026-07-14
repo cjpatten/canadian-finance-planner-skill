@@ -29,7 +29,7 @@
 | Auto insurance (2 vehicles) | $385 | $230 CR-V + $155 Corolla |
 | Gas / fuel | $340 | Two cars, Marcus commutes 25 min |
 | Credit card minimum | $126 | TD Visa, 20.99% — paying more than min |
-| Student loan (Sarah) | $180 | Federal, floating rate |
+| Student loan (Sarah) | $180 | Federal (interest-free since 2023) |
 | Childcare (Lily — before/after school care) | $680 | $34/day × 20 days, JK program |
 | Childcare (Owen — home daycare) | $1,100 | Licensed home daycare in Barrie |
 | Phone (2 lines) | $145 | Marcus $80, Sarah $65 |

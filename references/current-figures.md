@@ -54,13 +54,14 @@ reference files.
 
 ## CPP / OAS / GIS (2026)
 - CPP 2026: YMPE **$74,600**; YAMPE (CPP2 second ceiling) **$85,000**. Employee 5.95% + CPP2 4%; self-employed total max **$9,292.90** (base $8,460.90 + CPP2 $832). CPP2 exists — do not omit it for self-employed users.
+- **Quebec = QPP, not CPP.** Quebec residents contribute to the Quebec Pension Plan, which has its own (higher) contribution rates and maximums plus QPP2 between the YMPE and YAMPE. Do NOT apply the CPP self-employed max ($9,292.90) or a CPP monthly pension figure to a Quebec resident — verify current QPP rates, maximum contribution, and max pension at Retraite Québec (retraitequebec.gouv.qc.ca).
 - **PROPOSED (pending Royal Assent — quote as proposed only): base CPP rate drops 9.9% → 9.5% Jan 1, 2027** (~$133/yr saving at $70K salary). The 2026 rate is unchanged. [Source: https://www.canada.ca/en/department-finance/news/2026/04/spring-economic-update-2026-key-measures.html]
 - CPP max at 65 (2026): **$1,507.65/mo**; average new beneficiary **~$877/mo** (Apr 2026). PRB max ~$54.69/mo. [Source: https://www.canada.ca/en/services/benefits/publicpensions/cpp/payment-amounts.html]
 - CPP timing: −0.6%/mo (−36% at 60) / +0.7%/mo (+42% at 70); retroactive start max 11 months (applications after 65). [Source: https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html] **CPP deferral does NOT increase the survivor's pension** (survivor benefit uses the contributor's unadjusted age-65 pension). [Source: https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-survivor-pension.html]
 - CPP death benefit: $2,500 base + up to $2,500 top-up (**$5,000 max**) since Jan 2025 when the deceased never collected CPP and left no surviving spouse. [Source: https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-death-benefit.html]
 - OAS (Q3 2026, Jul–Sep): **$751.97/mo** (65–74) / $827.17 (75+); max at 70 with full deferral **$1,022.68/mo**; indexed quarterly. Deferral +0.6%/mo to +36% at 70 (no early OAS; deferral also delays GIS). [Source: https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html]
-- OAS clawback (2026 income year): starts at **$95,323**; fully clawed back ~$152,062 (65–74) / ~$157,923 (75+). [Source: https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html]
-- GIS (Q3 2026): max single ~$1,123.17/mo; income cutoff single ~$22,800 / couple ~$30,096.
+- OAS clawback (2026 income year): starts at **$95,323**; fully clawed back ~$152,062 (65–74) / ~$157,923 (75+). [Source: https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html] **Assessed on EACH individual's own net income, not household income** — check each spouse separately (a common error).
+- GIS (Q3 2026): max single ~$1,123.17/mo; income cutoff single ~$22,800 / couple ~$30,096. **GIS is income-tested on income OTHER than OAS** (employer/survivor pensions, CPP/QPP, RRIF withdrawals, and interest all count) — a retiree with a meaningful pension usually exceeds the cutoff and gets $0. Compare non-OAS income to the cutoff before assuming any GIS.
 
 ## Housing (2026)
 - **First-Time Home Buyers' GST Rebate** (Bill C-4, 2026): 100% GST rebate on NEW homes up to $1M (up to $50,000 back), phasing out to $1.5M, for agreements on/after May 27, 2025.
@@ -86,8 +87,10 @@ reference files.
 ## Cross-border (2026)
 - US estate/gift exemption: **$15M USD per person, permanent from Jan 1, 2026** (OBBBA). Via treaty proration, Canadians with worldwide estates under ~$15M USD generally owe no US estate tax. Do NOT warn about a 2026 exemption drop — it was legislated away.
 - FIRPTA on US property sales: 0% only if buyer-residence AND price ≤ $300K; **10% withheld $300K–$1M**; 15% above $1M.
-- FBAR penalties (2026, inflation-adjusted): non-willful up to ~$16,536 per violation; willful greater of ~$165,353 or 50%.
+- FBAR penalties (2026, inflation-adjusted): non-willful up to ~$16,536 per violation; willful greater of ~$165,353 or 50%. **FBAR/FATCA apply only to US persons** (citizens/green-card holders) — do NOT raise them for a Canadian snowbird with no US status.
 - TFSAs are taxable to US persons; RESPs/RDSPs have Form 3520 relief (Rev. Proc. 2020-17).
+- US-situs estate filing: a Canadian's US-situs assets (US real estate, US-domiciled stocks) over **$60,000 USD** trigger a **Form 706-NA** on death — a filing obligation even when the $15M exemption means no US estate tax is owed. Canadian-listed stocks and GICs are not US-situs.
+- Substantial Presence Test (snowbirds): treated as a US resident for tax if present ≥31 days this year AND (days this year + 1/3 of last year + 1/6 of the year before) ≥ **183**. Escape via the **Closer Connection Exception** (actual days this year < 183, tax home + closer ties to Canada) by filing **Form 8840 every year by June 15**.
 
 ## Probate (2026)
 - Ontario: first $50,000 EXEMPT, then $15 per $1,000 (1.5%) above ($500K estate → $6,750). The pre-2020 two-tier rate is dead. [Source: https://www.ontario.ca/laws/statute/98e34]
