@@ -18,7 +18,7 @@
   - Net take-home: $4,010/month (biweekly)
   - Benefits: individual health/dental (not family), life 1x salary ($65K), no STD/LTD, no pension, no HSA
 - CCB: $1,040/month (~$520/child)
-- Climate Action Incentive: $976/year ($244/quarter)
+- Quarterly benefit income (CCB-related top-up): $976/year ($244/quarter)
 - GST/HST Credit: $0 (income too high)
 - Ontario Trillium: $0 (income too high)
 - No side hustle, no rental income, no investment income
@@ -32,7 +32,7 @@
 - Auto insurance (2 cars): $385 ($230 CR-V + $155 Corolla)
 - Gas/fuel: $340 (two cars, Marcus commutes 25 min)
 - Credit card minimum: $126 (TD Visa, 20.99%)
-- Student loan (Sarah, federal): $180 (floating ~5.45%)
+- Student loan (Sarah, Ontario provincial portion): $180 (floating ~5.45%; federal portion is 0%)
 - Childcare Lily (before/after school, JK): $680
 - Childcare Owen (licensed home daycare): $1,100
 - Phone (2 lines): $145 (Marcus $80, Sarah $65)
@@ -74,7 +74,7 @@
 | Mortgage | $412,000 | 4.89% fixed | $2,340 | Joint, renews June 2026 |
 | Car loan (CR-V) | $18,400 | 6.49% | $420 | Marcus |
 | TD Visa | $4,200 | 20.99% | $126 min | Sarah |
-| Student loan (federal) | $8,900 | ~5.45% floating | $180 | Sarah |
+| Student loan (Ontario, provincial portion) | $8,900 | ~5.45% floating | $180 | Sarah |
 
 No payday loans, no BNPL, no CRA debt, no collections.
 

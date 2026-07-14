@@ -106,7 +106,7 @@ This shapes everything — taxes, benefits, insurance, estate.
 **Government benefits currently received:**
 - CCB (monthly amount)
 - Canada Groceries and Essentials Benefit (CGEB, replaced the GST/HST credit July 2026; quarterly)
-- Provincial benefits (Ontario Trillium, BC Climate Action, etc.)
+- Provincial benefits (Ontario Trillium, BC Family Benefit, etc.)
 - Social assistance / welfare
 - EI, CPP retirement/disability, OAS/GIS, workers' comp, ODSP or equivalent
 

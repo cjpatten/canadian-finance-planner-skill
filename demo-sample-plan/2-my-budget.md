@@ -12,7 +12,7 @@
 | Marcus take-home | $5,420 |
 | Sarah take-home | $4,010 |
 | Canada Child Benefit | $1,040 |
-| Climate Action Incentive (monthly avg) | $81 |
+| Quarterly benefit income (monthly avg) | $81 |
 | **Total net income** | **$10,551** |
 
 ---
@@ -149,6 +149,6 @@ These are funded from the $195/month in habit spending redirects + $226/month cu
 
 ### Tax Filing Optimization (Annual Savings)
 - Claim medical expenses on Sarah's return: 3% threshold on ~$65K = $1,950 vs Marcus's $2,760. Lower threshold = more deductible. Estimated additional credit: ~$150-300/year.
-- Combine charitable donations on Marcus's return: 29% rate above $200 (vs 15% on first $200). Stack both spouses' donations for maximum credit.
+- Combine charitable donations on Marcus's return: 29% rate above $200 (vs 14% on first $200 in 2026). Stack both spouses' donations for maximum credit.
 - Switch from TurboTax ($50/year) to Wealthsimple Tax (free): saves $50/year.
-- Ensure Sarah claims student loan interest credit: 15% of interest paid on federal student loan.
+- Note: federal student loans have been interest-free since April 2023, so Sarah pays no interest and has no student-loan-interest credit to claim.

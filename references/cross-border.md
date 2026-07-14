@@ -482,7 +482,7 @@ If a US citizen in Canada has **not been filing** US returns:
 - **CCB:** Re-apply using Form RC66 once you're a resident with children under 18
 - **Canada Groceries and Essentials Benefit (CGEB)** (replaced the GST/HST credit in July 2026): Automatic once you file your return as a resident
 - **OAS/CPP:** If you were receiving these abroad, notify Service Canada of your return
-- **Provincial benefits:** Re-apply for any province-specific benefits (Trillium, BC Climate Action, etc.)
+- **Provincial benefits:** Re-apply for any province-specific benefits (Trillium, BC Family Benefit, etc.)
 
 ### First Tax Return After Return
 - Report worldwide income from your return date onward

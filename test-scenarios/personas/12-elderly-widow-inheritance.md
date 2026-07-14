@@ -14,19 +14,19 @@
 - Frank's CPP: $1,150/month
 - Frank's OAS: $742/month
 - Dorothy's CPP: $420/month (limited work history — mostly part-time/homemaker)
-- Dorothy's OAS: $816/month (age 75+ rate)
+- Dorothy's OAS: $751.97/month (age 65–74 rate; see current-figures.md)
 - Dorothy's GIS: $0 (combined income too high with Frank alive)
-- Combined: ~$6,328/month
+- Combined: ~$6,264/month
 
 ### After Frank's Death (current)
 - Frank's pension survivor benefit (60%): $1,920/month
 - CPP survivor's benefit: ~$650/month (combined with her own CPP, capped)
 - Dorothy's own CPP: included in combined amount above → total CPP ~$780/month
-- Dorothy's OAS: $816/month
+- Dorothy's OAS: $751.97/month (age 65–74 rate)
 - Dorothy's GIS: likely now eligible — individual income dropped significantly
   - Estimated GIS: ~$500-700/month (needs calculation based on new income level)
 - Interest from Frank's life insurance payout (invested in GICs): ~$350/month
-- **Estimated new monthly income: ~$3,866 + potential GIS**
+- **Estimated new monthly income: ~$3,802 + potential GIS**
 
 ## Monthly Expenses
 ### Fixed ($2,150)
@@ -79,7 +79,7 @@
 ### Registered Accounts
 - Dorothy's RRSP: $0 (never had one — limited earned income history, no room)
 - Frank's RRSP → rolled to Dorothy's RRIF: $95,000 (BMO mutual fund, MER 2.2%)
-  - Mandatory minimum RRIF withdrawal: ~$5,300/year at age 72 (5.28%)
+  - Mandatory minimum RRIF withdrawal: ~$5,300/year at age 72 (5.40%)
 - Dorothy's TFSA: $15,000 (BMO GIC). Room: $94,000
 - Frank's TFSA: rolled to Dorothy tax-free: $45,000 (BMO GIC)
   - Dorothy's successor holder — can keep as her own TFSA

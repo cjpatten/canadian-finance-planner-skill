@@ -23,7 +23,7 @@ You don't need to use all of the below features — most people start with a sim
 - **Retirement income optimization** — CPP timing (60/65/70 with break-even math), OAS deferral decision tree, GIS optimization (TFSA strategy), RRSP meltdown, RRIF conversion strategy, income layering by age, pension decisions (DB commuted value vs monthly), pension income splitting, bridge income for early retirement, annuities, and couples coordination
 - **Tax filing season guide** — complete checklist of credits and deductions people miss, couples optimization (who claims what), investment income reporting, tax software comparison, CRA My Account, penalties and disputes, voluntary disclosure, student/senior/new immigrant guidance
 - **Portfolio management** — asset location optimization, rebalancing strategies, tax-loss harvesting (superficial loss rule), ACB tracking, US securities (withholding tax, estate tax, RRSP treaty), employee stock options/RSUs, dividend tax credit, REIT taxation, retirement withdrawal strategy (RRIF minimums, OAS clawback, 4% rule), and behavioral investing
-- **Self-employed & incorporated** — incorporation decision tree with tax math, salary vs dividends optimization, SBD rates by province, business expense deductions (home office, vehicle, CCA), HST/GST registration, quarterly installments, startup planning, business succession (LCGE $1.25M), SRED tax credits, IPP for 40+, shareholder loans, and gig economy guidance
+- **Self-employed & incorporated** — incorporation decision tree with tax math, salary vs dividends optimization, SBD rates by province, business expense deductions (home office, vehicle, CCA), HST/GST registration, quarterly installments, startup planning, business succession (LCGE $1.275M for 2026), SRED tax credits, IPP for 40+, shareholder loans, and gig economy guidance
 - **All provinces & territories** — province-specific tax brackets, child benefits, disability programs, pharmacare, and health coverage for all 13 jurisdictions. Full Quebec support (QPP, QST, QPIP, Revenu Québec, RAMQ). No longer Ontario-centric.
 - **Insurance deep-dive** — DIME needs analysis, term vs permanent life insurance with cost benchmarks, disability insurance (own-occ vs any-occ, elimination periods), critical illness insurance, group vs individual coverage, conversion rights, employer benefits optimization, and insurance estate planning
 - **Real estate & housing** — rent vs buy analysis, mortgage strategy (fixed vs variable, prepayment, renewal negotiation), home equity (HELOC, refinancing, reverse mortgage), investment property with tax treatment, condo vs freehold, principal residence exemption, downsizing, and provincial land transfer tax
@@ -264,6 +264,7 @@ The [test-scenarios/](./test-scenarios/) folder contains 12 pre-built sample per
 ```
 SKILL.md                                  # Core skill (always in context)
 references/
+├── current-figures.md                    # Single source of truth for all current-year figures (limits, brackets, rates)
 ├── interview-guide.md                    # All 7 interview rounds
 ├── canada-finance-rules.md               # Tax rules, registered accounts, benefits
 ├── calculations-and-dashboard.md         # Budget math, projections, dashboard specs
@@ -282,7 +283,7 @@ references/
 └── cross-border.md                       # Snowbirds, newcomers, US property, departure/return, FBAR/FATCA
 ```
 
-The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused.
+The `SKILL.md` file is always loaded and controls the conversation flow. Reference files are loaded on demand when the relevant phase is active, keeping things fast and focused. All year-specific numbers — contribution limits, tax brackets, benefit amounts, CPP/OAS/GIS rates — live in a single `current-figures.md` facts file that overrides everything else, so figures stay consistent across the skill and are updated in one place.
 
 ---
 
@@ -305,7 +306,7 @@ The `SKILL.md` file is always loaded and controls the conversation flow. Referen
 
 Every number in this skill is double-source verified against authoritative Canadian and international sources. The skill also verifies current data via web search before presenting it to users, so even if a reference file becomes slightly stale, the user always gets up-to-date figures.
 
-**150+ source URLs** are embedded across 16 reference files. Here are the key sources by category:
+**150+ source URLs** are embedded across 17 reference files. Here are the key sources by category:
 
 | Category | # Sources | Key References |
 |----------|-----------|----------------|

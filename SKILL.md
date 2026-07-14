@@ -79,8 +79,8 @@ Read these as needed during the conversation — don't load everything at once:
 - `references/self-employed.md` — Read when the user is self-employed, incorporated, a freelancer,
   or gig worker. Covers incorporation decision tree, salary vs dividends optimization, SBD by
   province, business deductions (home office, vehicle, CCA), HST/GST, quarterly installments,
-  startup planning, business succession (LCGE $1.25M), SRED tax credits, IPP, shareholder
-  loans, and gig economy issues.
+  startup planning, business succession (LCGE — current figure in references/current-figures.md),
+  SRED tax credits, IPP, shareholder loans, and gig economy issues.
 - `references/portfolio-management.md` — Read when the user has $100K+ in investments and wants
   to optimize. Covers asset location (which investments in which accounts), rebalancing, tax-loss
   harvesting (superficial loss rule), ACB tracking, US securities (withholding tax, estate tax),

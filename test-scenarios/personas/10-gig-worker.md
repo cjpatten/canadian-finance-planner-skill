@@ -30,7 +30,7 @@
 - Contributing to pension (mandatory)
 
 ### Other Income
-- BC Climate Action Tax Credit: ~$504/year
+- Provincial benefit / tax credit income (BC): ~$504/year
 - GST/HST Credit: ~$300/year (combined income borderline)
 - No rental, investment, or other income
 
@@ -75,7 +75,7 @@
 | Debt | Balance | Rate | Monthly Payment |
 |------|---------|------|-----------------|
 | Alex's car loan | $14,000 | 4.49% | $380 |
-| Sam's student loan (federal) | $12,000 | 5.45% floating | $150 |
+| Sam's student loan (BC, provincial portion) | $12,000 | 5.45% floating | $150 |
 | Sam's CRA balance owing (2025 taxes) | $3,200 | prescribed rate | $0 (hasn't set up plan) |
 
 No credit card debt (but Sam sometimes floats expenses on CC during slow months, pays off when client pays).

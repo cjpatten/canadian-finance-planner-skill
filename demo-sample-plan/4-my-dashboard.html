@@ -476,7 +476,7 @@
         <div class="chart-container" style="max-height:350px;">
             <canvas id="debtChart"></canvas>
         </div>
-        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;">Avalanche method: Visa first (20.99%), then car (6.49%), then student loan (5.45%). Total interest saved vs. minimums: ~$3,200. <strong>Consumer debt-free by May 2028.</strong> That frees up $921/month for investing.</p>
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-top:12px;">Avalanche method: Visa first (20.99%), then car (6.49%), then the federal student loan (0%, interest-free — cleared last for simplicity, not interest savings). Total interest saved vs. minimums: ~$3,200. <strong>Consumer debt-free by May 2028.</strong> That frees up $921/month for investing.</p>
     </div>
 
     <!-- 6. NET WORTH PROJECTION -->
@@ -602,9 +602,8 @@
         <div class="cal-item"><span class="cal-date">Jun 2026</span><span>Mortgage renewal — shop rates, consider accelerated payments</span></div>
         <div class="cal-item"><span class="cal-date">Jul 2026</span><span>CCB recalculated based on 2025 income — check new amount</span></div>
         <div class="cal-item"><span class="cal-date">Jan 1, 2027</span><span>TFSA room resets (+$7,000 each) — plan contributions</span></div>
-        <div class="cal-item"><span class="cal-date">Mar 3, 2027</span><span>RRSP contribution deadline for 2026 tax year</span></div>
+        <div class="cal-item"><span class="cal-date">Mar 1, 2027</span><span>RRSP contribution deadline for 2026 tax year</span></div>
         <div class="cal-item"><span class="cal-date">Monthly 20th</span><span>CCB payment deposited (~$1,040/month)</span></div>
-        <div class="cal-item"><span class="cal-date">Quarterly</span><span>Climate Action Incentive deposited (~$244)</span></div>
     </div>
 
     <!-- 14. ACTION ITEMS -->
@@ -658,7 +657,7 @@
             <canvas id="investGrowthChart"></canvas>
         </div>
         <div style="margin-top:16px; padding:14px; background:var(--accent-light); border-radius:10px; font-size:0.88rem;">
-            <strong>The takeaway:</strong> Investing $900/month in a growth ETF like VGRO (80/20, ~0.20% MER, Morningstar Silver) instead of a Big 5 savings account means roughly <strong>$380,000 more</strong> over 27 years — on the exact same monthly amount. All-in-one ETFs give you instant diversification across 13,000+ stocks and bonds worldwide with a single purchase.
+            <strong>The takeaway:</strong> Investing $900/month in a growth ETF like VGRO (80/20, ~0.17% MER, Morningstar Silver) instead of a Big 5 savings account means roughly <strong>$380,000 more</strong> over 27 years — on the exact same monthly amount. All-in-one ETFs give you instant diversification across 13,000+ stocks and bonds worldwide with a single purchase.
         </div>
         <p style="font-size:0.78rem; color:var(--text-secondary); margin-top:12px;"><em>ETF returns shown are long-term historical averages. Actual returns vary year to year. Past performance does not guarantee future results. Savings and GIC lines are guaranteed; ETF lines are projections.</em></p>
     </div>
@@ -755,7 +754,7 @@ for (let m = 0; m <= 28; m++) {
     car = car * (1 + 0.0649/12) - 420;
     if (car <= 0) car = 0;
     let extraFromCar = (car <= 0) ? 420 : 0;
-    sl = sl * (1 + 0.0545/12) - 180 - extraFromCar;
+    sl = sl - 180 - extraFromCar; // federal student loan is interest-free (0%)
     if (sl <= 0) sl = 0;
 }
 new Chart(document.getElementById('debtChart'), {
@@ -765,7 +764,7 @@ new Chart(document.getElementById('debtChart'), {
         datasets: [
             { label: 'Visa (20.99%)', data: visaData, borderColor: C.red, backgroundColor: C.redLt + '40', fill: true, tension: 0.3, pointRadius: 0 },
             { label: 'Car Loan (6.49%)', data: carData, borderColor: C.orange, backgroundColor: C.orangeLt + '40', fill: true, tension: 0.3, pointRadius: 0 },
-            { label: 'Student Loan (5.45%)', data: slData, borderColor: C.blue, backgroundColor: C.blueLt + '40', fill: true, tension: 0.3, pointRadius: 0 }
+            { label: 'Student Loan (0%)', data: slData, borderColor: C.blue, backgroundColor: C.blueLt + '40', fill: true, tension: 0.3, pointRadius: 0 }
         ]
     },
     options: {

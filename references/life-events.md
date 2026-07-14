@@ -713,7 +713,7 @@ Full source URLs are in Section 11 at the bottom of this file.
   province.
 - **CCB:** Continues unchanged — federal program, not provincial.
 - **Provincial benefits transition:**
-  - Ontario Trillium Benefit → BC Climate Action Tax Credit (or equivalent)
+  - Ontario Trillium Benefit → BC Family Benefit (or equivalent provincial credit)
   - Ontario Drug Benefit → BC PharmaCare (or equivalent)
   - Provincial child benefits vary significantly
 - **Quebec specifics:** QPP instead of CPP (separate but similar), QPIP instead of federal EI

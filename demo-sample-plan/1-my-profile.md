@@ -48,7 +48,7 @@
 - Canada Child Benefit (CCB): $1,040/month ($520/child — based on ~$157K family income)
 - GST/HST Credit: $0 (income too high to qualify)
 - Ontario Trillium Benefit: $0 (income too high)
-- Climate Action Incentive: $976/year ($244/quarter for family of 4)
+- Quarterly benefit income: $976/year ($244/quarter for family of 4)
 - No rental income, investment income, or side hustles
 
 ### Household Income Summary
@@ -57,7 +57,7 @@
 | Marcus gross | $7,667 | $92,000 |
 | Sarah gross | $5,417 | $65,000 |
 | CCB | $1,040 | $12,480 |
-| Climate Action | $81 | $976 |
+| Quarterly benefit | $81 | $976 |
 | **Total gross** | **$14,205** | **$170,456** |
 | **Total net (take-home + benefits)** | **$10,551** | **$126,612** |
 
@@ -77,7 +77,7 @@
 - Charitable donations: combine and claim on Marcus's return (higher marginal rate)
 - Childcare: must claim on Sarah's return (lower-income spouse)
 - RRSP strategy: Sarah should contribute to her own RRSP (reduces her taxable income, potentially increases CCB)
-- Student loan interest (Sarah): claim the 15% federal credit on interest paid
+- Student loan interest (Sarah): federal student loans have been interest-free since April 2023 — no interest is paid, so there's no student-loan-interest credit to claim
 
 ## What We Owe
 
@@ -86,7 +86,7 @@
 | Mortgage | $412,000 | 4.89% fixed | $2,340/month | 25-yr amortization, 5-yr term (renews June 2026) | Joint |
 | Car loan (2023 Honda CR-V) | $18,400 | 6.49% | $420/month | 60-month term | Marcus |
 | Visa (TD) | $4,200 | 20.99% | $126/month (min) | Revolving | Sarah |
-| Student loan (Sarah, federal) | $8,900 | Prime + 0% (floating, ~5.45%) | $180/month | Federal student loan | Sarah |
+| Student loan (Sarah, federal) | $8,900 | 0% (federal — interest-free since Apr 2023) | $180/month | Federal student loan | Sarah |
 | **Total** | **$443,500** | | **$3,066/month** | | |
 
 - No payday loans, no BNPL, no CRA debt, no collections
@@ -122,7 +122,6 @@
 | Sarah employer match | N/A (no match offered) | No employer match available |
 | CESG — Lily | ✅ Yes ($500/year) | On track |
 | CESG — Owen | ⚠️ Partial ($250/year) | Missing $250/year in grant — need to increase to $2,500/year |
-| Climate Action Incentive | ✅ Yes | Filed tax returns |
 
 ### Real Estate
 - **Primary residence:** Townhouse, Barrie ON

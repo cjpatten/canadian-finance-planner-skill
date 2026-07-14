@@ -46,7 +46,9 @@ The Chens' debt stress level is 7/10, and the math strongly favours avalanche he
 |----------|------|---------|------|---------|-------------|
 | 1 | TD Visa | $4,200 | 20.99% | $321/month | ~May 2027 |
 | 2 | Car loan | $18,400 | 6.49% | $420/month (existing) | ~Feb 2028 |
-| 3 | Student loan | $8,900 | 5.45% | $180/month + freed-up CC payment | ~Sept 2028 |
+| 3 | Student loan | $8,900 | 0% (interest-free) | $180/month + freed-up CC payment | ~Sept 2028 |
+
+*Note: Sarah's federal student loan has been interest-free (0%) since April 2023, so it carries no interest cost and sits last in the avalanche. Clearing it early is a cash-flow/simplicity choice, not an interest-saving one — the dollars could equally go to investing once higher-rate debt is gone.*
 
 **After credit card is paid off (May 2027):** Redirect that $321/month:
 - $104 → top up Owen's RESP (already done in Phase 1)
@@ -207,13 +209,12 @@ Freed-up cash: $921/month (from debt payments) + continued spending discipline
 | Date | What | Action |
 |------|------|--------|
 | January 1 | TFSA room resets (+$7,000 each) | Set up annual TFSA contribution |
-| March 3, 2027 | RRSP contribution deadline (for 2026 tax year) | Ensure Sarah's RRSP contributions are in |
+| March 1, 2027 | RRSP contribution deadline (for 2026 tax year) | Ensure Sarah's RRSP contributions are in |
 | April 1 | Marcus HSA resets | Use remaining balance before reset |
 | April 30 | Tax filing deadline | File returns to maintain CCB/benefits |
 | July | CCB recalculated based on prior year income | Check new CCB amount |
 | June 2026 | Mortgage renewal | Shop rates, consider accelerated payments |
 | Monthly (20th) | CCB payment | Auto-deposited |
-| Quarterly | Climate Action Incentive | Auto-deposited |
 
 ---
 
@@ -311,7 +312,7 @@ If breaking the mortgage BEFORE June 2026 renewal (e.g., to switch lenders early
 When the $8,500 GIC matures, invest in VEQT on a self-directed platform:
 - Marcus has HOOPP for conservative/bond portion → TFSA can be 100% equity
 - 25+ year horizon to retirement supports all-equity allocation
-- VEQT: globally diversified, 0.20% MER, one purchase = instant diversification across 13,000+ stocks
+- VEQT: globally diversified, 0.17% MER, one purchase = instant diversification across 13,000+ stocks
 
 ---
 
@@ -323,7 +324,7 @@ When the $8,500 GIC matures, invest in VEQT on a self-directed platform:
 | Medical expenses | Sarah | Lower 3% of net income threshold ($1,950 vs $2,760) |
 | Charitable donations | Marcus | Higher marginal rate (33.9% vs 29.65%) |
 | Childcare expenses | Sarah | Required by CRA (lower-income spouse) |
-| Student loan interest | Sarah | 15% federal credit on federal loan interest |
+| Student loan interest | N/A | Federal student loans are interest-free since Apr 2023 — no interest paid, nothing to claim |
 | RRSP contributions | Sarah (own RRSP) | Reduces her taxable income, may increase CCB |
 | Spousal RRSP | Marcus contributes to Sarah's | Marcus gets deduction at 33.9%, Sarah withdraws at lower rate in retirement |
 
@@ -337,13 +338,12 @@ When the $8,500 GIC matures, invest in VEQT on a self-directed platform:
 | Date | What | Action |
 |------|------|--------|
 | January 1 | TFSA room resets (+$7,000 each) | Set up annual TFSA contribution |
-| March 2, 2027 | RRSP contribution deadline (for 2026 tax year) | Ensure Sarah's RRSP contributions are in |
+| March 1, 2027 | RRSP contribution deadline (for 2026 tax year) | Ensure Sarah's RRSP contributions are in |
 | April 1 | Marcus HSA resets | Use remaining balance before reset |
 | April 30 | Tax filing + payment deadline | File returns to maintain CCB/benefits |
 | June 2026 | Mortgage renewal | Shop rates, negotiate, consider acceleration |
 | July | CCB recalculated based on prior year income | Check new CCB amount — RRSP contributions may increase it |
 | Monthly (20th) | CCB payment | Auto-deposited |
-| Quarterly | Climate Action Incentive | Auto-deposited |
 
 ---
 
@@ -354,16 +354,16 @@ Tax Year: 2026 | Last verified: March 15, 2026
 | Item | Value | Source | Verified |
 |------|-------|--------|----------|
 | Federal lowest bracket | 14% on first $58,523 (reduced from 15%) | canada.ca | ✅ Mar 2026 |
-| RRSP limit (2026) | $35,390 (18% of earned income) | canada.ca | ✅ Mar 2026 |
+| RRSP limit (2026) | $33,810 (or 18% of prior-year earned income, whichever is less) | canada.ca | ✅ Mar 2026 |
 | TFSA annual room (2026) | $7,000 | canada.ca | ✅ Mar 2026 |
 | CESG rate | 20% on first $2,500/child ($500 max) | canada.ca | ✅ Mar 2026 |
-| CCB base amounts | $7,997 (under 6) / $6,748 (6-17) | canada.ca | ✅ Mar 2026 |
+| CCB base amounts | $8,157 (under 6) / $6,883 (6-17) | canada.ca | ✅ Mar 2026 |
 | Federal basic personal amount | $16,452 (2026, max) | canada.ca | ✅ Mar 2026 |
 | Ontario basic personal amount | $11,865 (2025 — verify for 2026) | ontario.ca | ✅ Mar 2026 |
 | OAS clawback threshold | $95,323 (2026) | canada.ca | ✅ Mar 2026 |
 | CPP max pensionable earnings (YMPE) | $74,600 (2026) | canada.ca | ✅ Mar 2026 |
 | CPP max monthly benefit at 65 | $1,507.65 (2026) | canada.ca | ✅ Mar 2026 |
-| OAS max monthly (age 65-74) | $742.31 (2026) | canada.ca | ✅ Mar 2026 |
+| OAS max monthly (age 65-74) | $751.97 (2026) | canada.ca | ✅ Mar 2026 |
 | CDIC coverage | $100,000 per category per institution | cdic.ca | ✅ Mar 2026 |
 
 ---

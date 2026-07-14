@@ -56,7 +56,7 @@ Score each output on the criteria below. Each criterion is scored:
 |---|-----------|-----------|---------------|
 | A1 | Correct marginal tax rate (federal + provincial) | | |
 | A2 | Correct registered account contribution room | | |
-| A3 | Correct government benefit amounts (CCB, GST credit, etc.) | | |
+| A3 | Correct government benefit amounts (CCB, GST credit — now the Canada Groceries and Essentials Benefit / CGEB from July 2026, etc.) | | |
 | A4 | Correct debt payoff order with math (interest saved) | | |
 | A5 | Correct CPP/OAS timing analysis with break-even ages | | |
 | A6 | Correct provincial rules applied (not generic) | | |
