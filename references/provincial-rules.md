@@ -8,6 +8,13 @@ All amounts should be verified via web search before presenting — provinces up
 thresholds annually. Key sources: taxtips.ca (tax brackets), provincial government websites,
 canada.ca (federal programs administered provincially). Full URLs in Section 15.
 
+> **Dollar figures below change annually. Headline current figures live in
+> references/current-figures.md; always verify a provincial bracket/credit against the
+> province's official site before using it in a plan.**
+>
+> **Facts corrected/reviewed: 2026-07-14.** Where a specific dollar amount below could not be
+> confirmed as current, its year label reads "verify current year" rather than asserting a year.
+
 ---
 
 ## Table of Contents
@@ -55,7 +62,7 @@ For reference when calculating combined federal + provincial rates:
 | Up to $58,523 | 14.0% |
 | $58,524 – $117,045 | 20.5% |
 | $117,046 – $181,440 | 26.0% |
-| $181,441 – $258,482 | 29.32% |
+| $181,441 – $258,482 | 29.0% |
 | Over $258,482 | 33.0% |
 
 Basic personal amount: $16,452 (max; phases down to $14,829 for income above $181,440)
@@ -75,7 +82,7 @@ for full bracket tables.
 | Ontario | 5.05% | 13.16% | 5 | + surtax on high incomes |
 | Quebec | 14.0% | 25.75% | 4 | Highest provincial rates. Separate return. |
 | BC | 5.60% | 20.5% | 7 | Lowest bracket increased from 5.06% for 2026 |
-| Alberta | 10.0% | 15.0% | 5 | Flat 10% on first ~$148K |
+| Alberta | 8.0% | 15.0% | 6 | Graduated since 2025: 8% first ~$61,200 (2026), 10% to ~$154,259, then 12/13/14/15% — see §7 |
 | Manitoba | 10.8% | 17.4% | 3 | |
 | Saskatchewan | 10.5% | 14.5% | 3 | |
 | New Brunswick | 9.40% | 19.5% | 4 | |
@@ -86,7 +93,7 @@ for full bracket tables.
 | NWT | 5.9% | 14.05% | 4 | |
 | Nunavut | 4.0% | 11.5% | 4 | Lowest provincial rates |
 
-**(2025 — verify all rates. Provinces update annually.)**
+**(Verify current rates — see current-figures.md or the provincial site. Provinces update annually.)**
 (Source: taxtips.ca/marginal-tax-rates-in-canada)
 
 ---
@@ -107,12 +114,12 @@ adjust ALL calculations accordingly.
 | Tax filing cost | $50-$100 typical | $100-$200+ (two returns) |
 | Revenue authority | CRA only | CRA + Revenu Québec |
 | Health insurance | Provincial plan (automatic) | RAMQ + mandatory prescription drug insurance |
-| Childcare | Varies by province | $9.35/day subsidized (2025 — verify) |
+| Childcare | Varies by province | $9.35/day subsidized (verify current year — see current-figures.md or the provincial site) |
 | POA terminology | Power of Attorney | Protection mandate (mandat de protection) |
-| Probate | 0.7-1.5% (varies) | $0 for notarial wills, ~$1,000 for probate |
+| Probate | 0.7-1.5% (varies) | $0 for notarial wills; court/notary validation fee varies for holograph/witnessed wills — do not quote a dollar amount |
 | Civil law | Common law | Civil Code of Quebec |
 
-### Quebec Tax Brackets (2025 — verify)
+### Quebec Tax Brackets (verify current year — see current-figures.md or the provincial site)
 
 | Taxable Income | Quebec Rate |
 |---------------|------------|
@@ -121,7 +128,7 @@ adjust ALL calculations accordingly.
 | $103,546 – $126,000 | 24.0% |
 | Over $126,000 | 25.75% |
 
-Basic personal amount: ~$18,056 (2025 — verify)
+Basic personal amount: ~$18,056 (verify current year — see current-figures.md or the provincial site)
 
 **Combined top marginal rate (federal + Quebec): ~53.31%** — among the highest in North America.
 But Quebec also provides more public services (childcare, pharmacare, parental leave).
@@ -131,9 +138,9 @@ But Quebec also provides more public services (childcare, pharmacare, parental l
 | Feature | CPP | QPP |
 |---------|-----|-----|
 | Employee contribution rate | 5.95% | 5.40% (base) + 1.0% (additional) |
-| Maximum pensionable earnings | $71,300 (2025) | $71,300 (2025) — same |
-| Additional earnings cap | $79,400 (2025) | ~$85,000 (114% of MPE) |
-| Max retirement pension at 65 | ~$1,364/month (2025) | ~$1,441/month (2025 — verify) |
+| Maximum pensionable earnings (YMPE) | $74,600 (2026) | $74,600 (2026) — same |
+| Additional earnings cap (YAMPE) | $85,000 (2026) | ~$85,000 (114% of YMPE) |
+| Max retirement pension at 65 | ~$1,507.65/month (2026) | verify current year — see Retraite Québec |
 | Income replacement target | 25% → 33.33% (with enhancement) | 25% → 33.33% (with enhancement) |
 | Administered by | Service Canada | Retraite Québec |
 
@@ -152,7 +159,7 @@ combines credits from both systems.
 | Parental (standard) | 35 weeks at 55% | 25 weeks at 70% (or 32 weeks at 55%) |
 | Parental (extended) | 61 weeks at 33% | N/A (QPIP has one option) |
 | Self-employed coverage | Must opt in for federal EI | Automatically covered by QPIP |
-| Maximum insurable earnings | ~$65,700 (2026 — verify) | ~$94,000 (2025 — verify) |
+| Maximum insurable earnings | $68,900 (2026, EI MIE) | verify current year — see RQAP |
 | Administered by | Service Canada | RQAP (rqap.gouv.qc.ca) |
 
 **QPIP is significantly more generous** than federal EI parental benefits — higher replacement
@@ -165,7 +172,7 @@ advantage for Quebec families.
 - Quebec is the ONLY province with mandatory prescription drug insurance.
 - If you don't have private group insurance through your employer, you MUST register for the
   public RAMQ drug plan.
-- Cost: annual premium up to ~$731 (2025 — verify) based on income, paid through tax return.
+- Cost: annual premium up to ~$731 (verify current year — see current-figures.md or the provincial site) based on income, paid through tax return.
 - Coverage: prescription drugs on the RAMQ formulary with deductibles and co-payments.
 
 ### Quebec Education Savings Incentive (QESI)
@@ -179,8 +186,8 @@ advantage for Quebec families.
 
 ### Other Quebec-Specific Programs
 - **Solidarity Tax Credit:** Combines GST credit + QST credit + housing component. Paid monthly.
-  Up to ~$1,200/year for singles, ~$1,550/year for couples (2025 — verify).
-- **Quebec Family Allowance:** Up to ~$3,006/child (2025 — verify). Income-tested. Administered
+  Up to ~$1,200/year for singles, ~$1,550/year for couples (verify current year — see current-figures.md or the provincial site).
+- **Quebec Family Allowance:** Up to ~$3,006/child (verify current year — see current-figures.md or the provincial site). Income-tested. Administered
   by Retraite Québec.
 - **Work Premium (Quebec):** Low-income workers benefit, similar to federal Canada Workers Benefit.
 - **$9.35/day subsidized childcare:** Reduced contribution childcare, extremely popular.
@@ -190,7 +197,7 @@ advantage for Quebec families.
 
 ## 5. Ontario
 
-### Tax Brackets (2025 — verify)
+### Tax Brackets (verify current year — see current-figures.md or the provincial site)
 
 | Taxable Income | Ontario Rate |
 |---------------|-------------|
@@ -201,15 +208,15 @@ advantage for Quebec families.
 | Over $220,000 | 13.16% |
 
 **Ontario surtax:** 20% of basic Ontario tax over $4,991 + 36% of basic Ontario tax over $6,387.
-Basic personal amount: ~$11,865 (2025 — verify)
+Basic personal amount: ~$11,865 (verify current year — see current-figures.md or the provincial site)
 
 Combined top marginal rate (federal + Ontario): ~53.53%
 
 ### Ontario-Specific Programs
 - **Ontario Trillium Benefit (OTB):** Combines Ontario Energy & Property Tax Credit, Northern
-  Ontario Energy Credit, and Ontario Sales Tax Credit. Up to ~$1,234/year (single, 2025 — verify).
+  Ontario Energy Credit, and Ontario Sales Tax Credit. Up to ~$1,234/year (single; verify current year — see current-figures.md or the provincial site).
   Income-tested. Monthly or annual payments.
-- **Ontario Child Benefit (OCB):** Up to ~$1,727/child/year (2025 — verify). Phases in at
+- **Ontario Child Benefit (OCB):** Up to ~$1,727/child/year (verify current year — see current-figures.md or the provincial site). Phases in at
   $23,044 family income, phases out at higher incomes. Paid with CCB.
 - **Ontario CARE Tax Credit:** 75% of child care expenses for low/middle-income families.
   More generous than the federal child care expense deduction for qualifying families.
@@ -218,8 +225,8 @@ Combined top marginal rate (federal + Ontario): ~53.53%
 
 ### Ontario Disability & Income Support
 - **ODSP (Ontario Disability Support Program):** ~$1,308/month singles, ~$1,981/month couples
-  (2025 — verify). Asset limit: $40,000 (singles), $50,000 (couples). Includes drug/dental/vision.
-- **Ontario Works (OW):** ~$733/month singles, ~$1,136/month couples (2025 — verify).
+  (verify current year — see current-figures.md or the provincial site). Asset limit: $40,000 (singles), $50,000 (couples). Includes drug/dental/vision.
+- **Ontario Works (OW):** ~$733/month singles, ~$1,136/month couples (verify current year — see current-figures.md or the provincial site).
   Temporary income support for those in financial need.
 - **WSIB (Workplace Safety & Insurance Board):** Ontario's workers' compensation.
   85% of pre-injury net earnings, up to a maximum.
@@ -261,10 +268,10 @@ Combined top marginal rate (federal + BC): ~53.5%
 
 ### BC-Specific Programs
 - **BC Family Benefit:** Up to ~$1,750/year for first child, ~$1,010 for second, ~$660 for
-  each additional (2025 — verify). Phases out starting at ~$29,526 family income.
-- **BC Climate Action Tax Credit:** Up to ~$504/adult + $174/child quarterly (2025 — verify).
-  Income-tested. Similar to federal Climate Action Incentive.
-- **BC Child Opportunity Benefit:** Additional supplement for families with children.
+  each additional (verify current year — see current-figures.md or the provincial site). Phases out starting at ~$29,526 family income.
+- **BC Climate Action Tax Credit:** Wound down alongside BC's consumer carbon tax, which was
+  removed April 1, 2025; do not list it as an active credit without verifying its current status.
+  (The federal Canada Carbon Rebate it paralleled also ended, final payment April 2025.)
 
 ### BC Health
 - **MSP (Medical Services Plan):** No premiums since 2020 (previously charged premiums).
@@ -275,12 +282,12 @@ Combined top marginal rate (federal + BC): ~53.5%
 - **Not covered:** Dental, most vision, ambulance ($80 in BC, much less than Ontario's $240).
 
 ### BC Disability
-- **Persons with Disabilities (PWD) designation:** ~$1,358/month (2025 — verify).
+- **Persons with Disabilities (PWD) designation:** ~$1,358/month (verify current year — see current-figures.md or the provincial site).
   Includes shelter allowance, transportation, health supplements.
-- **Income Assistance:** ~$935/month (2025 — verify) for employable singles.
+- **Income Assistance:** ~$935/month (verify current year — see current-figures.md or the provincial site) for employable singles.
 
 ### BC Workers' Compensation
-- **WorkSafeBC:** 90% of net earnings, up to a maximum (~$114,400 assessable earnings, 2025).
+- **WorkSafeBC:** 90% of net earnings, up to a maximum (~$114,400 assessable earnings; verify current year — see the provincial site).
 
 (Source: gov.bc.ca, taxtips.ca)
 
@@ -288,29 +295,33 @@ Combined top marginal rate (federal + BC): ~53.5%
 
 ## 7. Alberta
 
-### Tax Brackets (2025 — verify)
+### Tax Brackets (verify current year — see current-figures.md or the provincial site)
 
 | Taxable Income | Alberta Rate |
 |---------------|-------------|
-| Up to $148,269 | 10.0% |
-| $148,270 – $177,922 | 12.0% |
-| $177,923 – $237,230 | 13.0% |
-| $237,231 – $355,845 | 14.0% |
-| Over $355,845 | 15.0% |
+| Up to ~$61,200 | 8.0% |
+| ~$61,201 – ~$154,259 | 10.0% |
+| Higher brackets (verify current thresholds) | 12.0% / 13.0% / 14.0% / 15.0% |
 
-Basic personal amount: ~$21,885 (2025 — verify) — highest in Canada.
+**Alberta is no longer a flat 10% province.** A new 8% bracket on the first ~$61,200 (2026)
+took effect for the 2025 tax year, then 10% up to ~$154,259, then 12/13/14/15%. Verify current
+thresholds — headline figures are in references/current-figures.md.
+
+Basic personal amount: ~$21,885 (verify current year — see current-figures.md or the provincial site) — highest in Canada.
 Combined top marginal rate (federal + Alberta): ~48.0% — lowest combined top rate of any
 province.
 
-**Alberta's tax advantage:** The flat 10% rate on the first ~$148K is the lowest in Canada.
-A $100K income earner pays significantly less provincial tax in Alberta than in Ontario or BC.
+**Alberta's tax advantage:** Alberta's low rate structure — 8% on the first ~$61,200, then 10%
+up to ~$154,259 — keeps provincial tax among the lowest in Canada. A $100K income earner still
+pays significantly less provincial tax in Alberta than in Ontario or BC.
 
 ### Alberta-Specific Programs
 - **Alberta Child and Family Benefit (ACFB):** Base component up to ~$1,499-$3,746/year
   depending on children and income, plus a working component for employed families.
-  (2025 — verify). Income-tested.
-- **Climate Action Incentive:** Federal program, amount varies by province.
-  Alberta family of 4: ~$1,800/year (2025 — verify).
+  (verify current year — see current-figures.md or the provincial site). Income-tested.
+- **Canada Carbon Rebate (formerly Climate Action Incentive):** DISCONTINUED — the federal
+  consumer fuel charge was removed and the final rebate payment was April 2025. Do not list it
+  as an active benefit.
 - **No provincial sales tax.** Only 5% federal GST (lowest sales tax in Canada).
 
 ### Alberta Health
@@ -321,17 +332,17 @@ A $100K income earner pays significantly less provincial tax in Alberta than in 
 - **Seniors' Drug Coverage:** Premiums based on income for 65+.
 
 ### Alberta Disability & Income Support
-- **AISH (Assured Income for the Severely Handicapped):** ~$1,863/month singles (2025 — verify).
+- **AISH (Assured Income for the Severely Handicapped):** ~$1,863/month singles (verify current year — see current-figures.md or the provincial site).
   One of the most generous disability programs in Canada. Asset limit: $100,000 (excluding home,
   vehicle). Also provides health benefits.
 - **Income Support:** ~$745/month singles expected to work, ~$866/month barriers to employment
-  (2025 — verify).
+  (verify current year — see current-figures.md or the provincial site).
 - **Alberta Workers' Compensation Board (WCB):** 90% of net earnings up to maximum.
 
 ### Alberta Advantages
 - No provincial sales tax (5% GST only)
-- Flat 10% provincial income tax up to ~$148K
-- Highest basic personal amount (~$21,885)
+- Low provincial income tax: 8% on the first ~$61,200, then 10% up to ~$154,259 (verify current thresholds)
+- Highest basic personal amount in Canada (verify current amount)
 - Low property tax in many municipalities
 - No land transfer tax (registration fees only ~$200-$400)
 - Maximum probate fee only $525
@@ -343,7 +354,7 @@ A $100K income earner pays significantly less provincial tax in Alberta than in 
 
 ## 8. Manitoba
 
-### Tax Brackets (2025 — verify)
+### Tax Brackets (verify current year — see current-figures.md or the provincial site)
 
 | Taxable Income | Manitoba Rate |
 |---------------|-------------|
@@ -351,7 +362,7 @@ A $100K income earner pays significantly less provincial tax in Alberta than in 
 | $47,001 – $100,000 | 12.75% |
 | Over $100,000 | 17.4% |
 
-Basic personal amount: ~$15,780 (2025 — verify)
+Basic personal amount: ~$15,780 (verify current year — see current-figures.md or the provincial site)
 Combined top marginal rate (federal + Manitoba): ~50.4%
 
 ### Manitoba-Specific Programs
@@ -366,14 +377,14 @@ Combined top marginal rate (federal + Manitoba): ~50.4%
 - **Manitoba Public Insurance (MPI):** Public auto insurance for basic coverage.
 
 ### Manitoba Disability & Income Support
-- **Employment and Income Assistance (EIA):** ~$800-$1,100/month (varies by situation, 2025 — verify).
+- **Employment and Income Assistance (EIA):** ~$800-$1,100/month (varies by situation; verify current year — see the provincial site).
 - **Disability component adds to EIA** for those with recognized disability.
 - **Workers Compensation Board of Manitoba:** Covers work-related injuries.
 
 ### Manitoba Notable
-- **Longest collection limitation period in Canada: 6 years**
+- **Collection limitation period: 2 years** (verify — see debt-strategy.md)
 - **Automatic common-law property division** after 3+ years of cohabitation
-- Low probate fees (essentially zero)
+- Probate fees eliminated — $0 (since Nov 6, 2020)
 
 (Source: gov.mb.ca, taxtips.ca)
 
@@ -381,7 +392,7 @@ Combined top marginal rate (federal + Manitoba): ~50.4%
 
 ## 9. Saskatchewan
 
-### Tax Brackets (2025 — verify)
+### Tax Brackets (verify current year — see current-figures.md or the provincial site)
 
 | Taxable Income | Saskatchewan Rate |
 |---------------|-------------------|
@@ -389,12 +400,12 @@ Combined top marginal rate (federal + Manitoba): ~50.4%
 | $52,058 – $148,734 | 12.5% |
 | Over $148,734 | 14.5% |
 
-Basic personal amount: ~$18,491 (2025 — verify) — second highest after Alberta.
+Basic personal amount: ~$18,491 (verify current year — see current-figures.md or the provincial site) — second highest after Alberta.
 Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Saskatchewan-Specific Programs
 - **Saskatchewan Low-Income Tax Credit:** Refundable credit for low-income residents.
-- **Active Families Benefit:** Up to $150/child for activities (2025 — verify).
+- **Active Families Benefit:** Up to $150/child for activities (verify current year — see current-figures.md or the provincial site).
 - **Graduate Retention Program:** Tax credit for post-secondary graduates who stay in SK.
   Up to $20,000 in non-refundable credits over 7 years.
 
@@ -405,7 +416,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 - **SGI (Saskatchewan Government Insurance):** Public auto insurance for basic coverage.
 
 ### Saskatchewan Disability & Income Support
-- **Saskatchewan Assured Income for Disability (SAID):** ~$1,300-$1,600/month (2025 — verify).
+- **Saskatchewan Assured Income for Disability (SAID):** ~$1,300-$1,600/month (verify current year — see current-figures.md or the provincial site).
 - **Saskatchewan Assistance Program (SAP):** General income support.
 - **Workers' Compensation Board Saskatchewan.**
 
@@ -423,7 +434,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Nova Scotia
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 
 | Taxable Income | Nova Scotia Rate |
 |---------------|-----------------|
@@ -437,12 +448,12 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 - **Pharmacare:** Nova Scotia Seniors' Pharmacare (65+), Family Pharmacare (income-based).
 - **Disability:** Employment Support & Income Assistance (ESIA).
-- **Notable:** 15% HST (highest combined sales tax in Canada). Deed transfer tax ~1.5%.
-  Collection limitation period: 6 years.
+- **Notable:** 14% HST (reduced from 15% on Apr 1, 2025; NB/NL/PEI remain highest at 15%). Deed transfer tax ~1.5%.
+  Collection limitation period: 2 years (verify — see debt-strategy.md).
 
 ### New Brunswick
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 
 | Taxable Income | New Brunswick Rate |
 |---------------|-------------------|
@@ -454,11 +465,11 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 - **Pharmacare:** NB Drug Plan (income-based for those without private insurance).
 - **Disability:** Social Assistance (Transitional Assistance and Extended Benefits).
 - **Notable:** 15% HST. Land transfer tax: 1% of property value.
-  Collection limitation period: 6 years.
+  Collection limitation period: 2 years (verify — see debt-strategy.md).
 
 ### Newfoundland & Labrador
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 
 | Taxable Income | NL Rate |
 |---------------|---------|
@@ -475,11 +486,11 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 - **Pharmacare:** NL Prescription Drug Program (income-based).
 - **Disability:** Income Support for persons with disabilities.
 - **Notable:** 15% HST. No land transfer tax (registration fees only).
-  Collection limitation period: 6 years.
+  Collection limitation period: verify — see debt-strategy.md.
 
 ### Prince Edward Island
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 
 | Taxable Income | PEI Rate |
 |---------------|---------|
@@ -494,7 +505,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 - **Pharmacare:** PEI Pharmacare (various programs by age/income).
 - **Disability:** Social Assistance for persons with disabilities.
 - **Notable:** 15% HST. No land transfer tax (transfer fee only).
-  Collection limitation period: 6 years.
+  Collection limitation period: 6 years (verify — see debt-strategy.md).
 
 ---
 
@@ -502,7 +513,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Yukon
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 - 6.4% on first $55,867
 - 9.0% on $55,868-$111,733
 - 10.9% on $111,734-$154,906
@@ -516,7 +527,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Northwest Territories
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 - 5.9% on first $48,326
 - 8.6% on $48,327-$96,655
 - 12.2% on $96,656-$157,139
@@ -530,7 +541,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Nunavut
 
-**Tax Brackets (2025 — verify):**
+**Tax Brackets (verify current year — see current-figures.md or the provincial site):**
 - 4.0% on first $53,268
 - 7.0% on $53,269-$106,537
 - 9.0% on $106,538-$173,205
@@ -545,7 +556,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 
 ### Northern Living Deductions (All Territories + Prescribed Northern Zones)
 - **Residency deduction:** $11.00/day for prescribed northern zones, $5.50/day for
-  intermediate zones (2025 — verify). Must live in the zone for 6+ consecutive months.
+  intermediate zones (verify current year — see current-figures.md or the provincial site). Must live in the zone for 6+ consecutive months.
 - **Travel benefit deduction:** Up to 2 trips per year for medical travel or personal travel
   from a prescribed zone to the nearest southern city.
 - These deductions also apply to some northern parts of provinces (northern Ontario, Quebec,
@@ -558,13 +569,13 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 ## 12. Provincial Child Benefits
 
 All provinces layer their own child benefits on top of the federal CCB. The CRA administers
-most provincial child benefits and pays them with the CCB. (2025 — verify all amounts.)
+most provincial child benefits and pays them with the CCB. (Verify current amounts — see current-figures.md or the provincial site.)
 
 | Province | Program | Max Annual Benefit | Income Test Start | Notes |
 |----------|---------|-------------------|-------------------|-------|
 | Ontario | Ontario Child Benefit | ~$1,727/child | $23,044 | Paid with CCB |
 | Quebec | Quebec Family Allowance | ~$3,006/child | Income-tested | Separate from CCB, paid by Retraite Québec |
-| BC | BC Family Benefit | ~$1,750 first child | $29,526 | Includes BC Child Opportunity Benefit |
+| BC | BC Family Benefit | ~$1,750 first child | $29,526 | Formerly named the BC Child Opportunity Benefit |
 | Alberta | Alberta Child & Family Benefit | ~$1,499-$3,746 | Income-tested | Base + working components |
 | Saskatchewan | Low-Income Tax Credit | Included in tax system | Low-income | Not a separate child benefit |
 | Manitoba | Varies | Integrated | — | Smaller provincial supplements |
@@ -595,7 +606,7 @@ NOT paid with the CCB. It's a completely separate program administered by Retrai
 | Newfoundland | Income Support | ~$900-$1,100 | Varies | |
 | PEI | Social Assistance | ~$850-$1,000 | Varies | |
 
-**(2025 — verify all. These change annually and are among the most frequently updated numbers.)**
+**(Verify current amounts — see current-figures.md or the provincial site. These change annually and are among the most frequently updated numbers.)**
 
 **Key considerations:**
 - Asset limits vary enormously ($2,500 in Quebec to $100,000 in Alberta/BC)

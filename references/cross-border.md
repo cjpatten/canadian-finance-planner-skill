@@ -159,14 +159,17 @@ Even if you meet the substantial presence test, you can claim an **exception** i
 ### FIRPTA — Sale of US Property
 
 **Foreign Investment in Real Property Tax Act (FIRPTA):**
-- When a non-US person sells US real property, the **buyer must withhold 15% of the gross sale price**
-  and remit it to the IRS
-- This is a **withholding**, not the final tax — you may get some back when filing a US tax return
-- **Personal residence exception:** If the buyer intends to use the property as a residence AND
-  the sale price is ≤ $1,000,000 USD → **no FIRPTA withholding required**
+- When a non-US person sells US real property, the **buyer must withhold** a percentage of the
+  gross sale price and remit it to the IRS. This is a **withholding**, not the final tax — you
+  may get some back when filing a US tax return.
+- **The withholding rate depends on the price AND the buyer's intended use:**
+  - **0%** — ONLY if the buyer intends to use the property as a residence AND the sale price is **≤ $300,000 USD**
+  - **10%** — buyer-residence use AND sale price **$300,001–$1,000,000 USD**
+  - **15%** — any sale **above $1,000,000 USD**, OR any sale where the buyer will NOT use it as a residence
 
 **Example:** Canadian sells US vacation condo for $500,000 USD:
-- FIRPTA withholding: $75,000 USD (15%)
+- If the buyer will NOT use it as a residence: 15% withheld = $75,000 USD
+- If the buyer WILL use it as a residence (price falls in the $300K–$1M band): 10% withheld = $50,000 USD
 - Actual capital gains tax may be less — file US return to claim refund of excess
 
 ### US Estate Tax Exposure
@@ -177,9 +180,13 @@ Even if you meet the substantial presence test, you can claim an **exception** i
 - **Tax rate:** Up to 40% on amounts above the exemption
 
 **Canada-US Tax Treaty protection:**
-- If your **worldwide estate ≤ ~$1.2 million USD** (prorated unified credit), you likely owe no US estate tax
-- Treaty provides a prorated share of the US unified credit based on (US assets / worldwide assets)
-- **Form 706-NA** required if US-situs assets exceed $60,000 USD
+- The US estate/gift exemption is **$15M USD per person, permanent from Jan 1, 2026** (OBBBA —
+  legislated permanent, with NO scheduled 2026 sunset or drop). See `references/current-figures.md`
+  for the current figure.
+- Via treaty proration, a Canadian with a **worldwide estate under ~$15M USD** generally owes no
+  US estate tax. The treaty provides a prorated share of the US unified credit based on
+  (US assets / worldwide assets).
+- **Form 706-NA** required if US-situs assets exceed $60,000 USD (structural filing threshold).
 
 **Planning strategies:**
 - Hold US real estate in a Canadian corporation (can eliminate estate tax but creates other complications)
@@ -228,7 +235,7 @@ If you rent out US property, you must report the income in **both countries**:
 
 **Within 3 months:**
 - [ ] File for **Canada Child Benefit (CCB)** if you have children under 18
-- [ ] Register for **GST/HST credit** (automatic with first tax return)
+- [ ] Register for the **Canada Groceries and Essentials Benefit (CGEB)** — the credit that replaced the GST/HST credit in July 2026 (automatic with first tax return)
 - [ ] Open a **TFSA** (if 18+ and now a Canadian resident — room starts accumulating from arrival year)
 - [ ] Look into **settlement services** — free government-funded services for newcomers
   (language training, employment help, community connections)
@@ -320,7 +327,7 @@ on any appreciation.
 
 ### What You Lose on Departure
 - **CCB** — stops when you become a non-resident
-- **GST/HST credit** — stops
+- **Canada Groceries and Essentials Benefit (CGEB)** (replaced the GST/HST credit in July 2026) — stops
 - **TFSA** — cannot contribute while non-resident (no penalty for keeping existing TFSA, but no new room)
 - **Provincial health coverage** — coverage ends after departure (some provinces: immediately; others: up to 3 months)
 - **OAS** — can still receive if qualified, but may be clawed back at higher rates for non-residents
@@ -388,11 +395,20 @@ Canada has **social security agreements** with 60+ countries. These allow:
 | **What counts** | Bank accounts, investment accounts, mutual funds, RRSPs, TFSAs, RESPs — ALL foreign financial accounts |
 | **Filing** | Electronically via FinCEN BSA E-Filing (NOT with IRS) |
 | **Deadline** | April 15, automatic extension to October 15 |
-| **Penalty (non-willful)** | Up to $10,000 USD per violation |
-| **Penalty (willful)** | Greater of $100,000 USD or 50% of account balance |
+| **Penalty (non-willful)** | Inflation-adjusted — up to ~$16,536 USD per violation (2026); use the current figure in `references/current-figures.md` |
+| **Penalty (willful)** | Greater of ~$165,353 USD or 50% of account balance (2026); use the current figure in `references/current-figures.md` |
 
 **Key for US citizens in Canada:** Your Canadian bank accounts, RRSPs, TFSAs, and investment
 accounts are ALL "foreign" accounts from the IRS perspective. Most US citizens in Canada must file FBAR.
+
+**US income-tax treatment of Canadian registered accounts (US persons):**
+- **TFSA:** NOT recognized as tax-sheltered by the IRS — the income is **taxable on the US return
+  each year**, and it has historically also been treated as a foreign trust (Forms 3520/3520-A).
+  A TFSA is often a poor choice for a US person; confirm current filing requirements.
+- **RESP / RDSP:** The IRS granted **Form 3520/3520-A foreign-trust reporting relief** under
+  **Rev. Proc. 2020-17** (they are no longer treated as reportable foreign trusts), though income
+  may still be US-taxable.
+- **RRSP/RRIF:** Tax-deferred for US persons under the treaty (no annual US tax on internal growth).
 
 ### FATCA — Form 8938 (Statement of Specified Foreign Financial Assets)
 
@@ -411,7 +427,7 @@ accounts are ALL "foreign" accounts from the IRS perspective. Most US citizens i
 | Threshold | $10,000 USD | $200,000+ USD (abroad) |
 | What's reported | Financial accounts only | Financial accounts + other assets |
 | Real estate | Excluded | Excluded (unless held through foreign entity) |
-| Penalties | Severe ($10K-$100K+) | $10,000 per form + continuation penalties |
+| Penalties | Severe (non-willful ~$16.5K, willful ~$165K+ or 50% — verify current) | $10,000 per form + continuation penalties |
 
 ### Streamlined Filing Procedures
 If a US citizen in Canada has **not been filing** US returns:
@@ -464,7 +480,7 @@ If a US citizen in Canada has **not been filing** US returns:
 
 ### Restarting Benefits
 - **CCB:** Re-apply using Form RC66 once you're a resident with children under 18
-- **GST/HST credit:** Automatic once you file your return as a resident
+- **Canada Groceries and Essentials Benefit (CGEB)** (replaced the GST/HST credit in July 2026): Automatic once you file your return as a resident
 - **OAS/CPP:** If you were receiving these abroad, notify Service Canada of your return
 - **Provincial benefits:** Re-apply for any province-specific benefits (Trillium, BC Climate Action, etc.)
 

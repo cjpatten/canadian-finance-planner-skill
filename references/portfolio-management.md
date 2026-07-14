@@ -298,9 +298,11 @@ above **~$85,000 CAD** ($60,000 USD), their estate may be subject to US estate t
 - **Rate:** Up to 40% on US-situs assets above the exemption
 - **Unified credit:** Under the Canada-US treaty, Canadians get a prorated share of the US
   unified credit based on the proportion of worldwide assets that are US-situs.
-- **Treaty relief:** Effectively, most Canadians with worldwide estates under ~$19M CAD (~$13.6M USD)
-  (2025 — verify, this threshold may drop in 2026) won't owe US estate tax. But you still
-  need to FILE a US estate tax return (Form 706-NA) if US-situs assets exceed $60K.
+- **Treaty relief:** The US estate/gift exemption is **$15M USD per person, permanent from Jan 1, 2026**
+  (OBBBA — legislated permanent, with NO 2026 sunset or drop). Via treaty proration, most Canadians
+  with a worldwide estate under ~$15M USD won't owe US estate tax. See `references/current-figures.md`
+  for the current figure. You still need to FILE a US estate tax return (Form 706-NA) if US-situs
+  assets exceed $60K.
 - **US-situs assets include:** US stocks (even in Canadian brokerage accounts), US real estate,
   US-domiciled ETFs. Canadian-listed ETFs that hold US stocks are generally NOT US-situs.
 
@@ -324,7 +326,7 @@ You exercise when the market price is above the exercise price — the differenc
   (reported on your T4). This is NOT a capital gain — it's taxed at your full marginal rate.
 - **50% deduction available** if: the exercise price was at least FMV at grant date, shares are
   common shares (not preferred), you're dealing at arm's length with the employer, AND for
-  non-CCPC shares, there's a $250,000 annual vesting limit on the deduction (2025 — verify).
+  non-CCPC shares, there's a **$200,000 annual vesting limit** on the deduction (see `references/current-figures.md`).
 - **CCPC special rule:** Taxable benefit deferred until you sell the shares (not at exercise).
   Must hold shares 2+ years after exercise for the 50% deduction.
 - **At sale:** Any gain above the exercise price + benefit already taxed = capital gain (50% inclusion)
@@ -414,32 +416,28 @@ draw from them significantly impacts how much tax you pay over your lifetime.
 ### General Tax-Efficient Withdrawal Order
 1. **First: Non-registered accounts** — These are already being taxed annually (dividends,
    interest, capital gains). Draw these down first to stop the ongoing tax drag.
-2. **Second: RRSP/RRIF** — Mandatory minimum withdrawals start at 72 (when RRSP converts to
-   RRIF). Draw more than the minimum in low-income years to avoid a tax spike later.
+2. **Second: RRSP/RRIF** — You must convert your RRSP to a RRIF by Dec 31 of the year you turn 71,
+   and mandatory minimum withdrawals begin the following year. Draw more than the minimum in
+   low-income years to avoid a tax spike later.
 3. **Last: TFSA** — Tax-free growth. Let this grow as long as possible. Use it to top up
    income in years when you need more without increasing your tax bracket.
 
 ### RRIF Minimum Withdrawals
-At age 72, you MUST convert your RRSP to a RRIF and begin minimum annual withdrawals:
-
-| Age | Minimum % of Balance |
-|-----|---------------------|
-| 72 | 5.28% |
-| 75 | 5.82% |
-| 80 | 6.82% |
-| 85 | 8.51% |
-| 90 | 11.92% |
-| 94+ | 20.00% |
+You MUST convert your RRSP to a RRIF by **Dec 31 of the year you turn 71**, and minimum annual
+withdrawals begin the following year. The minimum is a percentage of the Jan 1 balance that rises
+with age (e.g., **age 71 = 5.28%, age 72 = 5.40%**, reaching **20% at age 95+**). Use the full
+prescribed-factor schedule in `references/current-figures.md` — do not quote factors from memory.
 
 **Risk:** If your RRIF balance is large, minimum withdrawals in your 80s-90s can push you
-into high tax brackets and trigger OAS clawback ($93,454 threshold, 2025 — verify).
+into high tax brackets and trigger OAS clawback (see the current threshold in `references/current-figures.md`).
 
 **Strategy:** Withdraw MORE than the minimum in your 60s-70s (while in a lower bracket) to
 reduce the RRIF balance before the minimums force large withdrawals later.
 
 ### OAS Clawback Management
-OAS clawback (recovery tax) starts when net income exceeds ~$93,454 (2025 — verify). OAS
-is fully clawed back at ~$151,668.
+OAS clawback (recovery tax) starts when net income exceeds the annual threshold and is fully clawed
+back at a higher income level. **Use the current thresholds in `references/current-figures.md`** —
+do not quote these from memory (they are indexed each year).
 
 **Strategies to minimize clawback:**
 - Draw from TFSA instead of RRIF when near the threshold (TFSA withdrawals don't count as income)
@@ -567,7 +565,7 @@ not your purchase price.
 | Feature | DIY (Discount Brokerage) | Robo-Advisor | Full-Service Advisor |
 |---------|------------------------|-------------|---------------------|
 | Annual fee | $0 (commission-free trades) | 0.25-0.50% of assets | 1.0-1.5% of assets |
-| + Fund MER | ~0.20% (all-in-one ETF) | ~0.20% (ETF-based) | 1.5-2.5% (mutual funds) |
+| + Fund MER | ~0.17-0.20% (all-in-one ETF — see `references/current-figures.md`) | ~0.17-0.20% (ETF-based) | 1.5-2.5% (mutual funds) |
 | **Total cost** | **~0.20%/year** | **~0.45-0.70%/year** | **~2.5-4.0%/year** |
 | On $500K portfolio | ~$1,000/year | ~$2,250-$3,500/year | ~$12,500-$20,000/year |
 | You do | Everything (buy, sell, rebalance, tax planning) | Nothing — fully automated | Nothing — advisor manages |

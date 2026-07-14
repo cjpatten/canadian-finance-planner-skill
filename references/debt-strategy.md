@@ -281,15 +281,18 @@ limitation acts, hoyes.com)
 | Ontario | 2 years | From last payment or acknowledgment |
 | Alberta | 2 years | Reset by written acknowledgment |
 | British Columbia | 2 years | Basic Limitation Act |
-| Saskatchewan | 2 years | As of 2020 update |
-| Manitoba | 6 years | Longest in Canada |
+| Saskatchewan | 2 years | The Limitations Act |
+| Manitoba | 2 years | The Limitations Act (in force Sep 2022) |
 | Quebec | 3 years | Civil Code of Quebec |
-| New Brunswick | 6 years | Limitation of Actions Act |
-| Nova Scotia | 6 years | Limitation of Actions Act |
+| New Brunswick | 2 years | Limitation of Actions Act |
+| Nova Scotia | 2 years | Limitation of Actions Act |
 | PEI | 6 years | Statute of Limitations |
 | Newfoundland | 6 years | Limitations Act |
 
-**(2025 — verify all. Provinces update these periodically.)**
+**Always verify the specific province's limitations act before quoting — these are provincial
+statutes that provinces update periodically (MB/NB/NS all moved to 2 years in recent reforms).
+Name the province's limitations act rather than asserting a period confidently.** (Current
+figures: `references/current-figures.md`.)
 
 ### What Resets the Limitation Clock
 - Making any payment on the debt (even $1)
@@ -342,8 +345,9 @@ creditor has. (Source: canada.ca/CRA)
 ### Payment Arrangements
 - Call CRA collections (1-888-863-8657) and propose a monthly payment plan.
 - CRA will ask for your income, expenses, and assets to determine affordable payments.
-- **Interest continues to accrue** on the balance during the arrangement (~7% on overdue tax,
-  2025 — verify, changes quarterly). (Source: canada.ca/understanding-interest)
+- **Interest continues to accrue** on the balance during the arrangement (CRA overdue-tax
+  interest rate: current figure in `references/current-figures.md`; it is set quarterly).
+  (Source: canada.ca/understanding-interest)
 - CRA generally won't take enforcement action if you have an active payment arrangement and
   are making agreed payments.
 - Set up automatic payments to avoid accidentally missing one.
@@ -390,11 +394,16 @@ If you can't afford your federal student loan payments, RAP can help. (Source: c
   Repayment Assistance in Ontario).
 
 ### Federal Student Loan Interest
-- **No interest on federal student loans** since November 2022 (verify if still current).
-  This was a major policy change — previously the rate was prime or prime + 2.5%.
-- Provincial student loan interest varies by province and may still be charged.
-- Student loan interest tax credit: 15% federal non-refundable credit on interest paid
-  (federal loans only). Can carry forward unused interest for 5 years.
+- **Federal student loans are permanently interest-free** since Apr 1, 2023 — the elimination
+  was made permanent (previously the rate was prime or prime + 2.5%). There is NO interest to
+  optimize on the federal portion, so don't build an interest-minimization strategy around it —
+  prioritize attacking other (interest-bearing) debt first.
+- Provincial student loan interest varies by province and may still be charged — check the
+  user's provincial loan.
+- Student loan interest tax credit: a federal non-refundable credit still exists on interest
+  paid, but since federal loans no longer accrue interest, this only applies to any
+  interest-bearing **provincial** loan portion. Can carry forward unused interest for 5 years.
+  (Credit rate: current figure in `references/current-figures.md`.)
 
 ### The 7-Year Rule for Insolvency
 - Student loans **cannot** be included in a consumer proposal or discharged in bankruptcy
@@ -413,21 +422,27 @@ If you can't afford your federal student loan payments, RAP can help. (Source: c
 ## 9. Payday Loans & Predatory Lending Exit
 
 ### The Math
-- Typical payday loan cost: **$15 per $100 borrowed for 2 weeks.**
-- Annual effective interest rate: **~391%** (Source: FCAC)
-- On a $500 loan: you repay $575 two weeks later. If you can't, you re-borrow + new fee.
-- The cycle: borrow $500 → repay $575 → short $500 again → re-borrow → repeat forever.
-  After 6 cycles, you've paid $450 in fees on a $500 loan and still owe $500.
+- Federal cost cap since Jan 1, 2025: **$14 per $100 advanced** in designated provinces
+  (current figure in `references/current-figures.md`).
+- A payday loan is defined as **$1,500 or less for 62 days or less** — even at the capped rate
+  the effective annual rate is roughly **365% APR**, so warn users aggressively. (Source: FCAC)
+- On a $500 loan: you repay ~$570 in a couple of weeks. If you can't, you re-borrow + new fee.
+- The cycle: borrow $500 → repay ~$570 → short $500 again → re-borrow → repeat forever.
+  A few cycles in, you've paid hundreds in fees and still owe the original $500.
 
-### Provincial Regulations (2025 — verify)
-Provinces regulate the maximum cost of payday loans:
-- Ontario: $15 per $100
-- Alberta: $15 per $100
-- BC: $15 per $100
-- Saskatchewan: $17 per $100
-- Manitoba: $17 per $100
-- Nova Scotia: $14 per $100
-- Quebec: effectively banned (max 35% annual rate makes payday loans unviable)
+### The Criminal Interest Rate (since Jan 1, 2025)
+- Canada's criminal interest rate is now **35% APR** for personal loans (down from the old
+  limit of 60% EAR ≈ 48% APR). Any personal loan charging above 35% APR is **illegal**.
+- Payday loans made under a designated provincial regime are the exception — they are governed
+  by the per-$100 cap above, not the 35% criminal rate. Outside that regime (e.g. installment
+  or title loans above 35% APR), the loan is offside the Criminal Code.
+- Current figures: `references/current-figures.md`.
+
+### Provincial Regulations
+Payday loans are regulated under provincial regimes, now sitting under the federal $14-per-$100
+cost cap (designated provinces). Quebec is the outlier: it effectively bans payday lending by
+capping the rate at 35% annual, which makes the product unviable there. Confirm the current
+per-$100 cap for the user's province in `references/current-figures.md` before quoting.
 
 ### Exit Strategy
 1. **Stop the cycle.** This is the hardest part. Do NOT take another payday loan to cover
@@ -457,7 +472,9 @@ Provinces regulate the maximum cost of payday loans:
 - Better alternatives: buy used, ask for payment plan from retailer, credit union loan.
 
 **Car Title Loans:**
-- Borrow against your vehicle title at 30-60%+ interest.
+- Borrow against your vehicle title, historically at 30-60%+ interest. **Note:** since Jan 1, 2025
+  any personal loan above **35% APR is illegal** under the criminal interest rate, so a title loan
+  quoted above that is offside the Criminal Code — flag it.
 - **You lose your car if you default.** This can cascade into job loss (can't get to work).
 - Almost never worth the risk. Better to sell the car and buy cheaper.
 

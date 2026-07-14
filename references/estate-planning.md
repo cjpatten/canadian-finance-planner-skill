@@ -135,7 +135,11 @@ If you die without a will, your province's intestacy rules determine who inherit
 
 ### Alberta (Wills and Succession Act)
 - **Spouse, no children:** Spouse inherits everything
-- **Spouse + children (all shared):** Spouse gets $150,000 + 50% of remainder (verify — recently changed)
+- **Spouse + children (all shared with the surviving spouse):** Spouse inherits EVERYTHING
+  (there is no preferential-share carve-out when every child is also the spouse's child)
+- **Spouse + child(ren) from a prior relationship:** Spouse gets the greater of a prescribed
+  preferential share or 50% of the estate; the rest is shared among the children (verify the
+  current preferential-share amount)
 - **Adult interdependent partner:** Same rights as married spouse
 
 ### Quebec (Civil Code)
@@ -266,7 +270,7 @@ Being named executor is a significant responsibility — typically 6-18 months o
 - Identify ALL debts and liabilities
 - Open an estate bank account
 - Notify creditors (publish advertisement for creditors — typically required for 4-6 weeks)
-- File CPP death benefit application ($2,500)
+- File CPP death benefit application (base $2,500; up to $5,000 max — includes an up-to-$2,500 top-up since Jan 2025 when the deceased never collected CPP and left no surviving spouse; see references/current-figures.md)
 - Cancel CPP/OAS/GIS and other government benefits
 - File the deceased's final tax return
 
@@ -358,26 +362,28 @@ value of assets that pass through the estate** (not joint, not beneficiary-desig
 
 | Province | Fee Structure | On $500K Estate | On $1M Estate |
 |----------|-------------|----------------|---------------|
-| Ontario | 0.5% on first $50K + 1.5% on remainder | $7,000 | $14,500 |
-| BC | 0.6% on first $25K + 1.4% on remainder | $6,800 | $13,750 |
-| Alberta | Flat fee schedule, max $525 | $525 | $525 |
-| Saskatchewan | 0.7% flat rate | $3,500 | $7,000 |
-| Manitoba | $70 flat fee | $70 | $70 |
-| Quebec (notarial will) | $0 | $0 | $0 |
-| Quebec (non-notarial) | ~$1,000-$1,500 | ~$1,000 | ~$1,000 |
-| Nova Scotia | $1,003 + 1.695% over $100K | $7,793 | $16,253 |
-| New Brunswick | $5 per $1,000 (0.5%) | $2,500 | $5,000 |
-| PEI | $400 flat | $400 | $400 |
-| Newfoundland | $385 + 0.6% over $1,000 | $3,379 | $6,379 |
-| Yukon | $140 flat | $140 | $140 |
-| NWT | $200-$400 | ~$300 | ~$400 |
-| Nunavut | Minimal | ~$200 | ~$200 |
+| Ontario | First $50K EXEMPT, then $15 per $1,000 (1.5%) above $50K | $6,750 | $14,250 |
+| BC | $0 to $25K; $6 per $1,000 ($25K–$50K, 0.6%); $14 per $1,000 above $50K (1.4%) | ~$6,450 | ~$13,450 |
+| Alberta | Flat fee schedule, max $525 (estates over $250K); $35 minimum | $525 | $525 |
+| Saskatchewan | $200 flat + $7 per $1,000 of estate assets | ~$3,700 | ~$7,200 |
+| Manitoba | **$0 — probate fees eliminated (Nov 6, 2020)** | $0 | $0 |
+| Quebec (notarial will) | $0 — no probate required | $0 | $0 |
+| Quebec (non-notarial) | Court/notary validation fee (varies — do not quote a fixed amount) | verify | verify |
+| Nova Scotia | Bracketed (e.g. ~$1,003 + ~$16.95 per $1,000 over $100K) — schedule dates to 2015, verify | verify | verify |
+| New Brunswick | $5 per $1,000 (0.5%) — verify | ~$2,500 | ~$5,000 |
+| PEI | Bracketed fee — verify current schedule | verify | verify |
+| Newfoundland | Flat base + per-$1,000 over $1,000 — verify current schedule | verify | verify |
+| Yukon | Low flat fee — verify | verify | verify |
+| NWT | Low flat/bracketed fee — verify | verify | verify |
+| Nunavut | Minimal — verify | verify | verify |
 
-**(2025 — verify all. Provinces update fees periodically.)**
+**(Verify all against references/current-figures.md and provincial court sites. Provinces
+update fees periodically.)**
 
-**Ontario and BC are the most expensive** — a $1M estate pays $14,500+ in Ontario.
-**Alberta, Manitoba, PEI, and territories have minimal fees.**
-**Quebec notarial wills avoid probate entirely.**
+**Ontario and BC are among the most expensive** — a $1M estate pays roughly $14,250 in
+Ontario. **Alberta (max $525), Manitoba ($0), and the territories have minimal fees.**
+**Manitoba eliminated probate fees entirely in November 2020, and Quebec notarial wills
+avoid probate entirely.**
 
 (Source: taxtips.ca/probate, provincial court websites)
 
@@ -529,7 +535,7 @@ This triggers capital gains tax on any appreciation.
 | Non-registered investments | 50% of capital gain taxable | Gain = FMV at death - ACB |
 | Primary residence | Exempt (PRE) | No tax on principal residence |
 | Cottage/vacation property | 50% of capital gain taxable | Unless designated as PRE for some years |
-| Business shares (QSBC) | 50% taxable, but LCGE may apply | Up to $1.25M exemption per person |
+| Business shares (QSBC) | 50% taxable, but LCGE may apply | Lifetime capital gains exemption per person (current figure in references/current-figures.md) |
 | TFSA | Not taxable | Successor holder (spouse) preserves tax-free status |
 | Life insurance proceeds | Not taxable | Tax-free to named beneficiary |
 | Rental property | Capital gain + CCA recapture | CCA recapture is 100% taxable |
@@ -760,7 +766,7 @@ To avoid attribution rules, parents can lend money to adult children (or spouse)
 CRA prescribed rate:
 
 **How it works:**
-1. Parent lends money to child at the CRA prescribed interest rate (currently ~4-5%, verify)
+1. Parent lends money to child at the CRA prescribed interest rate (3% for Q3 2026; current rate in references/current-figures.md)
 2. Child invests the borrowed money — all investment income taxed in child's hands
 3. Child must pay interest to parent by **January 30 each year** — failure to pay in ANY year
    permanently triggers attribution for all future income

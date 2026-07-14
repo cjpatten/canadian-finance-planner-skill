@@ -157,19 +157,41 @@ but significantly more interest over the life of the mortgage.
 - **Uninsured (20%+ down):** No insurance required. Slightly higher rates in some cases.
   Maximum amortization is 25 years (30-year only available for insured).
 
+### GST on New Homes & the First-Time Home Buyers' GST Rebate
+GST (or the federal portion of HST) applies to **newly built** homes, not resale homes.
+
+- **First-Time Home Buyers' GST Rebate (Bill C-4, 2026):** A **100% GST rebate** on a NEW home
+  for eligible first-time buyers, up to a purchase price of **$1M** (worth up to **$50,000**
+  back), phasing out between $1M and $1.5M (zero at $1.5M+). Applies to purchase agreements
+  entered into **on or after May 27, 2025**. This is a major, recent addition — surface it for
+  any first-time buyer considering new construction.
+- **GST New Housing Rebate (the older, non-FTB rebate):** partial rebate of the federal GST on
+  new homes, phasing out over a price band. Exact rebate percentages and price thresholds:
+  current figures in `references/current-figures.md`.
+- Down-payment tiers and CMHC insurance premiums: current figures in
+  `references/current-figures.md`.
+
 ### Stress Test
 All borrowers must qualify at the **higher of:**
 - Their contract interest rate + 2%, OR
-- The benchmark qualifying rate (currently 5.25% — verify)
+- The benchmark qualifying rate of **5.25%** (unchanged; current figure in
+  `references/current-figures.md`)
 
 This means if your rate is 4%, you must prove you can afford payments at 6%. This limits
 how much you can borrow and is designed to protect against rate increases.
 
-**GDS (Gross Debt Service):** Housing costs (mortgage + property tax + heating + 50% of condo
-fees) must be ≤ 32% of gross household income.
+**Renewal switch exemption (since Nov 2024):** A borrower doing a **straight switch** to a new
+lender at renewal — same loan amount and same (or shorter) amortization — no longer needs to
+pass a new stress test. This applies to both insured and uninsured mortgages, and makes it far
+easier to shop lenders at renewal instead of being stuck with the incumbent's rate.
 
-**TDS (Total Debt Service):** Housing costs + all other debt payments must be ≤ 40% of gross
-household income.
+**GDS (Gross Debt Service):** Housing costs (mortgage + property tax + heating + 50% of condo
+fees) as a percentage of gross household income. For an insured (CMHC) mortgage, the hard
+limit is **GDS 39%** — 32% is only a conservative planning guideline, not the qualification cap.
+
+**TDS (Total Debt Service):** Housing costs + all other debt payments as a percentage of gross
+household income. For an insured (CMHC) mortgage, the hard limit is **TDS 44%** — 40% is only
+a conservative guideline. (Current CMHC limits: `references/current-figures.md`.)
 
 ### Mortgage Broker vs Bank
 - **Broker:** Shops 30+ lenders for you. Free to the borrower (paid by the lender). Often
@@ -243,7 +265,9 @@ The IRD can be massive.
 3. **Ask about the "retention rate"** — the best rate your current lender offers to keep you.
    This is usually not the first offer they make.
 4. **Consider switching lenders.** At renewal, there's NO penalty to switch (your term has ended).
-   If switching an insured mortgage, there's no new stress test required.
+   Since Nov 2024, a straight switch at renewal (same amount, same-or-shorter amortization)
+   needs no new stress test — for both insured AND uninsured mortgages — so shopping other
+   lenders no longer means re-qualifying.
 
 ### Renewal Shock (2026)
 Many Canadians who locked in at 2-3% during 2020-2022 are renewing at 4-5% in 2026.
@@ -260,7 +284,7 @@ If the increase is unaffordable, options include:
 | | Renewal | Refinancing |
 |--|---------|-------------|
 | When | At the end of your term | Anytime (penalties apply if mid-term) |
-| Stress test | Not required if staying with same lender (insured) | Required |
+| Stress test | Not required for a straight switch at renewal (insured or uninsured, since Nov 2024) | Required |
 | Can change amortization | Sometimes (lender discretion) | Yes |
 | Can access equity | No | Yes (borrow more against home value) |
 | Penalty | None (term has ended) | Yes (3 months or IRD if mid-term) |
@@ -393,8 +417,8 @@ This can work if the property is appreciating fast enough, but it's risky and ti
 - Investment property does NOT qualify for the principal residence exemption.
 - Capital gain = sale price - ACB (original purchase price + capital improvements - CCA claimed)
   - closing costs.
-- 50% of the gain is included in your taxable income (verify — capital gains inclusion rate
-  has been debated in recent budgets).
+- 50% of the gain is included in your taxable income (the proposed 2/3 inclusion-rate increase
+  was CANCELLED in 2025 — the rate remains 50%; settled, not pending).
 - If you change the use of a property (from rental to personal or vice versa), it's a
   **deemed disposition** — you calculate the capital gain at that point as if you sold it.
 
@@ -653,7 +677,8 @@ Increasingly popular among retirees:
 - 1% on first $200,000
 - 2% on $200,001-$2,000,000
 - 3% above $2,000,000
-- **First-time buyer exemption:** Full exemption up to $500,000, partial to $525,000
+- **First-time buyer exemption:** Full exemption up to **$835,000** FMV (saves up to ~$8,000),
+  partial phase-out to $860,000. (Current figure: `references/current-figures.md`.)
 - **Foreign buyer tax:** 20% in designated areas (Metro Vancouver, etc.) — verify if still active
 - **Speculation and vacancy tax:** 0.5-2% for non-residents and satellite families
 

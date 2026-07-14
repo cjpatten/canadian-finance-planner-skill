@@ -50,7 +50,9 @@ math — just deliver the results.
 - Categorize all spending (fixed, variable, irregular)
 - Calculate surplus/deficit
 - Compare to 50/30/20 benchmark (needs/wants/savings)
-- Compare housing to CMHC GDS guideline (32%) and TDS (40%)
+- Compare housing to CMHC GDS guideline (32%) and TDS (40%) — note these are conservative
+  guidelines; CMHC actually allows up to GDS 39% / TDS 44% for insured mortgages (see
+  references/current-figures.md), so a borderline borrower may still qualify
 - Identify top 5 areas for realistic spending reduction
 - Build suggested budget that funds goals while protecting joy spending
 - Identify "habit spending" vs "joy spending" — redirect, don't cut joy
@@ -145,7 +147,7 @@ likely qualify for, estimated value, whether currently receiving, and how to app
 Personalized dates that matter to THIS user only:
 - RRSP deadline, tax filing deadline, quarterly installments (if applicable)
 - RESP contribution timing, TFSA room reset
-- Benefit payment dates (CCB, GST/HST, OAS/CPP if applicable)
+- Benefit payment dates (CCB, CGEB (formerly the GST/HST credit), OAS/CPP if applicable)
 - Age milestones (60 early CPP, 65 OAS, 71 RRSP conversion)
 - HSA reset dates, mortgage renewal
 

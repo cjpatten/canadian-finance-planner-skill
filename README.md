@@ -1,7 +1,7 @@
 # Canadian Personal Finance Manager
 ### Your AI Financial Coach — Built for Canadians
 
-**Current version:** 2.4 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
+**Current version:** 3.0 | [View changelog](https://github.com/cjpatten/canadian-finance-planner-skill/releases)
 
 A custom skill for [Claude](https://claude.ai) that turns it into your personal AI financial coach — built specifically for Canadians.
 
@@ -340,4 +340,4 @@ This skill provides financial education and planning tools, not licensed financi
 
 ---
 
-*Built with Claude. Canada-focused (v2.4).*
+*Built with Claude. Canada-focused (v3.0).*

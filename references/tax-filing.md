@@ -50,19 +50,20 @@ quarterly installments). For investment-specific tax rules, also read
 
 ## 2. Key Deadlines
 
-### 2026 Tax Filing Season (for 2025 Tax Year — verify annually)
+### 2027 Tax Filing Season (for 2026 Tax Year — verify annually)
 
 | Deadline | Who | What | Penalty if Missed |
 |----------|-----|------|------------------|
-| **March 2, 2026** | Everyone with RRSP room | RRSP contribution deadline (for 2025 deduction) | No penalty, just miss the deduction for 2025 |
-| **April 30, 2026** | Most individuals | File 2025 T1 return + pay any balance owing | 5% of balance + 1%/month (up to 12 months) |
-| **April 30, 2026** | Self-employed | **Payment deadline** (even though filing deadline is June 15) | Interest from May 1 at ~7% compounded daily |
-| **June 15, 2026** | Self-employed & their spouses | File 2025 T1 return | Late filing penalty if balance owing |
+| **March 1, 2027** | Everyone with RRSP room | RRSP contribution deadline (for 2026 deduction) | No penalty, just miss the deduction for 2026 |
+| **April 30, 2027** | Most individuals | File 2026 T1 return + pay any balance owing | 5% of balance + 1%/month (up to 12 months) |
+| **April 30, 2027** | Self-employed | **Payment deadline** (even though filing deadline is June 15) | Interest from May 1 at the current CRA overdue rate (see references/current-figures.md), compounded daily |
+| **June 15, 2027** | Self-employed & their spouses | File 2026 T1 return | Late filing penalty if balance owing |
 | **Quarterly** | Self-employed (if >$3K owing) | Installment payments (Mar 15, Jun 15, Sep 15, Dec 15) | Interest on deficient installments |
 
 **Critical self-employed trap:** You can FILE by June 15, but you must PAY by April 30.
 If you owe $10,000 and file on June 15, you've avoided the late filing penalty but CRA
-charges interest from May 1 (46 days of interest at ~7% = ~$88).
+charges interest from May 1 (46 days of daily-compounded interest at the current overdue
+rate — see references/current-figures.md).
 
 ### RRSP Deadline Strategy
 - RRSP contributions made in the first 60 days of the year (Jan 1 - March 1/2) can be
@@ -168,7 +169,8 @@ NETFILE-certified software.
 - **TFSA contribution room** — verify before contributing
 - **Notice of Assessment** — view online, download PDF
 - **T-slips** — most slips available by mid-March (Auto-fill)
-- **Benefit payment information** — CCB, GST/HST credit, OTB amounts
+- **Benefit payment information** — CCB, the Canada Groceries and Essentials Benefit (CGEB,
+  which replaced the GST/HST credit from July 2026), OTB amounts
 - **Installment payment reminders** — suggested amounts and due dates
 - **Tax return status** — track processing after filing
 - **Reassessment history** — view any changes CRA made
@@ -203,37 +205,44 @@ window for most situations — verify).
 ## 6. Credits & Deductions — Complete Checklist
 
 ### Non-Refundable Credits (Reduce Tax Owing)
-These reduce your tax dollar-for-dollar at the lowest federal rate (14%, 2026 — verify).
+These reduce your tax dollar-for-dollar at the lowest federal rate. **The lowest federal
+rate is now 14% (2026).** For the 2025 return only, the Budget 2025 Top-Up Tax Credit
+(line 34990) preserves the value of most non-refundable credits at ~15%; it does NOT apply
+to 2026 or later returns. Use the current rate and dollar amounts in
+references/current-figures.md.
 
 | Credit | Amount/Rate | Who Qualifies | Line |
 |--------|------------|---------------|------|
-| Basic personal amount | ~$16,129 (2025) | Everyone | 30000 |
-| Spouse/common-law amount | Up to ~$16,129 minus spouse's income | Spouse earns below threshold | 30300 |
-| Eligible dependent amount | Up to ~$16,129 | Single parent with dependent child | 30400 |
-| Canada caregiver credit | $8,773 (2026) | Supporting infirm dependent 18+ | 30425/30450 |
-| Age amount | ~$8,790 (2025) | 65+ with income below ~$44,325 | 30100 |
-| Disability amount (DTC) | ~$9,872 (2025) | Approved DTC certificate (Form T2201) | 31600 |
+| Basic personal amount | Federal BPA (current figure in references/current-figures.md) | Everyone | 30000 |
+| Spouse/common-law amount | Up to the BPA minus spouse's income | Spouse earns below threshold | 30300 |
+| Eligible dependent amount | Up to the BPA | Single parent with dependent child | 30400 |
+| Canada caregiver credit | Current figure in references/current-figures.md | Supporting infirm dependent 18+ | 30425/30450 |
+| Age amount | Current figure in references/current-figures.md; 65+ with income below the threshold | 65+ | 30100 |
+| Disability amount (DTC) | Current figure in references/current-figures.md | Approved DTC certificate (Form T2201) | 31600 |
 | Pension income amount | Up to $2,000 | Receiving eligible pension income | 31400 |
-| Tuition credit | 15% of eligible tuition | Students at qualifying institutions | 32300 |
-| Student loan interest | 15% of interest paid | Federal student loan interest | 31900 |
-| Medical expenses | Expenses exceeding 3% of net income (or ~$2,759, whichever is less) | Everyone with qualifying expenses | 33099 |
-| Charitable donations | 15% on first $200, 29% on remainder (33% if income > $253K) | Donations to registered charities | 34900 |
-| First-time home buyers | $1,500 (15% of $10,000) | First-time home purchase | 31270 |
-| Digital news subscription | 15% of up to $500 | Qualifying Canadian journalism subscriptions | 31350 |
-| Volunteer firefighter | $3,000 × 15% = $450 | 200+ hours of eligible volunteer service | 31220 |
-| Search and rescue volunteer | $3,000 × 15% = $450 | 200+ hours of eligible service | 31240 |
+| Tuition credit | Lowest federal rate (14%, 2026) × eligible tuition | Students at qualifying institutions | 32300 |
+| Student loan interest | Lowest federal rate (14%, 2026) × interest paid | Federal student loan interest | 31900 |
+| Medical expenses | Expenses exceeding the lesser of 3% of net income or the annual cap (current figure in references/current-figures.md) | Everyone with qualifying expenses | 33099 |
+| Charitable donations | Lowest rate (14%, 2026) on first $200, 29% on remainder (33% to the extent income is in the top bracket) | Donations to registered charities | 34900 |
+| First-time home buyers | Lowest federal rate (14%, 2026) × $10,000 | First-time home purchase | 31270 |
+| ~~Digital news subscription~~ | **EXPIRED** (applied to 2020–2024 only; not available for 2026) | Qualifying Canadian journalism subscriptions | 31350 |
+| Volunteer firefighter / search and rescue | $6,000 base × lowest federal rate (current figure in references/current-figures.md) | 200+ hours of eligible service | 31220 / 31240 |
 
-**(2025 amounts — verify all for current tax year)**
+**(Dollar amounts and the lowest federal rate change annually — verify all against
+references/current-figures.md for the current tax year. Note the volunteer firefighter /
+search-and-rescue base was doubled to $6,000.)**
 
 ### Refundable Credits (Paid to You Even with No Tax Owing)
 
 | Credit | Max Amount | Who Qualifies |
 |--------|-----------|---------------|
-| Canada Workers Benefit (CWB) | ~$1,518 (single), ~$2,616 (family) | Low-income workers |
-| GST/HST Credit | ~$519 (single), ~$680 (couple) quarterly | Income-tested |
-| Climate Action Incentive | Varies by province and family size | All tax filers |
+| Canada Workers Benefit (CWB) | Current figure in references/current-figures.md | Low-income workers |
+| Canada Groceries and Essentials Benefit (CGEB) | Current figure in references/current-figures.md; **replaced the GST/HST credit from July 2026** | Income-tested |
 | Canada Training Credit | Up to $250/year (accumulated) | Workers earning $10K-$150K, age 26-65 |
-| Canada Carbon Rebate for Small Business | Varies | Small business with <50 employees |
+
+**Note:** The Canada Carbon Rebate (formerly Climate Action Incentive) and the Canada Carbon
+Rebate for Small Business are DISCONTINUED — the consumer fuel charge was removed and the
+final payment was April 2025. Do not list them as active benefits.
 
 ### Commonly Missed Deductions
 
@@ -255,7 +264,7 @@ People often don't realize these qualify:
 - Carry forward unused donations for up to 5 years
 - Donate publicly-traded securities directly: **no capital gains tax** on the donation,
   full tax receipt for FMV
-- First-time donor super credit may still apply (verify)
+- (The First-Time Donor's Super Credit was eliminated in 2017 — it no longer exists.)
 - Political contributions have a separate credit (75% on first $400)
 
 **Moving Expenses (Line 21900):**
@@ -281,7 +290,8 @@ claims between spouses can save thousands.
 
 ### Charitable Donations
 - **Combine and claim on the HIGHER-income spouse's return**
-- Why: the 29% rate (or 33% above $253K) applies to amounts over $200. Combining both
+- Why: the 29% rate (or 33% to the extent income is in the top federal bracket — threshold
+  in references/current-figures.md) applies to amounts over $200. Combining both
   spouses' donations gets past the $200 threshold faster and more is taxed at the higher rate.
 - **Carry forward strategy:** If both incomes are moderate, carry donations forward and
   claim in a high-income year for maximum benefit.
@@ -375,10 +385,11 @@ employment. Your employer must sign **Form T2200** (Declaration of Conditions of
 confirming this.
 
 ### Claimable Employment Expenses
-- **Home office:** Same two methods as self-employed (detailed % or flat $2/day).
-  Must be required to work from home (T2200 confirms this).
+- **Home office:** Detailed method only — a reasonable percentage of eligible home costs
+  (the temporary $2/day flat-rate method existed for 2020–2022 only and no longer exists).
+  You must be required to work from home and have a signed **Form T2200** to confirm it.
 - **Vehicle:** If required to use personal vehicle for work (not commuting).
-  Mileage log required. CRA per-km rates: $0.72 first 5,000 km, $0.66 after (2025 — verify).
+  Mileage log required. CRA per-km rates: current figure in references/current-figures.md.
 - **Supplies:** Office supplies consumed in employment duties.
 - **Professional dues:** Required union dues, professional association fees.
 - **Meals:** If required to be away from employer's place of business for 12+ hours. 50% deductible.
@@ -391,10 +402,12 @@ confirming this.
 - Employment expenses CANNOT create a loss (reduce employment income to zero only)
 
 ### Home Office for Employees
-- **Detailed method:** Percentage of home × eligible expenses (rent, utilities, internet,
-  maintenance). Requires T2200.
-- **Flat rate:** $2/day worked from home, max $500/year. No T2200 needed. No receipts needed.
-- **Choice:** Most people should calculate both and choose the higher amount.
+- **Detailed method (the only method now available):** Percentage of home × eligible
+  expenses (rent, utilities, internet, maintenance). Requires a signed **Form T2200** from
+  your employer and receipts to support the expenses claimed.
+- **The temporary $2/day flat-rate method is GONE.** It applied only to the 2020, 2021, and
+  2022 tax years (a COVID-era measure) and cannot be used for later years. Employees must now
+  use the detailed method; self-employed people deduct actual costs on the T2125.
 
 (Source: canada.ca/employment-expenses, T2200 guide)
 
@@ -403,7 +416,8 @@ confirming this.
 ## 10. Students & Education
 
 ### Tuition Tax Credit
-- 15% federal non-refundable credit on eligible tuition fees
+- Non-refundable credit at the lowest federal rate (14% for 2026 — current figure in
+  references/current-figures.md) on eligible tuition fees
 - Reported on Form T2202 from your educational institution
 - **Carry forward indefinitely** — use it when you have income to offset
 - Can transfer up to $5,000 to a parent, grandparent, or spouse (minus the amount you need
@@ -411,11 +425,13 @@ confirming this.
 - Provincial tuition credits vary (some provinces eliminated theirs)
 
 ### Student Loan Interest
-- 15% federal non-refundable credit on interest paid on **government student loans** only
+- Non-refundable credit at the lowest federal rate (14% for 2026 — current figure in
+  references/current-figures.md) on interest paid on **government student loans** only
   (not private loans, not LOC)
 - Can carry forward unused interest for **5 years**
-- **No interest on federal student loans** since November 2022 (verify if still current) —
-  this means no credit to claim on federal loans currently
+- **Federal student loans (Canada Student Loans) are permanently interest-free** since
+  April 1, 2023 — so there is no interest to claim a credit on for the federal portion
+  (provincial student-loan interest may still qualify where the province charges it)
 
 ### Scholarships, Bursaries & Grants
 - Generally **tax-free** if you're enrolled in a qualifying program
@@ -452,17 +468,19 @@ confirming this.
 
 ### Age Amount (Line 30100)
 - Non-refundable credit for Canadians **65 and older**
-- Maximum: ~$8,790 (2025 — verify). Reduced when net income exceeds ~$44,325.
-  Fully clawed back at ~$102,835.
-- 15% federal credit = up to ~$1,319 in federal tax savings
+- Maximum amount, the income threshold where it starts to phase out, and the full-clawback
+  income: current figures in references/current-figures.md.
+- Credited at the lowest federal rate (14% for 2026 — current figure in
+  references/current-figures.md)
 
 ### Pension Income Amount (Line 31400)
 - Non-refundable credit on up to $2,000 of eligible pension income
-- Federal credit: 15% × $2,000 = $300
+- Federal credit: 14% × $2,000 = $280 (2026 lowest federal rate — current figure in
+  references/current-figures.md)
 - **Eligible pension income (age 65+):** RRIF withdrawals, life annuity from RPP, DPSP
 - **Under 65:** Only life annuity from RPP qualifies (not RRSP/RRIF)
 - **Strategy:** If you're 65+ and have RRSP, convert a small portion to RRIF and withdraw
-  $2,000 to claim this credit. The $300 credit often exceeds the tax on the $2,000 withdrawal.
+  $2,000 to claim this credit. The $280 credit often exceeds the tax on the $2,000 withdrawal.
 
 ### Pension Income Splitting
 - See Section 7 (Couples Optimization) — split up to 50% via Form T1032
@@ -470,8 +488,8 @@ confirming this.
 - Can save $3,000-$10,000+/year in tax for couples with income imbalance
 
 ### OAS Clawback Planning
-- OAS recovery tax starts at ~$93,454 net income (2025 — verify)
-- Fully clawed back at ~$151,668
+- OAS recovery tax starts at the net-income threshold in references/current-figures.md
+- Fully clawed back at the income shown in references/current-figures.md
 - **Strategies to minimize:**
   - Withdraw from TFSA (not income) when near the threshold
   - Split pension income with spouse
@@ -480,8 +498,8 @@ confirming this.
   - Consider deferring OAS to age 70 (36% increase) if other income covers the gap
 
 ### GIS (Guaranteed Income Supplement)
-- For low-income seniors (individual income below ~$21,768, 2025 — verify)
-- Up to ~$1,072/month (2025 — verify)
+- For low-income seniors (income cutoff in references/current-figures.md)
+- Up to the monthly maximum in references/current-figures.md
 - **TFSA withdrawals do NOT count as income** for GIS purposes
 - RRIF withdrawals DO count — minimize them if GIS-eligible
 - **Must file a tax return every year** to maintain GIS eligibility
@@ -512,7 +530,7 @@ confirming this.
 4. **Claiming childcare on the wrong spouse.** Must be the lower-income spouse (CRA will
    reassess if you file it on the higher-income spouse).
 5. **Not claiming the pension income amount.** If 65+ with RRSP, convert a small amount to
-   RRIF and withdraw $2,000 just to claim the $300 credit.
+   RRIF and withdraw $2,000 just to claim the $280 credit.
 6. **Missing the RRSP deadline.** Contributions after March 1/2 can only be claimed on the
    current year, not carried back.
 7. **Not reporting principal residence sale.** CRA requires reporting even though the gain is
@@ -542,7 +560,8 @@ confirming this.
 
 ### Late Payment Interest
 - Compound daily interest starting May 1 (or day after due date)
-- Rate: prescribed rate + 4% = currently ~7% (2025 — verify, changes quarterly)
+- Rate: the CRA overdue-tax interest rate (current figure in references/current-figures.md;
+  changes quarterly)
 - Applies to ANY unpaid balance, including installment deficiencies
 
 ### How to Dispute an Assessment
@@ -592,7 +611,7 @@ These amounts are NOT taxable and do NOT need to be reported on your return:
 |-------------|---------|-------|
 | TFSA withdrawals | No | Not income, not reported |
 | Canada Child Benefit (CCB) | No | Tax-free |
-| GST/HST Credit | No | Tax-free |
+| GST/HST Credit | No | Tax-free (replaced by the Canada Groceries and Essentials Benefit (CGEB) from July 2026; tax-free treatment unchanged) |
 | Lottery/gambling winnings | No | Unless professional gambler |
 | Life insurance death benefit | No | Tax-free to beneficiary |
 | Personal injury settlement | No | If for bodily injury/illness |

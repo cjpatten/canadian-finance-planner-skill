@@ -85,7 +85,9 @@ If your CPP at 65 would be $1,000/month:
 - **Good health** and family longevity (parents lived to 85+)
 - **Have bridge income** (TFSA, pension, savings, part-time work) to cover ages 60-70
 - **Have a DB pension** (like HOOPP) that provides base income — don't need CPP early
-- **Want maximum survivor benefit** — contributor's deferral may increase survivor's pension
+- **Note on survivor benefit:** Deferring your CPP does NOT increase the survivor's pension.
+  The survivor benefit is calculated from the contributor's *unadjusted age-65* pension, so
+  deferral raises only your own lifetime pension, not what a surviving spouse would receive.
 - **The math:** Deferring CPP from 65 to 70 is an 8.4% annual guaranteed, inflation-indexed
   return. No investment matches this risk-free.
 
@@ -94,7 +96,8 @@ If your CPP at 65 would be $1,000/month:
 **Post-Retirement Benefit (PRB):**
 If you continue working after starting CPP (ages 60-70), your ongoing CPP contributions
 earn additional PRB credits. Each year of work adds a small permanent increase:
-- Max PRB at age 65: ~$55/month (2026 — verify) per year of maximum contributions
+- Max PRB at age 65 per year of maximum contributions (current figure in
+  references/current-figures.md)
 - Contributions are mandatory ages 60-65 (if employer), optional 65-70
 - Small amounts but they're permanent, inflation-indexed additions to your CPP
 
@@ -123,8 +126,8 @@ No action needed — the transition is seamless.
 ### The Math
 OAS increases by **0.6% per month** deferred past age 65, up to age 70.
 - Maximum deferral bonus: 0.6% × 60 months = **36% increase**
-- Max OAS at 65 (age 65-74): $742.31/month (2026; $816.54 for age 75+)
-- Max OAS at 70: ~$1,010/month (36% more)
+- Max OAS at 65 (age 65-74), the age-75+ amount, and the deferred max at 70 (current figures in
+  references/current-figures.md; OAS is indexed quarterly)
 
 **Break-even age for OAS deferral (65 vs 70): approximately age 82-83.**
 If you expect to live past 83, deferral wins.
@@ -132,21 +135,24 @@ If you expect to live past 83, deferral wins.
 ### When to Defer OAS
 - Good health, expect to live past 83
 - Have other income to bridge ages 65-70
-- Income is near or above the OAS clawback threshold ($95,323 net income, 2026)
-  → deferring avoids the clawback during high-income years
+- Income is near or above the OAS clawback threshold (current figure in
+  references/current-figures.md) → deferring avoids the clawback during high-income years
 
 ### When NOT to Defer OAS
 - **GIS-eligible:** If your income is low enough to qualify for GIS, take OAS at 65.
-  GIS is income-tested and can provide up to $1,108.74/month (2026) on top of OAS.
+  GIS is income-tested and can provide a substantial monthly top-up on top of OAS (current
+  max in references/current-figures.md).
   Deferring OAS means losing GIS for those years — the GIS loss usually exceeds the OAS gain.
 - **Poor health** or short life expectancy
 - **Need the income** to cover basic expenses
 - **Already receiving GIS** — deferral makes no sense
 
 ### OAS Clawback Math
-- Clawback starts at $95,323 net income (2026, indexed annually)
+- Clawback starts at a net-income threshold indexed annually (current figure in
+  references/current-figures.md)
 - For every $1 above the threshold, you lose $0.15 in OAS (15% recovery tax)
-- Full clawback at ~$154,708 (age 65-74) / ~$160,647 (age 75+)
+- Full clawback occurs at a higher income ceiling that differs for ages 65-74 vs 75+ (current
+  figures in references/current-figures.md)
 
 **Strategies to minimize clawback:**
 1. **TFSA withdrawals** don't count as income → use TFSA instead of RRIF when near threshold
@@ -165,9 +171,11 @@ GIS is the most underused retirement benefit in Canada. Billions go unclaimed ev
 
 ### Who Qualifies
 - Must be receiving OAS
-- Individual annual income (excluding OAS) below ~$22,488 (2025 — verify for 2026)
-- Couple combined income below ~$29,712 (2025 — verify for 2026)
-- Maximum benefit: $1,108.74/month for singles (2026)
+- Individual annual income (excluding OAS) below the single income cutoff (current figure in
+  references/current-figures.md)
+- Couple combined income below the couple income cutoff (current figure in
+  references/current-figures.md)
+- Maximum benefit for singles (current figure in references/current-figures.md)
 
 ### What Counts as Income for GIS (and What Doesn't)
 
@@ -217,13 +225,17 @@ lose GIS. File every year, even if income is $0.
 
 | Age | Minimum % | On $500K = | On $1M = |
 |-----|----------|-----------|---------|
-| 72 | 5.28% | $26,400 | $52,800 |
+| 72 | 5.40% | $27,000 | $54,000 |
 | 75 | 5.82% | $29,100 | $58,200 |
 | 78 | 6.36% | $31,800 | $63,600 |
 | 80 | 6.82% | $34,100 | $68,200 |
 | 85 | 8.51% | $42,550 | $85,100 |
 | 90 | 11.92% | $59,600 | $119,200 |
-| 94+ | 20.00% | $100,000 | $200,000 |
+| 95+ | 20.00% | $100,000 | $200,000 |
+
+(Prescribed RRIF factors; verify against references/current-figures.md. Age 71 = 5.28%,
+age 72 = 5.40%; the 20% factor applies at age 95+. Under age 71 the factor is 1/(90−age),
+e.g. age 70 = 5.00%.)
 
 **The problem:** At 90+ with a large RRIF, forced withdrawals push you into high tax brackets
 and trigger full OAS clawback. A $1M RRIF at age 90 forces $119,200 withdrawal — that's
@@ -231,8 +243,8 @@ and trigger full OAS clawback. A $1M RRIF at age 90 forces $119,200 withdrawal �
 
 ### Spouse's Age Election
 You can base RRIF minimums on your **younger spouse's age** instead of your own.
-- If you're 75 and spouse is 70: minimum is 3.85% (age 70) instead of 5.82% (age 75)
-- On $500K: $19,250 vs $29,100 = **$9,850 less forced withdrawal**
+- If you're 75 and spouse is 70: minimum is 5.00% (age 70) instead of 5.82% (age 75)
+- On $500K: $25,000 vs $29,100 = **$4,100 less forced withdrawal**
 - Must elect at time of RRIF setup — can't change later
 - **Best for:** Large RRIF balances where you don't need the income
 
@@ -322,7 +334,8 @@ TFSA instead of RRIF saves future tax AND preserves GIS.
    preserve GIS, keep RRIF withdrawals minimal
 
 ### OAS Clawback Zone Management
-If total income is approaching $95,323 (2026 threshold):
+If total income is approaching the OAS clawback threshold (current figure in
+references/current-figures.md):
 - Stop RRIF withdrawals (take only the minimum)
 - Use TFSA for additional income needs
 - Split pension income with spouse (Form T1032)
@@ -456,8 +469,8 @@ decreases as government income layers in.
 
 ### Part-Time Work in Retirement
 - **CPP Post-Retirement Benefit:** If you work and contribute to CPP after starting your
-  pension (ages 60-70), you earn additional PRB credits: up to ~$55/month per year of
-  maximum contributions (2026 — verify). Small but permanent.
+  pension (ages 60-70), you earn additional PRB credits per year of maximum contributions
+  (current figure in references/current-figures.md). Small but permanent.
 - **Tax implication:** Employment income is fully taxable. At $20K/year part-time, tax is
   ~$3,000-$4,000 (depending on other income).
 - **Psychological benefit:** Studies show part-time work in early retirement significantly
@@ -575,10 +588,12 @@ The rule of thumb says you need 70-80% of pre-retirement income. Reality varies:
 
 ### Coordinated CPP Timing
 If one spouse earned significantly more, their CPP is more valuable to defer:
-- **High earner:** Defer to 70 (bigger pension, bigger survivor benefit)
+- **High earner:** Defer to 70 (bigger *own* lifetime pension)
 - **Lower earner:** Take at 65 (or 60 if needed for bridge income)
-- **Why:** If the high earner dies first, the survivor gets ~60% of the larger pension.
-  Deferring maximizes this survivor benefit.
+- **Why:** Deferring boosts the high earner's own pension by 42% for as long as they live.
+- **Survivor caveat:** Deferral does NOT boost the survivor's pension. The survivor benefit is
+  based on the deceased's *unadjusted age-65* pension, so deferring is about maximizing the
+  high earner's income while both are alive — not about leaving a larger survivor benefit.
 
 ### Income Equalization Strategy
 Equalize incomes between spouses to minimize household tax:
@@ -592,7 +607,11 @@ When one spouse dies, the household income drops but expenses don't drop proport
 - Housing stays the same (or similar)
 - Utilities, insurance, property tax stay the same
 - Only food and some personal expenses decrease
-- **CPP survivor pension** partially replaces deceased's CPP
+- **CPP survivor pension** partially replaces deceased's CPP (based on the deceased's
+  unadjusted age-65 pension — the deceased's deferral past 65 does not enlarge it)
+- **CPP death benefit** — a one-time lump sum to the estate (current amount in
+  references/current-figures.md; since Jan 2025 the max is higher when the deceased never
+  collected CPP and left no surviving spouse)
 - **OAS** is individual — surviving spouse keeps theirs
 - **RRSP/RRIF** rolls to surviving spouse tax-free
 - **Life insurance** provides a lump sum buffer
@@ -617,9 +636,9 @@ If both spouses have DB pensions:
 - CPP Retirement Pension: https://www.canada.ca/en/services/benefits/publicpensions/cpp.html
 - CPP Post-Retirement Benefit: https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-post-retirement.html
 - CPP Payment Amounts: https://www.canada.ca/en/services/benefits/publicpensions/cpp/payment-amounts.html
-- OAS Payment & Deferral: https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html
-- OAS Clawback (Recovery Tax): https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/recovery-tax.html
-- GIS Eligibility: https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/guaranteed-income-supplement/eligibility.html
+- OAS Payment & Deferral: https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html
+- OAS Clawback (Recovery Tax): https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html
+- GIS Eligibility: https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html
 - RRIF Rules: https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif.html
 - Pension Income Splitting (T1032): https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1032.html
 - CPP Credit Splitting: https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-credit-splitting.html

@@ -38,6 +38,10 @@ Present these in order from simplest/safest to more growth-oriented:
 | Growth All-in-One ETF (80/20) | Medium-High | 7–10% long-term | Daily | Long time horizon (10+ years), comfortable with dips |
 | All-Equity ETF (100/0) | High | 8–12% long-term | Daily | Very long horizon (15+ years), high risk tolerance |
 
+> The "Expected Return" figures for HISAs, GICs, and HISA ETFs track current interest rates and
+> shift as the Bank of Canada moves — **verify these live before quoting.** The ETF ranges are
+> long-term historical averages, not a forecast.
+
 **Key message to users:** "You don't need to pick stocks. You don't need to watch markets.
 A single all-in-one ETF gives you instant diversification across thousands of companies
 worldwide. You buy one thing and you're done."
@@ -60,39 +64,39 @@ Match the ETF to their risk profile based on age, timeline, and comfort with vol
 | Growth | 80% / 20% | VGRO | XGRO | 15–25 years to goal, comfortable with market swings |
 | All-Equity | 100% / 0% | VEQT | XEQT | 25+ years to goal, maximum growth, can stomach -30% years |
 
-### Key Data Points (Verify via web search before presenting — data as of March 2026)
+### Key Data Points
+
+The equity/bond splits and inception dates below are structural (they don't change). **Every other
+figure — MER, AUM, Morningstar rating, and especially returns — must be verified live before
+presenting. Do NOT quote returns from memory** (past hardcoded return tables in this file were
+internally inconsistent, e.g. showing a balanced fund out-earning an all-equity fund over the same
+period). Pull current annual and multi-year returns from the provider/Morningstar pages in Section 9.
 
 **Vanguard All-in-One ETFs:**
 
 | | VCNS | VBAL | VGRO | VEQT |
 |---|------|------|------|------|
 | Equity / Bond | 40/60 | 60/40 | 80/20 | 100/0 |
-| MER | ~0.20% | ~0.20% | ~0.20% | ~0.20% |
-| Morningstar Medalist | Gold | Silver | Silver | Silver |
-| AUM | ~$824M | ~$4.8B | ~$3.8B | ~$12.2B |
-| 2023 Return | 10.3% | ~10.3% | 14.8% | 20.5% |
-| 2024 Return | 11.3% | ~15% | 20.2% | 24.1% |
-| 2025 Return | 9.7% | ~13% | 17.0% | 20.5% |
-| 5-Year Annualized | ~5–6% | ~8% | ~10.8% | ~13.7% |
 | Inception | Jan 2018 | Jan 2018 | Jan 2018 | Jan 2019 |
+
+- **MER:** Vanguard asset-allocation ETFs ~0.17% since the Nov 2025 fee cut — use the current figure in `references/current-figures.md`.
+- **AUM, Morningstar rating, annual & 5-year returns:** verify current returns live; do not quote from memory.
 
 **iShares All-in-One ETFs:**
 
 | | XBAL | XGRO | XEQT |
 |---|------|------|------|
 | Equity / Bond | 60/40 | 80/20 | 100/0 |
-| MER | ~0.20% | ~0.20% | ~0.20% |
-| Morningstar Medalist | Silver | Silver | Silver |
-| AUM | ~$2.9B | ~$1.2B | ~$14.8B |
-| 2025 Return | 13.5% | 17.2% | 20.5% |
-| 5-Year Annualized | ~14.3% | ~17.6% | ~14.0% |
+
+- **MER:** iShares X-series ~0.20% — use the current figure in `references/current-figures.md`.
+- **AUM, Morningstar rating, annual & 5-year returns:** verify current returns live; do not quote from memory.
 
 **Why these and not others?**
 - Both Vanguard and iShares are the two largest, most trusted ETF providers in Canada
-- MERs of ~0.20% mean you pay $2/year per $1,000 invested (vs. $20+/year for mutual funds)
-- Morningstar Silver/Gold ratings indicate strong forward-looking analyst confidence
-- Combined AUM over $40 billion — these are not niche products
-- One purchase gives you exposure to 13,000+ stocks and bonds worldwide
+- Low MERs (roughly 0.17–0.20%) mean you pay about $2/year per $1,000 invested (vs. $20+/year for mutual funds)
+- Strong Morningstar ratings indicate analyst confidence (verify the current rating before citing it)
+- Combined AUM in the tens of billions — these are not niche products
+- One purchase gives you exposure to thousands of stocks and bonds worldwide
 - Automatic rebalancing — the fund maintains the target equity/bond split for you
 
 **What about 2022?** Be upfront: "In 2022, even VCNS (the most conservative option) lost about
@@ -105,24 +109,28 @@ fully by mid-2023 and went on to see 20%+ gains. The lesson: don't sell during d
 
 ### HISA ETFs (for money inside a brokerage account)
 
+Yields track the overnight/policy rate and move constantly — **verify current yields live before quoting.**
+
 | ETF | Name | MER | Yield | Distributions | Best For |
 |-----|------|-----|-------|---------------|----------|
-| CASH.TO | Global X High Interest Savings ETF | 0.11% | ~2.5% | Monthly | Largest, most liquid |
-| PSA.TO | Purpose High Interest Savings Fund | ~0.15% | ~2.0% | Monthly | Competitive alternative |
-| HSAV.TO | Global X Cash Maximizer Corp Class | 0.18% | ~2.5% | None | Most tax-efficient (non-registered) |
+| CASH.TO | Global X High Interest Savings ETF | ~0.11% | verify live | Monthly | Largest, most liquid |
+| PSA.TO | Purpose High Interest Savings Fund | ~0.15% | verify live | Monthly | Competitive alternative |
+| HSAV.TO | Global X Cash Maximizer Corp Class | ~0.18% | verify live | None | Most tax-efficient (non-registered) |
 
 **Key message:** "HISA ETFs are a good place to park cash inside your TFSA or brokerage
 account while you decide what to do with it. They're not a long-term investment."
 
 ### Online Bank HISAs (for emergency funds and short-term savings)
 
+Rates change constantly — **verify current rates live before quoting** (see Source URLs below).
+
 | Provider | Rate | Notes |
 |----------|------|-------|
-| Saven Financial | ~2.85% | Highest regular rate |
-| Oaken Financial | ~2.80% | Consistently competitive |
-| EQ Bank | ~2.75% | With $2K+ monthly direct deposit |
-| Neo Financial | ~3.00% | On balances $20K+ |
-| Big 5 Banks | 0.50–1.00% | Avoid for savings — rates are terrible |
+| Saven Financial | verify live | Often among the highest regular rates |
+| Oaken Financial | verify live | Consistently competitive |
+| EQ Bank | verify live | Higher rate with $2K+ monthly direct deposit |
+| Neo Financial | verify live | Higher rate on larger balances |
+| Big 5 Banks | verify live (typically far lower) | Avoid for savings — rates are terrible |
 
 **Key message:** "If your emergency fund is sitting in a Big 5 savings account earning 0.5%,
 moving it to EQ Bank or Saven Financial earns you an extra $200+/year on a $10K balance.
@@ -132,14 +140,12 @@ Same CDIC insurance protection. Takes 15 minutes to set up."
 
 ## 4. GIC Basics
 
-### Best GIC Rates (Verify monthly — data as of March 2026)
+### Best GIC Rates (verify live before quoting — GIC rates change constantly)
 
-| Term | Best Rate | Provider | Big 5 Rate |
-|------|-----------|----------|-----------|
-| 1 Year | ~3.65% | WealthONE | ~2.45% |
-| 2 Year | ~3.80% | Achieva Financial | ~2.55% |
-| 3 Year | ~3.75% | First Ontario | ~2.60% |
-| 5 Year | ~3.85% | Achieva Financial | ~2.75% |
+**Do NOT quote specific GIC rates from memory.** Pull current 1/2/3/5-year rates live (see Source
+URLs below). The durable point to teach: shop online banks and credit unions (e.g., WealthONE,
+Achieva Financial, First Ontario, EQ Bank) — they consistently pay roughly 1%+ more than the Big 5
+for the exact same CDIC protection.
 
 **Key message:** "GICs are guaranteed — your money is protected by CDIC insurance up to
 $100,000 per institution. The trade-off is your money is locked for the term. Always shop
@@ -210,6 +216,10 @@ a fixed monthly investment grows over time across different vehicles.
 | 4 | Balanced ETF (VBAL/XBAL) | 6.5% | Green | Solid |
 | 5 | Growth ETF (VGRO/XGRO) | 8.5% | Orange | Solid |
 | 6 | All-Equity ETF (VEQT/XEQT) | 10.5% | Red | Solid |
+
+The savings/HISA/GIC return assumptions (lines 1–3) track current interest rates — verify them live
+(see Source URLs and `references/current-figures.md`) before generating. The ETF assumptions (lines
+4–6) are long-term historical averages and are intentionally held steady.
 
 **Growth formula (compound monthly):**
 ```

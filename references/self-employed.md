@@ -132,7 +132,7 @@ portion.
 2. Taking money out in low-income years (lower marginal rate)
 3. Income splitting with family members (within TOSI rules)
 4. Accessing IPP (higher pension contributions than RRSP)
-5. Using the LCGE on sale ($1,250,000 exemption)
+5. Using the LCGE on sale (2026 exemption $1,275,000 — current figure in references/current-figures.md)
 
 ---
 
@@ -142,9 +142,12 @@ This is the most common question from incorporated business owners. There's no u
 answer — it depends on their specific situation.
 
 ### Salary Advantages
-- Creates RRSP contribution room (18% of salary, up to ~$32,490 limit, 2025 — verify)
-- Builds CPP credits (employee 5.95% + employer 5.95% = 11.9% on earnings up to YMPE $71,300)
-- Qualifies for EI (employee 1.58% + employer 2.21%, 2025 — verify) — useful for parental leave
+- Creates RRSP contribution room (18% of salary, up to the annual RRSP dollar limit; current
+  figure in references/current-figures.md)
+- Builds CPP credits (employee 5.95% + employer 5.95% = 11.9% on earnings up to the YMPE, plus
+  CPP2 on earnings between the YMPE and YAMPE; current ceilings in references/current-figures.md)
+- Qualifies for EI (current employee/employer rates in references/current-figures.md) — useful
+  for parental leave
 - **Mortgage qualification:** Lenders strongly prefer T4 income. Salary makes qualifying easier.
 - Corporate deduction is immediate (reduces corporate taxable income)
 - Childcare expense deduction based on earned income (salary counts, dividends don't)
@@ -158,8 +161,9 @@ answer — it depends on their specific situation.
 - Can pay dividends to family shareholders (within TOSI rules — see below)
 
 ### The Blend Strategy (Most Common Recommendation)
-Pay yourself a **salary up to the RRSP limit threshold** (~$180,000 salary generates max
-$32,490 RRSP room), then take additional income as **dividends.**
+Pay yourself a **salary up to the RRSP limit threshold** (~$187,800 salary generates the max
+RRSP room; current dollar limit in references/current-figures.md — 2026 = $33,810), then take
+additional income as **dividends.**
 
 **Example (Ontario, 2025):**
 - Corp earns $200K net profit
@@ -296,9 +300,12 @@ You can deduct home office expenses if your home office is:
 - Used **exclusively** for earning business income AND used on a regular and continuous basis
   for meeting clients/customers
 
-### Calculation Methods
+### Calculation Method — Detailed Actual Costs (Form T2125)
+Self-employed people claim business-use-of-home on **Form T2125 using actual costs**. The
+temporary $2/day flat-rate ("simplified") method was a COVID-era measure for **employees** and
+applied only to the 2020–2022 tax years — **it no longer exists and was never available to the
+self-employed.** Always use the detailed calculation below.
 
-**Method 1: Detailed (Higher deduction, more records)**
 Calculate the percentage of your home used for business:
 - Square footage of office / total home square footage = business use %
 - OR: Number of rooms used / total rooms = business use %
@@ -316,11 +323,6 @@ Apply this percentage to eligible expenses:
 - Internet: $85/month × 50% (shared use) = $510/year
 - Utilities: $300/month × 10% = $360/year
 - **Total: $3,270/year deduction**
-
-**Method 2: Flat rate (Simple, no receipts needed)**
-- $2/day for each day worked from home, max 250 days = **$500/year**
-- This is the CRA "simplified method" — much smaller deduction but no record-keeping.
-- **Only use this if your actual expenses are minimal or you don't want to track.**
 
 ### Important Warnings
 - **Sole proprietors:** Home office deduction CANNOT create a business loss. Can only reduce
@@ -367,7 +369,7 @@ CRA requires a **vehicle mileage log** showing:
 ### Employee vs Self-Employed
 - **Self-employed:** Deduct actual costs × business %, OR use CRA per-km rate
 - **Employee (with T2200):** Deduct actual costs × business %, OR use CRA per-km rate
-  ($0.72/km first 5,000 km, $0.66/km after, 2025 — verify)
+  (current first-5,000-km and after rates in references/current-figures.md)
 - **Corporation-owned vehicle:** Corporation deducts all costs. Personal use is a taxable
   benefit (standby charge + operating cost benefit). Complex — consult CPA.
 
@@ -395,7 +397,7 @@ CRA requires a **vehicle mileage log** showing:
 - You provide exempt supplies
 
 ### How ITCs Work
-- You collect HST on sales (13% in Ontario, 15% in Atlantic, 5% GST-only provinces)
+- You collect HST on sales (13% in Ontario; 15% in NB/NL/PEI, 14% in Nova Scotia since Apr 2025; 5% GST-only provinces)
 - You pay HST on business purchases
 - **Net HST = collected - paid (ITCs)**
 - If ITCs > collected: you get a **refund** from CRA
@@ -517,12 +519,15 @@ Fixed costs per month ÷ (hourly rate × billable hours per month) = months to b
 ### Lifetime Capital Gains Exemption (LCGE)
 The most valuable tax benefit available to Canadian business owners.
 
-- **Amount:** $1,250,000 per person (2025, indexed for inflation starting 2026 — verify)
+- **Amount:** $1,275,000 per person (2026; indexed for inflation — current figure in
+  references/current-figures.md)
 - **Applies to:** Sale of Qualified Small Business Corporation (QSBC) shares
 - **Tax savings:** At 50% capital gains inclusion and ~33% marginal rate, the LCGE can save
-  up to ~$206,000 in tax per person.
-- **Per person:** Both spouses can each claim $1,250,000 if they both own shares. Total
-  family exemption: $2,500,000.
+  up to ~$210,000 in tax per person (on the 2026 $1,275,000 exemption — see
+  references/current-figures.md).
+- **Per person:** Both spouses can each claim the exemption (current figure in
+  references/current-figures.md) if they both own shares. Total family exemption: 2× that
+  amount (2026: $2,550,000).
 
 ### QSBC Share Requirements (All Must Be Met)
 1. Corporation is a **Canadian-Controlled Private Corporation (CCPC)**
@@ -555,7 +560,8 @@ If you want to pass the business to the next generation while locking in your cu
 4. Your preferred shares can be redeemed over time (you get your money out gradually)
 
 **Result:** You lock in today's value for your estate planning. Future growth is in the next
-generation's hands, potentially multiplying the LCGE ($1.25M per child).
+generation's hands, potentially multiplying the LCGE (current per-person figure in
+references/current-figures.md).
 
 **Requires:** Lawyer + accountant. Cost: $5,000-$15,000.
 
@@ -680,14 +686,14 @@ Allows higher tax-deductible contributions than an RRSP, especially for people 4
 - **Already maxing RRSP** and want to shelter more income
 - **Plan to stay incorporated 10+ years** (need time to recoup setup costs)
 
-### Contribution Comparison (2025 — verify)
+### Contribution Comparison (Max RRSP = current dollar limit in references/current-figures.md, 2026 = $33,810; IPP figures approximate — verify)
 | Age | Max RRSP | Approx IPP Contribution | IPP Advantage |
 |-----|---------|------------------------|---------------|
-| 40 | $32,490 | ~$28,000 | None (RRSP is better at this age) |
-| 45 | $32,490 | ~$33,000 | ~$500/year |
-| 50 | $32,490 | ~$41,000 | ~$8,500/year |
-| 55 | $32,490 | ~$51,000 | ~$18,500/year |
-| 60 | $32,490 | ~$65,000 | ~$32,500/year |
+| 40 | $33,810 | ~$28,000 | None (RRSP is better at this age) |
+| 45 | $33,810 | ~$33,000 | ~$500/year |
+| 50 | $33,810 | ~$41,000 | ~$8,500/year |
+| 55 | $33,810 | ~$51,000 | ~$18,500/year |
+| 60 | $33,810 | ~$65,000 | ~$32,500/year |
 
 **The advantage grows significantly with age.** At 55+, the IPP allows nearly double the RRSP.
 
@@ -780,10 +786,17 @@ Gig workers have NO employer-provided:
 
 ### CPP for Self-Employed
 - Self-employed pay **BOTH** the employee AND employer portions of CPP
-- Total: ~11.9% on net self-employment income between $3,500 and $71,300 (2025 — verify)
-- Maximum annual CPP contribution: ~$8,068 (both portions combined, 2025 — verify)
+- **Base CPP:** 11.9% (both portions) on net self-employment income between the $3,500 basic
+  exemption and the YMPE (first ceiling; current figure in references/current-figures.md)
+- **CPP2 (second tier):** since 2024 there is an additional 8% (both portions) on earnings
+  between the YMPE and the YAMPE second ceiling — do NOT omit this. (current YMPE/YAMPE in
+  references/current-figures.md)
+- **Maximum annual self-employed CPP contribution: base + CPP2 combined** (current total in
+  references/current-figures.md — it is materially higher than the old base-only ~$8,068
+  figure once CPP2 is included)
 - This is a significant cost — but it builds retirement pension credits
-- Claimed as a deduction (50% on personal return)
+- Claimed as a deduction (the employer-equivalent half is deducted; the employee half yields a
+  tax credit)
 
 ### Multiple Income Sources
 Common for gig workers: Uber + Airbnb + freelance design + part-time employment

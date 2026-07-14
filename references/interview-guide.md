@@ -105,7 +105,7 @@ This shapes everything — taxes, benefits, insurance, estate.
 
 **Government benefits currently received:**
 - CCB (monthly amount)
-- GST/HST credit (quarterly)
+- Canada Groceries and Essentials Benefit (CGEB, replaced the GST/HST credit July 2026; quarterly)
 - Provincial benefits (Ontario Trillium, BC Climate Action, etc.)
 - Social assistance / welfare
 - EI, CPP retirement/disability, OAS/GIS, workers' comp, ODSP or equivalent
@@ -175,7 +175,8 @@ This shapes everything — taxes, benefits, insurance, estate.
 - Monthly surplus or deficit
 - Savings rate (% of net income)
 - Expense breakdown by category
-- Compare to benchmarks: CMHC 32% GDS, 40% TDS, 50/30/20 rule
+- Compare to benchmarks: CMHC 32% GDS, 40% TDS (conservative guidelines — CMHC actually allows up
+  to GDS 39% / TDS 44% for insured mortgages; see references/current-figures.md), 50/30/20 rule
 - Identify "joy spending" vs "habit spending" (ask which categories bring most happiness)
 
 **Validate before moving on:**
@@ -273,8 +274,8 @@ For EACH debt:
 - Cross-check: if Round 2 mentioned investment income, do the assets here generate it?
 - Cross-check: do RESP contributions in Round 3 expenses match what's described here?
 - Cross-check: do debts from Round 4 appear as liabilities?
-- Flag if contribution room numbers seem off (e.g., TFSA room > $102,000 for someone 18+ since
-  2009 — the lifetime max in 2026).
+- Flag if contribution room numbers seem off (e.g., TFSA room above the cumulative lifetime max
+  for someone 18+ since 2009 — current figure in references/current-figures.md).
 - Save updated 1-my-profile.md.
 
 ---

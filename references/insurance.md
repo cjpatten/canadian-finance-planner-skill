@@ -277,7 +277,8 @@ period, riders (COLA, future increase, return of premium).
 If the user has group LTD through their employer, individual DI coordinates with it:
 - **Group LTD:** Typically covers 60-66% of income, any-occupation definition (after 2 years),
   capped at a maximum monthly benefit ($5,000-$10,000)
-- **CPP Disability (CPP-D):** ~$1,606/month max (2025 — verify). Strict eligibility — must
+- **CPP Disability (CPP-D):** max monthly amount — verify current in references/current-figures.md
+  (the ~$1,606/month figure is the 2024 maximum). Strict eligibility — must
   have "severe and prolonged" disability preventing ALL work. Many claims denied.
 - **Workers' Compensation:** Only covers work-related injuries/illness. Does NOT cover illness
   or off-the-job injuries (which are ~70-80% of disability claims).

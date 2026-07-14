@@ -53,11 +53,11 @@ Full source URLs are in Section 11 at the bottom of this file.
 - [ ] Review disability insurance — if the primary earner can't work, can the family survive?
 - [ ] Research childcare costs in your area — typical ranges: $1,000-$2,500/month depending
   on province and type (home daycare vs centre vs nanny)
-- [ ] Check if your province has subsidized childcare (Quebec $9.35/day, Ontario CWELCC program)
+- [ ] Check if your province has subsidized childcare (Quebec $9.35/day (indexed annually — verify current), Ontario CWELCC program)
 
 ### Canadian Programs & Benefits
-- **Canada Child Benefit (CCB):** Tax-free monthly payment. ~$7,787/year per child under 6,
-  ~$6,570/year per child 6-17 (2025 — verify). Phases out starting at $37,487 family net income.
+- **Canada Child Benefit (CCB):** Tax-free monthly payment. Per-child maximums (under 6 and
+  6-17) and the phase-out threshold (family net income) are in references/current-figures.md.
   (Source: canada.ca/child-family-benefits)
 - **CESG:** 20% match on first $2,500 of annual RESP contributions per child ($500/year max,
   $7,200 lifetime). Additional CESG for lower-income families (extra 10-20% on first $500).
@@ -123,8 +123,9 @@ Full source URLs are in Section 11 at the bottom of this file.
   separate registered accounts)
 
 ### Canadian Programs & Benefits
-- **Spousal Amount Tax Credit:** Claim up to $15,705 (2026 — verify) if spouse's net income
-  is below this threshold. Non-refundable credit at 15% = up to ~$2,356 federal tax savings.
+- **Spousal Amount Tax Credit:** Claim the spousal amount if your spouse's net income is below
+  the threshold. The amount and the lowest federal rate it is credited at are in
+  references/current-figures.md.
 - **Pension Income Splitting:** Can split up to 50% of eligible pension income with spouse
   (Form T1032). Primarily useful in retirement.
 - **Spousal RRSP:** Higher-income spouse contributes to a spousal RRSP, gets the tax deduction.
@@ -142,7 +143,8 @@ Full source URLs are in Section 11 at the bottom of this file.
   the spouse. Prescribed rate loan can avoid attribution.
 - Marriage/common-law affects CCB calculation — family net income now includes both spouses.
   CCB may decrease if combined income is higher.
-- GST/HST credit recalculated based on family income.
+- The Canada Groceries and Essentials Benefit (CGEB, which replaced the GST/HST credit in
+  July 2026) is recalculated based on family income.
 
 ### Impact on Existing Plan
 - **Budget:** Combine incomes and expenses. Identify overlapping subscriptions/insurance.
@@ -196,7 +198,8 @@ Full source URLs are in Section 11 at the bottom of this file.
 ### Canadian Programs & Benefits
 - **CCB Recalculation:** If you become the primary caregiver, CCB will be recalculated based
   on YOUR individual net income (likely higher CCB). Update CRA immediately.
-- **GST/HST Credit:** Recalculated as individual. May now qualify if you didn't before.
+- **Canada Groceries and Essentials Benefit (CGEB, replaced the GST/HST credit July 2026):**
+  Recalculated as an individual. May now qualify if you didn't before.
 - **Legal Aid:** Available in all provinces for low-income individuals in family law matters.
   Income thresholds vary by province.
 - **EI:** If you need to leave your job due to domestic violence, you may qualify for EI
@@ -284,8 +287,8 @@ Full source URLs are in Section 11 at the bottom of this file.
   (2026 — verify). Duration: 14-45 weeks depending on hours worked and regional unemployment
   rate. Need 420-700 insurable hours in the past 52 weeks (varies by region).
   Apply at canada.ca/ei within 4 weeks. (Source: canada.ca/ei)
-- **Canada Workers Benefit:** If you take a lower-paying job, you may qualify (~$1,518 max
-  for single, ~$2,616 for family, 2025 — verify).
+- **Canada Workers Benefit:** If you take a lower-paying job, you may qualify (current maximums
+  for single and family are in references/current-figures.md).
 - **Provincial programs:** Ontario Works, BC Employment Assistance, Alberta Income Support, etc.
   Apply if EI is insufficient or runs out.
 - **Canada Training Credit:** If you plan to retrain, check your CTC balance (accumulates
@@ -380,7 +383,8 @@ Full source URLs are in Section 11 at the bottom of this file.
   no new RRSP room for the following tax year. Front-load contributions before leave.
 - TFSA room is unaffected by income — it accumulates every January 1 regardless.
 - If one parent stays on leave for the full year, family net income may be lower, potentially
-  increasing CCB and GST/HST credit.
+  increasing CCB and the Canada Groceries and Essentials Benefit (CGEB, which replaced the
+  GST/HST credit in July 2026).
 - Medical expenses for pregnancy/delivery are eligible for the Medical Expense Tax Credit.
 
 ### Impact on Existing Plan
@@ -469,7 +473,7 @@ Full source URLs are in Section 11 at the bottom of this file.
   - Ontario: 1.5% of estate value over $50,000
   - BC: 1.4% of estate value over $50,000
   - Alberta: flat $525 max
-  - Quebec: $0 for notarial wills, ~$1,000 for probate
+  - Quebec: $0 for notarial wills; other wills need court/notary validation (fee varies — do not quote a dollar amount)
   - Saskatchewan: 0.7% of estate value
   (Verify current rates — some provinces have changed recently)
 - **Rights or things return:** An optional second tax return can be filed for certain income
@@ -539,9 +543,9 @@ Full source URLs are in Section 11 at the bottom of this file.
 - **Medical Expense Tax Credit:** You can claim your parent's medical expenses if they qualify
   as your dependent (income below ~$8,773, 2026 — verify). Includes nursing home fees,
   attendant care, medical devices, prescriptions.
-- **GIS for your parent:** If your parent's individual income (excluding OAS) is below ~$21,768
-  (2025 — verify), they may qualify for GIS. This is significant — up to ~$1,072/month
-  (2025 — verify) for single seniors.
+- **GIS for your parent:** If your parent's individual income (excluding OAS) is below the GIS
+  income cutoff, they may qualify for GIS. This is significant — the current single-senior
+  maximum and income cutoff are in references/current-figures.md.
 - **Provincial drug programs:** Ontario Drug Benefit (free for 65+), BC PharmaCare, Alberta
   Seniors Benefit, etc. Covers prescription drugs for seniors.
 - **Veterans Affairs:** If your parent is a veteran, additional care benefits may be available.
@@ -684,7 +688,7 @@ Full source URLs are in Section 11 at the bottom of this file.
   which province's tax rates apply for the ENTIRE year. Moving in December vs January can
   make a significant tax difference.
 - [ ] Research the new province's tax rates — the differences are substantial:
-  - Alberta: flat 10% provincial rate (lowest for high earners)
+  - Alberta: multi-bracket, no longer a flat 10% (new 8% bottom bracket — see references/current-figures.md)
   - Ontario: 5.05% to 13.16%
   - Quebec: 14% to 25.75% (highest, but includes QPP, QPIP, and many public services)
   - BC: 5.06% to 20.5%
@@ -786,17 +790,23 @@ Full source URLs are in Section 11 at the bottom of this file.
 ### Canadian Programs & Benefits
 - **First Home Savings Account (FHSA):** $8,000/year, $40,000 lifetime. Tax-deductible
   contributions (like RRSP) + tax-free withdrawals for a qualifying home (like TFSA).
-  Unused room carries forward (max 1 year, so max $16,000 in one year). Must be open for
-  at least 1 year before withdrawal. Account must be closed within 15 years or age 71.
+  Unused room carries forward (max 1 year, so max $16,000 in one year). There is NO minimum
+  holding period before a qualifying withdrawal. Account must be closed within 15 years or age 71.
   (Source: canada.ca/first-home-savings-account)
 - **Home Buyers' Plan (HBP):** Withdraw up to $60,000 from your RRSP tax-free for a first home.
   Must repay 1/15th per year starting the second year after withdrawal. If you don't repay,
   the missed amount is added to your taxable income. (Source: canada.ca/home-buyers-plan)
-- **First-Time Home Buyer Tax Credit:** $10,000 non-refundable credit (15% = $1,500 federal
-  tax reduction). Claim on your tax return for the year of purchase.
-- **GST/HST New Housing Rebate:** If buying new construction, you may qualify for a rebate
-  of up to $6,300 federal (plus provincial). Purchase price must be under $450,000 for full
-  rebate (partial up to $350,000-$450,000, scales down).
+- **First-Time Home Buyer Tax Credit:** $10,000 non-refundable credit, credited at the lowest
+  federal rate (see references/current-figures.md for the current rate and dollar value). Claim
+  on your tax return for the year of purchase.
+- **GST/HST New Housing Rebate:** If buying new construction, you may qualify for the federal
+  rebate of 36% of the GST paid (max $6,300), available in full on homes up to $350,000. It
+  phases out between $350,000 and $450,000, and is zero above $450,000 (plus separate provincial
+  rebates in some provinces). See references/current-figures.md.
+- **First-Time Home Buyers' GST Rebate (Bill C-4, 2026):** For a NEW home bought by a first-time
+  buyer, a 100% rebate of the GST (up to $50,000 back) on homes valued up to $1,000,000, phasing
+  out between $1,000,000 and $1,500,000 (zero above $1.5M). Applies to agreements of purchase and
+  sale entered into on or after May 27, 2025. See references/current-figures.md.
 - **CMHC Mortgage Insurance:** Required if down payment < 20%. Premiums:
   - 5-9.99% down: 4.00% of mortgage amount
   - 10-14.99% down: 3.10%
@@ -807,13 +817,15 @@ Full source URLs are in Section 11 at the bottom of this file.
 - **Land Transfer Tax:** Varies by province. First-time buyer rebates available in some:
   - Ontario: up to $4,000 rebate for first-time buyers
   - Toronto: additional municipal LTT (up to $4,475 rebate for first-time buyers)
-  - BC: exemption on homes up to $500,000 (partial up to $525,000) for first-time buyers
+  - BC: first-time-buyer Property Transfer Tax exemption — full exemption on homes up to $835,000
+    FMV, partial exemption up to $860,000 (see references/current-figures.md)
 
 ### Tax Implications & Deadlines
 - FHSA contributions are tax-deductible (like RRSP). Can carry forward unused deductions.
 - HBP withdrawal is tax-free but must be repaid over 15 years. Missed repayments = taxable income.
-- FHSA must be open for at least 1 year before qualifying withdrawal — open it now even if
-  you're not buying soon.
+- There is NO minimum FHSA holding period before a qualifying withdrawal — but opening one now
+  still starts your 15-year participation window and creates contribution/deduction room, so
+  open it early even if you're not buying soon.
 - Land transfer tax is due on closing (not tax-deductible for primary residence).
 - Mortgage interest is NOT tax-deductible in Canada (unlike the US). This is a common misconception.
 - Property tax is deductible only if you have rental income from the property.
@@ -828,8 +840,9 @@ Full source URLs are in Section 11 at the bottom of this file.
   Recalculate net worth and retirement projections.
 
 ### Common Mistakes to Avoid
-1. **Not opening an FHSA immediately.** The 1-year minimum holding period means every day you
-   wait is a day closer to needing the money but not being able to access it.
+1. **Not opening an FHSA immediately.** There is no minimum holding period, but opening early
+   starts your 15-year participation window and builds contribution room (plus carry-forward) —
+   so there's no reason to wait.
 2. **Using HBP without a repayment plan.** Many people forget to repay and get hit with
    unexpected tax bills year after year. Set up automatic payments.
 3. **Not budgeting for closing costs.** On a $600K home, closing costs can be $15,000-$25,000

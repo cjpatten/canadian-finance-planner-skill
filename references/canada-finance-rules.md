@@ -3,9 +3,11 @@
 Read this reference when you need tax rules, contribution limits, government program details,
 or when a user asks "are you sure?" or "where did you get that number?"
 
-**CRITICAL:** Every number in this file has a verification date. Before using ANY number in a
-calculation that affects the user's plan, verify it via web search against at least two sources
-(canada.ca is always one). If the number here is stale, update it and tell the user.
+**CURRENT NUMBERS LIVE ELSEWHERE:** All current-year dollar figures, rates, contribution limits,
+tax brackets, and benefit amounts live in **`references/current-figures.md`** — that is the single
+source of truth. Use those figures verbatim. This file holds the durable *rules*, structure, and
+source-URL catalogue. For any figure not listed in `current-figures.md`, verify it against the
+official source (canada.ca is always one) before using it in a calculation, and tell the user.
 
 ---
 
@@ -24,43 +26,37 @@ calculation that affects the user's plan, verify it via web search against at le
 
 ## 1. Tax Rules & Brackets
 
-### Federal Tax Brackets (2026 — verify annually)
-- 14% on first $58,523 (reduced from 15% effective July 1, 2025)
-- 20.5% on $58,523 to $117,045
-- 26% on $117,045 to $181,440
-- 29.32% on $181,440 to $258,482
-- 33% on income above $258,482
-- Basic personal amount: $16,452 (max, for income ≤$181,440; phases down to $14,829 at $258,482+)
-- Indexation factor for 2026: 2.0%
+### Federal Tax Brackets
+- Structure: five brackets (lowest rate, then 20.5% / 26% / 29% / 33% marginal tiers). The lowest
+  federal rate dropped from 15% to 14% (phased in from July 1, 2025).
+- Current bracket thresholds, exact rates, the basic personal amount (max/min), and the annual
+  indexation factor: **see `references/current-figures.md`** (federal brackets + BPA lines). Use
+  those verbatim.
 
 ### Provincial Brackets
-Every province is different. Always verify at taxtips.ca/taxrates or the provincial government
-site. Ontario example (2025):
-- 5.05% on first $52,886
-- 9.15% on $52,886 to $105,775
-- 11.16% on $105,775 to $150,000
-- 12.16% on $150,000 to $220,000
-- 13.16% above $220,000
-- Ontario surtax applies above certain thresholds
+Every province is different, and provincial thresholds are re-indexed annually. Always verify at
+taxtips.ca/taxrates or the provincial government site before quoting. Note two recent structural
+changes captured in `current-figures.md`: **Alberta is no longer effectively flat 10%** (new lower
+bracket on the first ~$60K of income), and **Nova Scotia HST is 14%** (since Apr 1, 2025). Ontario
+still has five brackets plus a surtax — verify the current thresholds; do not quote from memory.
 
 ### Capital Gains
 - Inclusion rate: 50% (the proposed increase to 66.67% was cancelled in March 2025)
 - Always verify current rate — this is politically volatile
 
 ### Key Tax Deductions & Credits
-- Medical Expense Tax Credit: lesser of 3% of net income or fixed threshold ($2,833 for 2025)
+- Medical Expense Tax Credit: lesser of 3% of net income or a fixed threshold (current threshold in `references/current-figures.md`)
 - Moving expenses: deductible if moving 40+ km closer to work/school
 - Canada Workers Benefit: for low-income working individuals/families
 - Canada Training Credit: $250/year accumulation for eligible training
-- Charitable donations: 14% federal on first $200, 29% above (33% if income >$258,482)
+- Charitable donations: lowest federal rate on first $200, 29% above (33% to the extent income sits in the top bracket — current top-bracket threshold in `references/current-figures.md`)
 
 ---
 
 ## 2. Registered Account Limits
 
 ### RRSP
-- 2025 limit: $32,490 (18% of prior year earned income)
-- 2026 limit: $35,390
+- Annual limit = 18% of prior-year earned income, capped at the year's dollar maximum (current dollar limit in `references/current-figures.md`)
 - Contribution deadline: 60 days after year-end (typically March 1 or 2)
 - Must convert to RRIF by December 31 of the year you turn 71
 - Spousal RRSP: contributor gets deduction, spouse owns the account
@@ -69,8 +65,7 @@ site. Ontario example (2025):
 - LLP: withdraw up to $20,000 for education, repay over 10 years
 
 ### TFSA
-- Annual limit: $7,000 (2024, 2025, and 2026)
-- Cumulative room since 2009 (for someone 18+ since 2009): $109,000 as of 2026
+- Annual limit and cumulative room since 2009 (for someone 18+ since 2009): see `references/current-figures.md`
 - Room accumulates from year you turn 18 AND become a Canadian resident
 - Not subject to attribution rules — give money to spouse for their TFSA freely
 - Withdrawals create new room the following January 1
@@ -96,9 +91,9 @@ site. Ontario example (2025):
 ### RDSP (Registered Disability Savings Plan)
 - Requires Disability Tax Credit (DTC) eligibility
 - Lifetime contribution limit: $200,000 (no annual cap)
-- CDSG (Canada Disability Savings Grant): matching depends on family income:
-  - Income ≤$114,750 (2025): 300% on first $500 + 200% on next $1,000 = up to $3,500/year
-  - Income >$114,750: 100% on first $1,000 = up to $1,000/year
+- CDSG (Canada Disability Savings Grant): matching depends on family income (the income cutoff is indexed annually — verify current threshold):
+  - At or below the cutoff: 300% on first $500 + 200% on next $1,000 = up to $3,500/year
+  - Above the cutoff: 100% on first $1,000 = up to $1,000/year
   - Lifetime CDSG cap: $70,000. Paid until year beneficiary turns 49.
 - CDSB (Canada Disability Savings Bond): up to $1,000/year for low-income, no contribution needed, $20,000 lifetime
 - 10-year holdback rule: $3 of grants/bonds repaid per $1 withdrawn if received in prior 10 years
@@ -110,10 +105,7 @@ site. Ontario example (2025):
 ## 3. CPP & OAS
 
 ### CPP (Canada Pension Plan)
-- Maximum pensionable earnings (YMPE, 2026): $74,600
-- Second ceiling (YAMPE, 2026): $85,000
-- Maximum monthly benefit at 65 (2026): $1,507.65
-- Average monthly benefit: ~$803.76
+- YMPE (max pensionable earnings), YAMPE (second/CPP2 ceiling), max monthly benefit at 65, and the average new-beneficiary benefit: see `references/current-figures.md`
 - Early (age 60): reduced 0.6%/month × 60 months = 36% reduction
 - Deferral (to age 70): increased 0.7%/month × 60 months = 42% increase
 - Break-even ages: 60 vs 65 ≈ age 74 | 65 vs 70 ≈ age 82 | 60 vs 70 ≈ age 77
@@ -125,21 +117,17 @@ site. Ontario example (2025):
 
 ### OAS (Old Age Security)
 - Eligible at 65 with 10+ years of Canadian residency (partial) or 40+ years (full)
-- Maximum monthly (2026, age 65-74): $742.31 (indexed quarterly)
-- Maximum monthly (2026, age 75+): $816.54
-- Deferral: 0.6%/month increase, max 36% at age 70
-- Recovery tax (clawback): begins at $95,323 net income (2026), fully clawed back at ~$154,708 (age 65-74) / ~$160,647 (age 75+)
-- GIS maximum (single, 2026): $1,108.74/month, income-tested, not taxable
+- Maximum monthly amounts (age 65-74 and 75+, indexed quarterly), the clawback start and full-clawback thresholds, and the GIS maximum: see `references/current-figures.md`
+- Deferral: 0.6%/month increase, max 36% at age 70 (no early OAS; deferral also delays GIS)
 
 ---
 
 ## 4. Government Benefits & Credits
 
 ### Federal
-- Canada Child Benefit (CCB): up to $7,997/child under 6, $6,748/child 6-17 (July 2025–June 2026 benefit year). Phase-out begins at $37,487 family net income.
-- GST/HST Credit: quarterly, income-tested
-- Climate Action Incentive: quarterly, varies by province and family size
-- Canada Workers Benefit: for low-income workers
+- Canada Child Benefit (CCB): per-child maximums (under 6 / ages 6-17) and the AFNI phase-out start point for the current benefit year — see `references/current-figures.md`. Paid monthly, income-tested.
+- Canada Groceries and Essentials Benefit (CGEB): **replaces the GST/HST credit from July 2026** (~25% higher; paid quarterly, income-tested). Current base amounts in `references/current-figures.md`. (Do NOT tell users to expect a separate GST/HST credit or a one-time top-up — the final top-up was already paid June 2026.)
+- Canada Workers Benefit: for low-income workers (current amounts in `references/current-figures.md`)
 - Canada Dental Care Plan (CDCP): income-based eligibility
 - Canada Disability Benefit: for working-age DTC holders
 - EI special benefits: maternity (15 weeks), parental (35-61 weeks), sickness (26 weeks), caregiver (35 weeks)
@@ -147,9 +135,9 @@ site. Ontario example (2025):
 ### Provincial (the skill must check the user's province)
 Every province has unique programs. Common ones:
 - **Ontario:** Trillium Benefit (energy + property tax + sales tax credits), Ontario Child Benefit, ODSP, Ontario Works, OESP, Drug Benefit, CARE tax credit
-- **BC:** Climate Action Tax Credit, BC Child Opportunity Benefit, Fair PharmaCare, CleanBC
+- **BC:** BC Family Benefit (formerly Child Opportunity Benefit), Fair PharmaCare, CleanBC (note: the BC Climate Action Tax Credit ended alongside the federal carbon rebate — do not list it as active)
 - **Alberta:** AISH, Alberta Child and Family Benefit, Alberta Seniors Benefit
-- **Quebec:** Solidarity Tax Credit, $9.35/day childcare, QPP (not CPP), unique tax system
+- **Quebec:** Solidarity Tax Credit, reduced-contribution ("$X/day") subsidized childcare (the daily rate is indexed annually — verify), QPP (not CPP), unique tax system
 
 Always web-search for the user's specific province to confirm current programs.
 
@@ -206,11 +194,13 @@ Online banks (EQ Bank, Oaken, Achieva) consistently offer better rates than big 
 - Principal residence exemption: no tax on primary home gain
 
 ### Probate Fees by Province
-- Quebec and Manitoba: essentially zero
-- Alberta: maximum $525 regardless of estate size
-- Ontario: 1.5% on amounts over $50,000
-- BC: 1.4% on amounts over $50,000
-- Saskatchewan: 0.7% flat rate
+See `references/current-figures.md` (Probate section) for exact rates and sources. Key points:
+- **Manitoba: $0 — probate fees were eliminated (Nov 6, 2020).** Not "essentially zero."
+- **Ontario: first $50,000 is EXEMPT, then $15 per $1,000 (1.5%) on the amount above $50,000** (e.g. a $500K estate → $6,750). The pre-2020 two-tier rate is dead.
+- **Quebec: notarial wills need NO probate;** holograph/witnessed wills need court or notary validation (fee varies — do not quote a dollar amount).
+- Alberta: flat brackets, maximum $525 (estates over $250K), $35 minimum.
+- BC: $0 to $25K; $6/$1,000 on $25K–$50K (0.6%); $14/$1,000 above (1.4%).
+- Saskatchewan: $200 flat + $7/$1,000 of estate assets.
 
 ### Beneficiary Designations
 Bypass probate when named: RRSP, RRIF, TFSA, FHSA, life insurance
@@ -235,7 +225,7 @@ Powers of Attorney are called "protection mandates" (mandat de protection) in Qu
 
 ### IPP (Individual Pension Plan)
 - For incorporated owners age 40+
-- Contribution limits exceed RRSP (e.g., at 50: ~$43K vs RRSP max ~$32K)
+- Contribution limits exceed the RRSP dollar maximum, and the gap widens with age (compare against the current RRSP limit in `references/current-figures.md`)
 - Setup: ~$3,000, actuarial valuations ~$2,000 every 3 years
 - Requires T4 salary of $100K+
 
@@ -253,6 +243,10 @@ Powers of Attorney are called "protection mandates" (mandat de protection) in Qu
 
 ## 8. Source URLs
 
+For the authoritative `[Source: URL]` behind any current figure (brackets, limits, CPP/OAS/GIS,
+benefits, probate), see the matching line in `references/current-figures.md` — quote those URLs
+exactly; never construct a URL.
+
 ### Tax Rules & Limits
 - RRSP/TFSA/FHSA limits: canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html
 - Federal tax brackets: canada.ca — Canadian income tax rates for individuals
@@ -266,6 +260,7 @@ Powers of Attorney are called "protection mandates" (mandat de protection) in Qu
 - OAS payments & clawback: canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html
 - CCB: canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html
 - GIS: canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement.html
+- Canada Groceries and Essentials Benefit (CGEB, replaces GST/HST credit July 2026): canada.ca/en/department-finance/news/2026/01/the-new-canada-groceries-and-essentials-benefit.html
 
 ### Registered Accounts
 - CESG: canada.ca — canada-education-savings-grant-cesg.html
@@ -280,7 +275,7 @@ Powers of Attorney are called "protection mandates" (mandat de protection) in Qu
 
 ### Estate
 - Deemed disposition: canada.ca — what-when-someone-died.html
-- Probate fees: taxtips.ca/willsandestates/probate-fees-by-province-territory.htm
+- Probate fees: taxtips.ca/willsandestates/probate-fees-by-province-territory.htm (per-province official sources in `references/current-figures.md` — e.g. Ontario ontario.ca/laws/statute/98e34; Manitoba elimination notice manitobacourts.mb.ca)
 
 ### Self-Employed
 - HSA eligibility: canada.ca — warning-buyer-beware-health-spending-accounts
