@@ -69,7 +69,7 @@ Put **tax-efficient** investments in **non-registered** accounts.
 | Investment Type | Best Account | Why |
 |----------------|-------------|-----|
 | Canadian equities (stocks/ETFs) | Non-registered | Eligible dividends get dividend tax credit (lower effective rate). Capital gains taxed at 50% inclusion. |
-| US equities (directly held) | RRSP | US-Canada tax treaty exempts US dividend withholding tax in RRSP. 15% withholding tax applies in TFSA and non-registered. |
+| US equities (directly held) | RRSP | US-Canada tax treaty exempts US dividend withholding tax in RRSP. 15% withholding applies in TFSA and non-registered — but in a **non-registered account it is recoverable via the Foreign Tax Credit on your T1**; it is only truly lost in a TFSA (and RESP/FHSA). |
 | International equities | RRSP or TFSA | Foreign withholding tax applies regardless, but growth is sheltered. |
 | Bonds / fixed income | RRSP | Interest income is fully taxable (no preferential rate). RRSP shelters this entirely. |
 | GICs | RRSP or TFSA | Same reasoning — interest is fully taxable. |

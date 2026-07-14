@@ -277,9 +277,9 @@ period, riders (COLA, future increase, return of premium).
 If the user has group LTD through their employer, individual DI coordinates with it:
 - **Group LTD:** Typically covers 60-66% of income, any-occupation definition (after 2 years),
   capped at a maximum monthly benefit ($5,000-$10,000)
-- **CPP Disability (CPP-D):** max monthly amount — verify current in references/current-figures.md
-  (the ~$1,606/month figure is the 2024 maximum). Strict eligibility — must
-  have "severe and prolonged" disability preventing ALL work. Many claims denied.
+- **CPP Disability (CPP-D):** verify the current CPP-D maximum at canada.ca before quoting.
+  Strict eligibility — must have "severe and prolonged" disability preventing ALL work. Many
+  claims denied.
 - **Workers' Compensation:** Only covers work-related injuries/illness. Does NOT cover illness
   or off-the-job injuries (which are ~70-80% of disability claims).
 
@@ -393,8 +393,8 @@ conditions like breast cancer), which is opposite to life insurance where women 
 When you leave an employer, your group life and health benefits usually end on your last day
 (or end of the month). But you typically have a **conversion privilege:**
 
-- **Timeline:** 30-60 days to convert group life insurance to an individual policy **without
-  medical underwriting.** This is invaluable if your health has deteriorated.
+- **Timeline:** **31 days** in most provinces to convert group life insurance to an individual
+  policy **without medical underwriting.** This is invaluable if your health has deteriorated.
 - **What converts:** Group life → individual whole or term life. Some LTD plans have conversion.
   Extended health/dental usually does NOT convert (explore individual health plans instead).
 - **Cost:** Converted policies are more expensive than buying new insurance while healthy. But
@@ -410,8 +410,9 @@ When you leave an employer, your group life and health benefits usually end on y
 - If you're planning to change jobs → get individual coverage while still healthy and employed
 
 ### Tax Treatment
-- **Employer-paid life insurance premiums:** Taxable benefit to the employee (included in T4).
-  First $25,000 of group term life is not a taxable benefit in some plans — check your T4.
+- **Employer-paid life insurance premiums:** In Canada, employer-paid group term life
+  premiums are **fully a taxable benefit** to the employee (reported in **T4 box 40**). There
+  is **no minimum exemption** — the entire premium is taxable.
 - **Employer-paid disability premiums:** Benefits received are TAXABLE. If you pay the premium
   yourself, benefits are TAX-FREE. This is a significant planning opportunity.
 - **Individual policy premiums:** Not tax-deductible (except for self-employed in some cases).

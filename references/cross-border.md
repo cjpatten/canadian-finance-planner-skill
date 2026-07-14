@@ -214,7 +214,7 @@ If you rent out US property, you must report the income in **both countries**:
 - **Purpose:** Certifies your foreign (non-US) status to reduce withholding on US investment income
 - Required when opening US bank/investment accounts
 - Valid for 3 years, then must be renewed
-- Reduces US withholding from 30% to 15% (treaty rate) on dividends and interest
+- Reduces US withholding from 30% to 15% on dividends; generally 0% on interest (treaty rates)
 
 (Source: irs.gov — FIRPTA, Publication 515, Publication 519; taxtips.ca — US Estate Tax)
 
@@ -243,7 +243,9 @@ If you rent out US property, you must report the income in **both countries**:
 **Within first year:**
 - [ ] File your **first Canadian tax return** (due April 30 of the year after arrival)
 - [ ] Open an **RRSP** once you have Canadian earned income (room starts from first year of Canadian employment)
-- [ ] Report foreign assets > $100,000 CAD on **Form T1135** with your tax return
+- [ ] Report foreign assets > $100,000 CAD on **Form T1135** with your tax return — **BUT you are
+  EXEMPT for your FIRST year of Canadian residency** (ITA s.233.7); T1135 filing begins the
+  following year. (This first-year exemption does NOT apply to returning former residents.)
 
 ### RRSP Room for Newcomers
 - RRSP contribution room = 18% of **Canadian-source earned income** from prior year
@@ -270,6 +272,9 @@ If you rent out US property, you must report the income in **both countries**:
   property, shares of foreign corporations, foreign life insurance policies
 - **Simplified reporting:** If cost between $100K-$250K, use the simplified tick-box method
 - **Penalty for non-filing:** Up to $2,500/year (or more for gross negligence)
+- **First-year exemption:** No T1135 is required for your **FIRST year of Canadian residency**
+  (ITA s.233.7); the obligation begins the following year. This exemption does NOT apply to
+  returning former residents.
 - **Note:** RRSPs, TFSAs, and employer pension plans are NOT specified foreign property
 
 ### Credit Building from Zero
@@ -350,7 +355,7 @@ actually dispose of the property.
 |-------------|--------------------------------------|-------------|-------|
 | RRSP/RRIF withdrawal | 15% (treaty rate) | Taxable income | Claim foreign tax credit on US return |
 | CPP/OAS to US resident | 25% default, 15% treaty | Taxable income | Section 217 election may reduce |
-| US Social Security to Canadian resident | N/A | Generally taxable only in US | Include 85% on Canadian return per treaty |
+| US Social Security to Canadian resident | N/A | NOT taxable in the US (treaty) | Taxable ONLY in Canada — 85% included, 15% exempt (Art. XVIII(5)) |
 | US 401(k)/IRA to Canadian resident | 15% US withholding (treaty) | Taxable in Canada | Claim foreign tax credit (T2209) |
 | UK pension to Canadian resident | Treaty-dependent | Taxable in Canada | Complex — see professional |
 
@@ -358,8 +363,9 @@ actually dispose of the property.
 - If you earned US Social Security credits (worked 10+ years in US or combined Canada-US credits):
   - Apply through Service Canada or US SSA
   - **Canada-US Social Security Agreement** allows combining work periods
-  - When received by a Canadian resident: 85% is included in Canadian taxable income (treaty provision)
-  - File **Form T2209** for any US tax withheld
+  - When received by a Canadian resident: taxable **ONLY in Canada** — 85% is included in Canadian
+    taxable income and 15% is exempt, under Treaty **Article XVIII(5)**. The US does NOT tax it.
+  - Because there is no US tax on it, there is nothing to credit — do NOT file Form T2209 for US Social Security.
 
 ### Foreign Pension Transfer to RRSP
 - **Very limited.** Generally, foreign pensions cannot be directly transferred to an RRSP.
@@ -518,7 +524,7 @@ You always end up paying the **higher** of the two countries' tax rates on that 
 | US rental income | File 1040-NR, pay US tax | Report on Canadian return | Claim T2209 for US tax paid |
 | US dividend withholding (15%) | Withheld at source | Include in Canadian income | Claim T2209 for withholding |
 | RRSP withdrawal by US resident | Taxable in US | 15% Canadian withholding | Claim on US return for Canadian withholding |
-| US Social Security to Canadian | Potentially US-taxable | Include 85% in Canadian income | Claim T2209 for any US tax paid |
+| US Social Security to Canadian | None — not US-taxable (treaty) | 85% included, 15% exempt (Art. XVIII(5)) | Taxable ONLY in Canada; no US tax, so no T2209 |
 
 ### Key Rules
 - **Excess credit:** If foreign tax exceeds Canadian tax on that income, the excess is **not refunded**

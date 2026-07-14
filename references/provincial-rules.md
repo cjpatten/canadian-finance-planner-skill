@@ -87,8 +87,8 @@ for full bracket tables.
 | Saskatchewan | 10.5% | 14.5% | 3 | |
 | New Brunswick | 9.40% | 19.5% | 4 | |
 | Nova Scotia | 8.79% | 21.0% | 5 | Highest combined top rate in Canada |
-| PEI | 9.65% | 18.37% | 5 | + surtax |
-| Newfoundland | 8.7% | 21.8% | 7 | + temporary surtax |
+| PEI | ~9.5% | ~19% | 5 | Surtax ELIMINATED (2024); brackets restructured for 2025 — verify current |
+| Newfoundland | 8.7% | 21.8% | 7 | |
 | Yukon | 6.4% | 15.0% | 5 | |
 | NWT | 5.9% | 14.05% | 4 | |
 | Nunavut | 4.0% | 11.5% | 4 | Lowest provincial rates |
@@ -154,10 +154,10 @@ combines credits from both systems.
 
 | Feature | Federal EI | QPIP |
 |---------|-----------|------|
-| Maternity | 15 weeks at 55% (max ~$729/week) | 18 weeks at 70% + 7 weeks at 55% |
-| Paternity | N/A (shared parental only) | 5 weeks at 70% |
-| Parental (standard) | 35 weeks at 55% | 25 weeks at 70% (or 32 weeks at 55%) |
-| Parental (extended) | 61 weeks at 33% | N/A (QPIP has one option) |
+| Maternity | 15 weeks at 55% (max ~$729/week) | 18 weeks at 70% (basic plan) |
+| Paternity | N/A (shared parental only) | 5 weeks at 70% (basic plan) |
+| Parental (shared) | 35 weeks at 55% | 7 weeks at 70% + 25 weeks at 55% = 32 weeks (basic plan) |
+| Special plan option | — | Higher-rate/shorter-duration alternative, e.g. parental 25 weeks at 75% (verify other categories) |
 | Self-employed coverage | Must opt in for federal EI | Automatically covered by QPIP |
 | Maximum insurable earnings | $68,900 (2026, EI MIE) | verify current year — see RQAP |
 | Administered by | Service Canada | RQAP (rqap.gouv.qc.ca) |
@@ -207,7 +207,9 @@ advantage for Quebec families.
 | $150,001 – $220,000 | 12.16% |
 | Over $220,000 | 13.16% |
 
-**Ontario surtax:** 20% of basic Ontario tax over $4,991 + 36% of basic Ontario tax over $6,387.
+**Ontario surtax:** two-tier surtax (20% and an additional 36%) applies to basic Ontario tax above
+annually-indexed thresholds — **verify the current-year thresholds** (the ~$4,991 / ~$6,387 figures
+often quoted are from ~2020 and are stale).
 Basic personal amount: ~$11,865 (verify current year — see current-figures.md or the provincial site)
 
 Combined top marginal rate (federal + Ontario): ~53.53%
@@ -481,7 +483,7 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 | $275,871 – $551,739 | 20.8% |
 | Over $551,739 | 21.8% |
 
-**Combined top rate: ~54.8%** — very high. + temporary COVID surtax (verify if still active).
+**Combined top rate: ~54.8%** — very high. (NL has no COVID surtax.)
 
 - **Pharmacare:** NL Prescription Drug Program (income-based).
 - **Disability:** Income Support for persons with disabilities.
@@ -500,7 +502,8 @@ Combined top marginal rate (federal + Saskatchewan): ~47.5%
 | $105,001 – $140,000 | 18.0% |
 | Over $140,000 | 18.37% |
 
-+ PEI surtax: 10% on basic provincial tax over $12,500.
+**No PEI surtax** — the 10% surtax was ELIMINATED effective 2024. PEI also restructured its
+brackets for 2025 (lowest ~9.5%, top ~19%) — verify current-year rates and thresholds.
 
 - **Pharmacare:** PEI Pharmacare (various programs by age/income).
 - **Disability:** Social Assistance for persons with disabilities.

@@ -153,9 +153,10 @@ but significantly more interest over the life of the mortgage.
 ### Insured vs Uninsured
 - **Insured (< 20% down):** CMHC mortgage insurance required. Insurance premium: 2.80-4.00%
   of the mortgage amount (added to the loan). Insured mortgages often get slightly better
-  interest rates because the lender's risk is lower.
+  interest rates because the lender's risk is lower. Amortization is capped at 25 years,
+  except **30 years** for first-time buyers or newly-built homes (since Dec 15, 2024).
 - **Uninsured (20%+ down):** No insurance required. Slightly higher rates in some cases.
-  Maximum amortization is 25 years (30-year only available for insured).
+  Can amortize up to **30 years**.
 
 ### GST on New Homes & the First-Time Home Buyers' GST Rebate
 GST (or the federal portion of HST) applies to **newly built** homes, not resale homes.
@@ -484,8 +485,8 @@ This can work if the property is appreciating fast enough, but it's risky and ti
 
 ### What It Is
 Your **primary home** is exempt from capital gains tax when you sell it. This is one of the
-most valuable tax benefits in Canada — on a home that appreciated $300K, this saves $22,500+
-in tax (at 50% inclusion rate and ~30% marginal rate).
+most valuable tax benefits in Canada — on a home that appreciated $300K, this saves ~$45,000
+in tax ($300,000 × 50% inclusion × ~30% marginal rate).
 
 ### Rules
 - Only **ONE property per family** (you + spouse/common-law partner) can be designated as
@@ -670,7 +671,7 @@ Increasingly popular among retirees:
 - 2.5% above $2,000,000
 - **Toronto Municipal LTT:** Same rates stacked on top (Toronto buyers pay double)
 - **First-time buyer rebate:** Up to $4,000 provincial + $4,475 Toronto municipal
-- Example: $700K home in Toronto = ~$11,475 provincial + ~$11,475 municipal = ~$22,950 total
+- Example: $700K home in Toronto = ~$10,475 provincial + ~$10,475 municipal = ~$20,950 total
   (minus rebates if first-time buyer)
 
 **British Columbia:**
@@ -698,10 +699,11 @@ Increasingly popular among retirees:
 **Saskatchewan:** No land transfer tax. Registration fees only.
 
 **Manitoba:**
-- 0.5% on first $30,000
-- 1.0% on $30,001-$90,000
-- 1.5% on $90,001-$150,000
-- 2.0% above $150,000
+- 0% on first $30,000
+- 0.5% on $30,001-$90,000
+- 1.0% on $90,001-$150,000
+- 1.5% on $150,001-$200,000
+- 2.0% above $200,000
 
 **Atlantic Provinces:** Generally no LTT or minimal. Nova Scotia has a deed transfer tax
 (typically 1.5% of sale price). New Brunswick has a land transfer tax of 1%.

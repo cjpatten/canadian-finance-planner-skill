@@ -9,7 +9,7 @@ description: >
   context. Also triggers for "should I buy this?", "can I afford this?", financial check-ins,
   plan updates, life change impacts on finances, or any request to build or review a financial
   plan. Even if the user just says "help me with my money" or "I need a budget", this skill
-  should activate. Canada-focused (v1).
+  should activate. Canada-focused.
 ---
 
 # Personal Finance Manager — Canada (v3.0)

@@ -46,7 +46,7 @@ Full source URLs are in Section 11 at the bottom of this file.
 - [ ] Open a RESP for the new child. Contribute at least $2,500/year to capture full CESG
   ($500/year government match). Even $208/month gets the full grant.
 - [ ] Apply for EI maternity benefits (can apply up to 12 weeks before expected due date)
-- [ ] Apply for provincial benefits: Ontario Baby Bonus, BC Early Childhood Tax Benefit,
+- [ ] Apply for provincial benefits: Ontario Child Benefit, BC Family Benefit,
   Alberta Child and Family Benefit, etc. (varies by province — verify via web search)
 - [ ] Review life insurance needs — a new child increases the life insurance need by ~$200K-$300K
   (education costs + income replacement during dependent years)
@@ -371,8 +371,9 @@ Full source URLs are in Section 11 at the bottom of this file.
   + 5 bonus weeks if second parent takes at least 5 weeks.
 - **EI Extended Parental:** 61 weeks at 33% (max ~$437/week). Shareable between parents.
   + 8 bonus weeks if second parent takes at least 8 weeks.
-- **Quebec (QPIP):** Higher replacement rates: maternity 70% for 18 weeks + 55% for 7 weeks.
-  Parental 70% for 25 weeks (or 55% for 32 weeks). Paternity 70% for 5 weeks. More generous
+- **Quebec (QPIP):** Higher replacement rates. Basic plan: maternity 18 weeks at 70%; paternity
+  5 weeks at 70%; shared parental 7 weeks at 70% + 25 weeks at 55% (32 weeks total). A special
+  plan trades shorter durations for higher rates (e.g. parental 25 weeks at 75%). More generous
   than federal EI. Quebec residents use QPIP, not federal EI, for parental benefits.
 - **CCB:** Starts after birth registration. Based on prior year family net income.
 
@@ -540,9 +541,11 @@ Full source URLs are in Section 11 at the bottom of this file.
   supporting an infirm dependent 18+. Reduced when dependent's income exceeds $20,601
   (2026 — verify). Claimed on your tax return, not your parent's.
   (Source: canada.ca/canada-caregiver-amount)
-- **Medical Expense Tax Credit:** You can claim your parent's medical expenses if they qualify
-  as your dependent (income below ~$8,773, 2026 — verify). Includes nursing home fees,
-  attendant care, medical devices, prescriptions.
+- **Medical Expense Tax Credit:** You can claim medical expenses you paid for a dependant parent.
+  There is **no hard income ceiling** on the dependant — the claimable expenses are simply reduced
+  by 3% of the **dependant's** net income (not your own). (Don't confuse this with the Canada
+  Caregiver Credit's ~$8,773 figure, which is the credit amount, not an income cap.) Includes
+  nursing home fees, attendant care, medical devices, prescriptions.
 - **GIS for your parent:** If your parent's individual income (excluding OAS) is below the GIS
   income cutoff, they may qualify for GIS. This is significant — the current single-senior
   maximum and income cutoff are in references/current-figures.md.
@@ -691,7 +694,7 @@ Full source URLs are in Section 11 at the bottom of this file.
   - Alberta: multi-bracket, no longer a flat 10% (new 8% bottom bracket — see references/current-figures.md)
   - Ontario: 5.05% to 13.16%
   - Quebec: 14% to 25.75% (highest, but includes QPP, QPIP, and many public services)
-  - BC: 5.06% to 20.5%
+  - BC: 5.60% to 20.5% (lowest bracket increased from 5.06% for 2026 — see references/current-figures.md)
 - [ ] Start the health card transfer process — most provinces have a 3-month waiting period.
   Keep your old province's health card active during the transition.
 
@@ -709,8 +712,8 @@ Full source URLs are in Section 11 at the bottom of this file.
 
 ### Canadian Programs & Benefits
 - **Health card:** Apply in new province immediately. 3-month wait in most provinces (covered
-  by old province during transition). Quebec has no waiting period if coming from another
-  province.
+  by old province during transition). Quebec (RAMQ) also imposes an up-to-3-month waiting period
+  when arriving from another province; your former province covers the gap during that wait.
 - **CCB:** Continues unchanged — federal program, not provincial.
 - **Provincial benefits transition:**
   - Ontario Trillium Benefit → BC Family Benefit (or equivalent provincial credit)

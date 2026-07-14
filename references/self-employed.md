@@ -154,7 +154,7 @@ answer — it depends on their specific situation.
 
 ### Dividend Advantages
 - No CPP contributions (saves ~$4,200 employee portion, but lose pension credits)
-- No EI premiums (saves ~$1,050 employee portion, but no EI benefits)
+- No EI premiums (saves the max employee premium — ~$1,123 in 2026; current EI figures in references/current-figures.md — but no EI benefits). Note: owner-managers who control **more than 40% of the voting shares are generally EI-ineligible anyway**, so this "saving" is often moot.
 - Simpler admin (no payroll, no T4, no source deductions)
 - Dividend tax credit makes effective tax rate roughly equivalent to salary (integration)
 - Flexible timing (declare dividends when beneficial, not on a payroll schedule)
@@ -165,12 +165,13 @@ Pay yourself a **salary up to the RRSP limit threshold** (~$187,800 salary gener
 RRSP room; current dollar limit in references/current-figures.md — 2026 = $33,810), then take
 additional income as **dividends.**
 
-**Example (Ontario, 2025):**
+**Example (Ontario, 2025 — verify):**
 - Corp earns $200K net profit
-- Pay $90K salary: creates $16,200 RRSP room, builds CPP, qualifies for mortgage
-- Declare $60K in eligible dividends: lower effective tax rate via dividend tax credit
-- Retain $50K in corporation: taxed at 12.2%, available for future use
-- **Total personal income: $150K.** Total tax: ~$32,000-$36,000.
+- Pay $90K salary (deductible to the corp): creates $16,200 RRSP room, builds CPP, qualifies for mortgage
+- The remaining $110K ($200K − $90K salary) is taxed **in the corporation first** — at the SBD rate (~12.2% Ontario) = ~$13,400 corporate tax — leaving ~$96,600 of after-corporate-tax dollars
+- Dividends are paid from those after-tax dollars. Because the income was taxed at the SBD rate, they are **non-eligible (ordinary) dividends**, NOT eligible dividends (eligible dividends come only from general-rate / GRIP income): declare ~$46,600 in non-eligible dividends, lowering effective personal tax via the dividend tax credit
+- Retain the other ~$50,000 in the corporation, available for future use
+- **Total personal income: ~$136,600** ($90K salary + ~$46,600 non-eligible dividends). Integration means the corporate tax already paid is recognized, so the same dollars aren't taxed twice.
 
 ### Tax on Split Income (TOSI) Rules
 Since 2018, paying dividends to family members (spouse, adult children) who don't meaningfully
@@ -204,7 +205,7 @@ The SBD reduces the corporate tax rate on the first $500K of active business inc
 | Alberta | 11.0% | 23.0% | $500,000 |
 | Manitoba | 9.0% | 27.0% | $500,000 |
 | Saskatchewan | 9.0% | 27.0% | $600,000 |
-| Nova Scotia | 11.5% | 29.0% | $700,000 |
+| Nova Scotia | 10.5% | 29.0% | $700,000 |
 | New Brunswick | 11.5% | 29.0% | $500,000 |
 | Newfoundland | 12.0% | 30.0% | $500,000 |
 | PEI | 10.0% | 31.0% | $600,000 |
@@ -361,9 +362,9 @@ CRA requires a **vehicle mileage log** showing:
 - Car washes (business %)
 
 ### CRA Limits on Luxury Vehicles (2025 — verify)
-- **CCA limit:** Maximum cost for CCA purposes: ~$37,000 + tax (Class 10.1). If vehicle costs
-  more, you can only depreciate on the capped amount.
-- **Lease limit:** Maximum deductible lease payment: ~$950/month + tax.
+- **CCA limit:** Maximum cost for CCA purposes: ~$38,000 + tax (Class 10.1 ceiling). If vehicle costs
+  more, you can only depreciate on the capped amount. (Verify current.)
+- **Lease limit:** Maximum deductible lease payment: ~$1,100/month + tax. (Verify current.)
 - **Interest limit:** Maximum deductible interest on vehicle loan: ~$300/month.
 
 ### Employee vs Self-Employed
@@ -404,7 +405,8 @@ CRA requires a **vehicle mileage log** showing:
 - File quarterly (or annually if revenue < $1.5M)
 
 ### Quick Method (Simplified Accounting)
-- For businesses with revenue < $400K (goods) or < $200K (services)
+- Eligible if your annual worldwide taxable supplies (GST/HST-**included**) are **$400,000 or less** — this single threshold applies to **all business types** (there is no separate, lower "services" tier)
+- **Not available to certain professionals:** accountants, bookkeepers, financial consultants, lawyers, and notaries are excluded from the Quick Method
 - Instead of tracking every ITC, you remit a flat percentage of revenue
 - Rates vary by province and type of business (typically 3.6-8.8%)
 - Often results in LESS HST remitted than the regular method (you keep the difference)
@@ -687,13 +689,17 @@ Allows higher tax-deductible contributions than an RRSP, especially for people 4
 - **Plan to stay incorporated 10+ years** (need time to recoup setup costs)
 
 ### Contribution Comparison (Max RRSP = current dollar limit in references/current-figures.md, 2026 = $33,810; IPP figures approximate — verify)
-| Age | Max RRSP | Approx IPP Contribution | IPP Advantage |
+| Age | Max RRSP | Approx IPP Contribution | IPP Advantage (IPP − RRSP) |
 |-----|---------|------------------------|---------------|
-| 40 | $33,810 | ~$28,000 | None (RRSP is better at this age) |
-| 45 | $33,810 | ~$33,000 | ~$500/year |
-| 50 | $33,810 | ~$41,000 | ~$8,500/year |
-| 55 | $33,810 | ~$51,000 | ~$18,500/year |
-| 60 | $33,810 | ~$65,000 | ~$32,500/year |
+| 40 | $33,810 | ~$28,000 | None (RRSP is higher at this age) |
+| 45 | $33,810 | ~$33,000 | None (roughly equal — RRSP is slightly higher) |
+| 50 | $33,810 | ~$41,000 | ~$7,200/year |
+| 55 | $33,810 | ~$51,000 | ~$17,200/year |
+| 60 | $33,810 | ~$65,000 | ~$31,200/year |
+
+*These IPP contribution figures are rough estimates only — the actual amount requires an
+actuarial calculation based on your salary history, age, and plan design. The "advantage" is
+simply IPP minus RRSP and is negative until roughly age 45-47.*
 
 **The advantage grows significantly with age.** At 55+, the IPP allows nearly double the RRSP.
 
@@ -704,9 +710,9 @@ Allows higher tax-deductible contributions than an RRSP, especially for people 4
 - **Total annual cost:** ~$1,500-$2,200/year
 
 ### Payback Analysis
-At age 50, extra $8,500/year contribution × 43% marginal rate = ~$3,655/year tax savings.
-Costs ~$1,800/year. **Net benefit: ~$1,855/year** + tax-deferred investment growth.
-Payback period: ~1 year. Over 15 years to age 65: ~$27,000+ in extra tax savings.
+At age 50, extra ~$7,200/year contribution × 43% marginal rate = ~$3,100/year tax savings.
+Costs ~$1,800/year. **Net benefit: ~$1,300/year** + tax-deferred investment growth.
+Payback period: ~1 year. Over 15 years to age 65: ~$20,000+ in net benefit.
 
 ### Restrictions
 - Must have T4 income (salary, not dividends) to fund the IPP
@@ -721,17 +727,18 @@ Payback period: ~1 year. Over 15 years to age 65: ~$27,000+ in extra tax savings
 
 ## 16. Shareholder Loans & Year-End Planning
 
-### Shareholder Loans (Section 15(1))
-If you borrow money from your corporation, CRA may deem it a taxable dividend.
+### Shareholder Loans (Section 15(2))
+If you borrow money from your corporation and don't repay it in time, CRA includes the loan in your income.
 
 **The rule:** If a shareholder loan is NOT repaid within **one full taxation year** after the
-year it was advanced, the full amount is included in your income as a deemed dividend.
+year it was advanced, the full amount is included in your income under **section 15(2)** — taxed
+as **ordinary income** (no gross-up, no dividend tax credit), NOT as a deemed dividend.
 
 **Example:**
 - Corp fiscal year: January 1 – December 31
 - You borrow $50,000 on March 15, 2026
 - Must repay by December 31, 2027 (one full year after the end of the year the loan was made)
-- If not repaid: $50,000 is deemed a dividend on your 2026 personal tax return
+- If not repaid: $50,000 is included in your income as ordinary income (under s.15(2)) on your 2026 personal tax return
 
 **Proper documentation:** Promissory note, reasonable interest rate (at least CRA prescribed
 rate), repayment schedule, both parties sign.
@@ -760,7 +767,7 @@ within the deadline.
 - If corporate passive income is approaching $50,000, consider extracting investments as
   dividends before year-end to avoid the SBD grind next year
 
-(Source: canada.ca, ITA section 15(1), ITA section 78)
+(Source: canada.ca, ITA section 15(2), ITA section 78)
 
 ---
 

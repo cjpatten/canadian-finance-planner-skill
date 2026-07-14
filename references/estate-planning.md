@@ -651,7 +651,9 @@ This is one of the most powerful and underused strategies in Canadian tax planni
 2. **No attribution** — TFSA income is completely tax-free, and gifts to adults have no attribution
 3. **Tax-free growth forever** — the money grows and can be withdrawn tax-free for life
 4. **Invisible to GIS** — TFSA withdrawals don't reduce Guaranteed Income Supplement in retirement
-5. **Not accessible to creditors** in most provinces (if invested in insurance-based products)
+5. **Creditor protection is NOT automatic** — a regular (bank/brokerage) TFSA is **not**
+   protected from creditors. Only a TFSA held as an insurance/segregated-fund contract with a
+   named beneficiary carries creditor protection.
 
 **Example:** Parent gives 25-year-old child $7,000/year for TFSA. Over 30 years at 7% growth:
 ~$660,000 in the child's TFSA — entirely tax-free. This is more tax-efficient than leaving

@@ -303,8 +303,9 @@ claims between spouses can save thousands.
 
 ### Pension Income Splitting (Form T1032)
 - Can split up to **50% of eligible pension income** with spouse
-- Eligible: RRIF withdrawals, life annuity from pension plan, some RPP income
-- NOT eligible until age 65: RRSP withdrawals, non-life-annuity pension
+- **65+:** RRIF withdrawals and life annuity from an RPP are eligible
+- **Under 65:** only life-annuity payments from an RPP qualify (RRIF withdrawals are NOT eligible before 65)
+- **RRSP lump-sum withdrawals are NEVER eligible** at any age — you must first convert to a RRIF or annuity to split the income (consistent with Section 11)
 - **Both spouses must agree** and file Form T1032
 - Best when one spouse is in a significantly higher bracket than the other
 
@@ -457,7 +458,7 @@ confirming this.
 - RRSP room starts accumulating from year of arrival (based on Canadian earned income)
 - TFSA room: $7,000/year from the year you became a resident AND turned 18
 - File Form T1135 if foreign property > $100K at any point during the year
-- **Apply for all benefits:** CCB, GST/HST credit, provincial benefits — must file a return
+- **Apply for all benefits:** CCB, GST/HST credit (now CGEB from July 2026), provincial benefits — must file a return
   to receive them, even if income is zero
 
 (Source: canada.ca/students, T2202 guide)
@@ -556,7 +557,7 @@ confirming this.
 - If you've been penalized before (within 3 years), doubles to: 10% + 2%/month up to 20
   months = maximum 50%
 - **No penalty if you don't owe money.** If you're getting a refund, there's no late penalty
-  (but you delay your refund and may delay benefits like CCB/GST credit).
+  (but you delay your refund and may delay benefits like CCB/GST credit (now CGEB from July 2026)).
 
 ### Late Payment Interest
 - Compound daily interest starting May 1 (or day after due date)

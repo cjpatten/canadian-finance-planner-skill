@@ -303,7 +303,8 @@ figures: `references/current-figures.md`.)
 
 ### Wage Garnishment Rules
 - Creditors MUST get a court judgment first before garnishing wages (except CRA — see Section 7)
-- Typical garnishment: up to **20% of gross wages** for commercial creditors
+- Typical garnishment: **typically ~20%, province-specific, usually of net wages** for
+  commercial creditors
 - Child support garnishment: up to **50%** of wages
 - Federal government debts (student loans, EI overpayments): can garnish without court order
   via "set-off" or Requirements to Pay
@@ -340,7 +341,7 @@ creditor has. (Source: canada.ca/CRA)
   the 20% limit for other creditors).
 - **Bank account freeze:** CRA can freeze your bank account with no warning.
 - **Property liens:** CRA can register a lien against your property.
-- **Set-off:** CRA can take your tax refund, GST/HST credit, CCB, or other federal payments.
+- **Set-off:** CRA can take your tax refund, GST/HST credit (now the Canada Groceries and Essentials Benefit / CGEB from July 2026), CCB, or other federal payments.
 
 ### Payment Arrangements
 - Call CRA collections (1-888-863-8657) and propose a monthly payment plan.
@@ -371,8 +372,9 @@ CRA has discretion to cancel or waive penalties and interest. Apply using Form R
 - This is one of the strongest reasons to consider a proposal when CRA debt is significant.
 
 ### CRA Limitation Period
-- CRA has 6 years from the date of the last assessment to collect on tax debt (10 years for
-  some categories). But they can restart the clock by taking collection action.
+- CRA's collection limitation period is **10 years** from the date it begins to run. It
+  **restarts** whenever the taxpayer acknowledges the debt or CRA takes a collection action —
+  so in practice it is very hard to outlast.
 - Unlike provincial limitation periods for consumer debt, CRA's collection powers are broader
   and harder to outlast.
 
@@ -509,10 +511,14 @@ per-$100 cap for the user's province in `references/current-figures.md` before q
 5. **Keep all documentation forever.**
 
 ### Tax Implications of Settled Debt
-- In Canada, forgiven debt over $200 may result in a T4A slip from the creditor.
-- The forgiven amount reduces your capital loss carry-forwards or other tax attributes first.
-- In practice, many creditors don't issue T4As for consumer debt settlements, but technically
-  they should. Keep records in case CRA asks.
+- **Personal consumer debt (credit cards, personal loans):** settling it generally produces
+  **NO income inclusion and NO tax-attribute reduction** in Canada. There is no Canadian
+  equivalent of the US 1099-C "cancellation of debt income" for personal debt — forgiven
+  personal debt is simply not taxed.
+- The Income Tax Act **section 80 debt-forgiveness rules** (which grind down loss carry-forwards
+  and other tax attributes) apply to **COMMERCIAL debt** — debt where the interest would have
+  been deductible — not to ordinary personal consumer debt.
+- Keep records of any settlement regardless, in case CRA asks.
 
 ### Debt Management Plans (DMP)
 - Administered by **non-profit credit counselling agencies** (Credit Counselling Canada members).
@@ -637,7 +643,7 @@ Lenders may report to one or both. (Source: equifax.ca, transunion.ca)
 
 **"I'll never get out":**
 - This is rarely true. Show the math.
-- Even $4,200 in CC debt at 21% is payoff-able in 14 months at $321/month.
+- Even $4,200 in CC debt at 21% is payoff-able in 15 months at $321/month.
 - Even $50,000 in total debt has a path — consumer proposal at $250/month for 5 years.
 - Calculate the exact debt-free date and show them. A date makes it feel finite.
 

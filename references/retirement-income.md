@@ -409,12 +409,16 @@ qualify until age 65.
 - RRIF withdrawals (under 65)
 
 ### How It Saves Tax
-**Example:**
+**Example (Spouse B is NOT on GIS — this matters, see the warning below):**
 - Spouse A: $80K income (CPP $18K + RRIF $52K + OAS $10K). Marginal rate ~36%.
-- Spouse B: $25K income (CPP $7K + OAS $10K + GIS $8K). Marginal rate ~20%.
+- Spouse B: $25K income (CPP $9K + OAS $10K + small DB pension $6K — **not receiving GIS**). Marginal rate ~20%.
 - **Without splitting:** Household tax ~$18,000
 - **Split $26K of RRIF (50%) to Spouse B:** Spouse A income = $54K, Spouse B = $51K
 - **With splitting:** Household tax ~$14,000. **Savings: ~$4,000/year**
+- **Why Spouse B must not be on GIS:** if the receiving spouse were collecting GIS, shifting
+  $26K onto them would claw it back at ~50% past the ~$22,800 non-OAS cutoff — wiping out an
+  ~$8K benefit and turning the "saving" into a net loss. Only split onto a spouse whose GIS
+  isn't affected.
 
 ### Interaction with GIS
 **Warning:** If one spouse is receiving GIS, splitting pension income TO them increases their
@@ -422,8 +426,12 @@ income and reduces their GIS. Run the math both ways before splitting — someti
 loss exceeds the tax saving.
 
 ### CPP Pension Sharing (Different from Splitting)
-- Both spouses must be 60+ and receiving CPP retirement pension
-- Share CPP credits based on years of cohabitation
+- Both spouses must be 60+ and receiving (or eligible for) CPP retirement pension
+- Redistributes the **pension amount** earned during the relationship between the two spouses
+  for tax purposes — it does NOT transfer or split CPP *credits*
+- This is **distinct from CPP credit splitting**, which divides the CPP *credits* accumulated
+  during the relationship and applies on relationship breakdown / divorce (see "Credit Splitting
+  on Divorce" in Section 2)
 - Apply to Service Canada (not CRA — this is a pension adjustment, not a tax election)
 - Reduces tax if one spouse has much higher CPP than the other
 - **Can be combined with pension income splitting** for maximum benefit
@@ -479,8 +487,9 @@ decreases as government income layers in.
 ### FIRE (Financial Independence, Retire Early) — Canadian Context
 Retiring at 40-50 requires a much larger portfolio because you can't access CPP/OAS for
 15-25 years:
-- **With government income at 65:** Need ~4% of annual expenses × 25 = portfolio. Example:
-  $80K expenses, $35K from CPP/OAS at 65, need $45K from portfolio = ~$1.125M at 4%.
+- **With government income at 65:** Portfolio needed = **25× the annual expenses you must cover
+  yourself** (the 4% rule — withdraw ~4%/year). Example: $80K expenses, $35K from CPP/OAS at 65,
+  need $45K/year from the portfolio → $45K × 25 = ~$1.125M.
 - **Without government income (ages 40-60):** Need full $80K from portfolio = ~$2M at 4%.
 - **Strategy:** Heavy TFSA and non-registered (RRSP creates RRIF problems at 72). Maintain
   low expenses. Plan for 50+ year retirement horizon.

@@ -297,7 +297,7 @@ verify current rates via web search.
 - **Formula:** FV = PMT × [((1 + r/12)^(n×12) - 1) / (r/12)]
 - **Highlight** the line matching the user's risk profile with a thicker stroke
 - **Annotation:** Show the dollar difference between Big 5 savings and the recommended ETF
-  at the user's time horizon (e.g., "Investing instead of saving = $220K more over 25 years")
+  at the user's time horizon (e.g., "Investing instead of saving = ~$209K more over 25 years")
 - **Below chart:** Brief educational note about all-in-one ETFs — one purchase, instant
   diversification, ~0.20% MER, Morningstar rated. Link to the plan file for full details.
 - **Disclaimer:** "ETF returns shown are long-term historical averages. Actual returns vary

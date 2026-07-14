@@ -148,7 +148,8 @@ Achieva Financial, First Ontario, EQ Bank) — they consistently pay roughly 1%+
 for the exact same CDIC protection.
 
 **Key message:** "GICs are guaranteed — your money is protected by CDIC insurance up to
-$100,000 per institution. The trade-off is your money is locked for the term. Always shop
+$100,000 per depositor, per insured category (RRSP, TFSA, joint, etc.), per member institution.
+The trade-off is your money is locked for the term. Always shop
 online banks and credit unions — they pay 1%+ more than the Big 5 for the exact same
 CDIC protection."
 
@@ -229,16 +230,16 @@ Where PMT = monthly contribution, r = annual return, n = years.
 
 **Example callout on chart (annotation):**
 For $500/month over 25 years:
-- Big 5 Savings: $158K (you contributed $150K — only $8K in growth)
-- Online HISA: $210K
-- GIC Ladder: $231K
-- Balanced ETF: $378K
-- Growth ETF: $487K
-- All-Equity ETF: $630K
+- Big 5 Savings: $165K (you contributed $150K — only $15K in growth)
+- Online HISA: $215K
+- GIC Ladder: $239K
+- Balanced ETF: $374K
+- Growth ETF: $516K
+- All-Equity ETF: $723K
 
 **Key insight to display below chart:**
 "The difference between a Big 5 savings account and a balanced ETF over 25 years is
-$220,000 — on the same $500/month. That's the cost of not investing."
+about $209,000 — on the same $500/month. That's the cost of not investing."
 
 ### Important Notes for Chart Generation
 
@@ -267,12 +268,12 @@ If you'd rather not think about it, a managed investing platform charges about 0
 on top of the ETF fee — still much cheaper than a bank mutual fund."
 
 **The fee math (always show this):**
-On a $100,000 portfolio over 25 years at 8% return:
-- DIY ETF (0.20% MER): ~$632K final value — $50K in fees
-- Managed platform (0.70% total): ~$582K — $100K in fees
-- Bank mutual fund (2.00% total): ~$462K — $220K in fees
+On a $100,000 portfolio over 25 years at 8% gross return:
+- DIY ETF (0.20% MER, net 7.8%): ~$654K final value — ~$31K in fees
+- Managed platform (0.70% total, net 7.3%): ~$582K — ~$103K in fees
+- Bank mutual fund (2.00% total, net 6.0%): ~$429K — ~$256K in fees
 
-"The difference between 0.20% and 2.00% in fees is $170,000 on $100K over 25 years."
+"The difference between 0.20% and 2.00% in fees is about $225,000 on $100K over 25 years."
 
 ---
 
